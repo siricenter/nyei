@@ -4,31 +4,10 @@ def bundle_install
 	puts `bundle install`
 end
 
-def install_mysql
-	unless `parts list`.match(/mariadb/)
-		puts `parts install mariadb`
-	end
-
-	puts `parts start mariadb`
-end
-
-def install_mongo
-	unless `parts list`.match(/mongodb/)
-		puts `parts install mongodb`
-	end
-
-	puts `parts start mongodb`
-end
-
 def install_phantomjs
 	unless `parts list`.match(/phantomjs/)
 		puts `parts install phantomjs`
 	end
-end
-
-def setup_database
-	puts `mysql -u root < setup_database.sh`
-	puts `rake db:reset`
 end
 
 def start_server
@@ -66,7 +45,7 @@ end
 #install_mongo
 install_phantomjs
 bundle_install
-setup_database
+#setup_database
 start_server
 get_vimrc
 install_vundle
