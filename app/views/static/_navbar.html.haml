@@ -1,0 +1,7 @@
+%nav{ :class => [:navbar, :"navbar-inverse"], :role => "navigation"}
+  .container-fluid
+    - require 'date'
+    - @time = Time.new
+    .row
+      %p{:class => [:"lead",:"text-center",:vcenter],:id=>"time"}
+        = @time.strftime("%I:%M%P")

@@ -1,3 +1,37 @@
 // Place all the styles related to the Static controller here.
 // They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+// You can use Sass (SCSS) here: http://sass-lang.com/ d
+#button_grid{
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+.button-img{
+	width: 150px !important;
+	height: 100px;
+	margin-bottom: 20px;
+}
+body{
+	padding-bottom: 10%;
+}
+
+.vcenter {
+    vertical-align: bottom;
+}
+
+#time{
+	color: lightgrey;
+}
+
+#title{
+	font-family: PT Sans Narrow Regular;
+}
+
+#footer{
+	background-color: lightgrey;
+}
+
+@media screen and (max-width: 568px) {
+        h1 {
+    font-size:30px;
+    }
+}
