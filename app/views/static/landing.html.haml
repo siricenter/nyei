@@ -3,27 +3,30 @@
   .row
     %h1.text-center#title New York English Institute
   .row
-    = video_tag "landing-video.mp4",:class => [:'landing-video'],:controls => true
+    %video{:class => [:'landing-video'],:controls => true}
+      %source{:src => "/assets/landing-video.oggtheora.ogv", :type => 'video/ogg; codecs="theora, vorbis"'}
+      %source{:src => "/assets/landing-video.mp4", :type => 'video/mp4; codecs="avc1.4D401E, mp4a.40.2"'}
+
 .container-fluid#button_grid
+  .row.text-center.box
+    %a.col-xs-4
+      = image_tag "english full.jpg",:class => [:"button-img"],:alt => "English Full Course"
+    %a.col-xs-4
+      = image_tag "teach english.jpg",:class => [:"button-img"],:alt => "Acedemic English"
+    %a.col-xs-4
+      = image_tag "grad.jpg",:class => [:"button-img"],:alt => "Grad School Prep"
   .row.text-center
     %a.col-xs-4
-      = image_tag "english full.jpg",:class => [:"img-thumbnail", :"button-img",:"img-responsive"],:alt => "English Full Course"
+      = image_tag "test.jpg",:class => [:"button-img"],:alt => "Test Prep"
     %a.col-xs-4
-      = image_tag "teach english.jpg",:class => [:"img-thumbnail", :"button-img",:"img-responsive"],:alt => "Acedemic English"
+      = image_tag "talk.jpg",:class => [:"button-img"],:alt => "Conversation"
     %a.col-xs-4
-      = image_tag "grad.jpg",:class => [:"img-thumbnail", :"button-img",:"img-responsive"],:alt => "Grad School Prep"
+      = image_tag "workshop.jpg",:class => [:"button-img"],:alt => "Work Shops"
   .row.text-center
     %a.col-xs-4
-      = image_tag "test.jpg",:class => [:"img-thumbnail", :"button-img",:"img-responsive"],:alt => "Test Prep"
+      = image_tag "learn.jpg",:class => [:"button-img"],:alt => "English for Travel"
     %a.col-xs-4
-      = image_tag "talk.jpg",:class => [:"img-thumbnail", :"button-img",:"img-responsive"],:alt => "Conversation"
+      = image_tag "travel with us.jpg",:class => [:"button-img"],:alt => "Travel to the Us"
     %a.col-xs-4
-      = image_tag "workshop.jpg",:class => [:"img-thumbnail", :"button-img",:"img-responsive"],:alt => "Work Shops"
-  .row.text-center
-    %a.col-xs-4
-      = image_tag "learn.jpg",:class => [:"img-thumbnail", :"button-img",:"img-responsive"],:alt => "English for Travel"
-    %a.col-xs-4
-      = image_tag "travel with us.jpg",:class => [:"img-thumbnail", :"button-img",:"img-responsive"],:alt => "Travel to the Us"
-    %a.col-xs-4
-      = image_tag "study.jpg",:class => [:"img-thumbnail", :"button-img"],:alt => "Grad School Prep"
+      = image_tag "study.jpg",:class => [:"button-img"],:alt => "Grad School Prep"
 = render 'footer'

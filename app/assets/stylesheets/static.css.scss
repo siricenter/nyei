@@ -2,39 +2,71 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/ d
 @import 'bootstrap';
+@import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow);
+
+
+.navbar-inverse .navbar-nav li a{
+	color: #800023;
+}
+
+.navbar-inverse .navbar-nav li a:hover{
+	color: rgba(128,0,35,0.5);
+}
+
+
 #button_grid{
-	padding-top: 1em;
+	padding-top: 4em;
 	padding-bottom: 1em;
+	max-width: 55%
 }
 .button-img{
-	margin-bottom: 20px;
+	@extend .img-responsive;
+	@extend .img-thumbnail;
+	margin-bottom: 30px;
 	-webkit-filter: grayscale(100%);
 	-moz-filter: grayscale(100%);
 		filter: grayscale(100%);
 }
+
 body{
 	background-color:#F2F3F4
 }
 
-.vcenter {
-    vertical-align: bottom;
-}
-
-#time{
-	color: lightgrey;
-}
-
 #title{
-	font-family: PT Sans Narrow Regular;
+	font-size: 48px;
+	letter-spacing: -1.5pt;
+	font-weight: bold;
+	font-family: PT Sans Narrow;
+	padding-bottom: .5em;
+	padding-top: 1em; 
 }
 
-#footer{
-	background-color: lightgrey;
+
+
+@media screen and (max-width: 1280px) {
+        h1 {
+    font-size:30px;
+    }
+    #button_grid{
+    	max-width: 85%;
+    }
+}
+
+@media screen and (max-width: 966px) {
+        h1 {
+    font-size:30px;
+    }
+    #button_grid{
+    	max-width: 70%;
+    }
 }
 
 @media screen and (max-width: 568px) {
         h1 {
     font-size:30px;
+    }
+    #button_grid{
+    	max-width: 100%;
     }
 }
 
@@ -42,4 +74,22 @@ body{
 {
 	@extend .img-responsive;
 	@extend .col-xs-12;
+}
+
+.header{
+	@extend .navbar; 
+	@extend .navbar-inverse;
+	background-color: lightgrey;
+	border: #F2F3F4;
+}
+
+.footer{
+	@extend .navbar; 
+	@extend .navbar-inverse;
+	@extend .container-fluid;
+	@extend .img-responsive;
+	background-color: #231F20;
+	border: #231F20;
+	margin-bottom: 0px;
+	height: 223px;
 }

@@ -1,4 +1,5 @@
-%nav{ :class => [:navbar, :"navbar-default"], :role => :navigation}
+%meta{:name => "viewport", :content => "width=device-width, user-scalable=no"}
+%nav.header{:role => :navigation}
   .container-fluid
     .navbar-header
       %button{:type => :button, :class => :"navbar-toggle", :"data-toggle" => :collapse, :"data-target" => "#navbar-collapse"}
@@ -6,7 +7,6 @@
         %span{:class => :"icon-bar"}
         %span{:class => :"icon-bar"}
         %span{:class => :"icon-bar"}
-      %a{:class => "navbar-brand", :href => "#"}Brand
     .collapse.navbar-collapse#navbar-collapse
       %ul.nav.navbar-nav
         %li
