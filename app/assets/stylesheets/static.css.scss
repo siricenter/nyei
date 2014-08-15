@@ -37,3 +37,9 @@ body{
     font-size:30px;
     }
 }
+
+.landing-video
+{
+	@extend .img-responsive;
+	@extend .col-xs-12;
+}

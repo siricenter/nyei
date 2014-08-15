@@ -3,7 +3,7 @@
   .row
     %h1.text-center#title New York English Institute
   .row
-    = video_tag "landing-video.mp4",:class => [:"img-responsive",:"col-xs-12"],:controls => true
+    = video_tag "landing-video.mp4",:class => [:'landing-video'],:controls => true
 .container-fluid#button_grid
   .row.text-center
     %a.col-xs-4
@@ -25,5 +25,5 @@
     %a.col-xs-4
       = image_tag "travel with us.jpg",:class => [:"img-thumbnail", :"button-img",:"img-responsive"],:alt => "Travel to the Us"
     %a.col-xs-4
-      = image_tag "study.jpg",:class => [:"img-thumbnail", :"button-img",:"img-responsive"],:alt => "Grad School Prep"
+      = image_tag "study.jpg",:class => [:"img-thumbnail", :"button-img"],:alt => "Grad School Prep"
 = render 'footer'
