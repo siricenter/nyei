@@ -6,12 +6,13 @@
 	padding-bottom: 1em;
 }
 .button-img{
-	width: 150px !important;
-	height: 100px;
 	margin-bottom: 20px;
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+		filter: grayscale(100%);
 }
 body{
-	padding-bottom: 10%;
+	background-color:#F2F3F4
 }
 
 .vcenter {

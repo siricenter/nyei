@@ -16562,3 +16562,1725 @@ Started GET "/assets/landing-video.mp4" for 127.0.0.1 at 2014-08-14 16:54:01 -06
 
 
 Started GET "/assets/landing-video.mp4" for 127.0.0.1 at 2014-08-14 16:54:01 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-15 09:20:45 -0600
+Processing by StaticController#landing as HTML
+  Rendered static/_navbar.html.haml (2.3ms)
+  Rendered static/_footer.html.haml (3.2ms)
+  Rendered static/landing.html.haml within layouts/application (269.9ms)
+Completed 200 OK in 949ms (Views: 911.8ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-08-15 09:20:46 -0600
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2014-08-15 09:20:46 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-15 09:20:46 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-15 09:20:46 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-15 09:20:46 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-15 09:20:46 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-08-15 09:20:46 -0600
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-08-15 09:20:46 -0600
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-08-15 09:20:46 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-15 09:20:46 -0600
+
+
+Started GET "/assets/english%20full.jpg" for 127.0.0.1 at 2014-08-15 09:20:46 -0600
+
+
+Started GET "/assets/teach%20english.jpg" for 127.0.0.1 at 2014-08-15 09:20:46 -0600
+
+
+Started GET "/assets/grad.jpg" for 127.0.0.1 at 2014-08-15 09:20:46 -0600
+
+
+Started GET "/assets/test.jpg" for 127.0.0.1 at 2014-08-15 09:20:47 -0600
+
+
+Started GET "/assets/talk.jpg" for 127.0.0.1 at 2014-08-15 09:20:47 -0600
+
+
+Started GET "/assets/workshop.jpg" for 127.0.0.1 at 2014-08-15 09:20:47 -0600
+
+
+Started GET "/assets/learn.jpg" for 127.0.0.1 at 2014-08-15 09:20:47 -0600
+
+
+Started GET "/assets/travel%20with%20us.jpg" for 127.0.0.1 at 2014-08-15 09:20:47 -0600
+
+
+Started GET "/assets/study.jpg" for 127.0.0.1 at 2014-08-15 09:20:47 -0600
+
+
+Started GET "/assets/landing-video.mp4" for 127.0.0.1 at 2014-08-15 09:20:47 -0600
+
+
+Started GET "/assets/landing-video.mp4" for 127.0.0.1 at 2014-08-15 09:20:47 -0600
+
+
+Started GET "/assets/landing-video.mp4" for 127.0.0.1 at 2014-08-15 09:20:48 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-15 09:30:31 -0600
+Processing by StaticController#landing as HTML
+  Rendered static/_navbar.html.haml (0.4ms)
+  Rendered static/_footer.html.haml (3.2ms)
+  Rendered static/landing.html.haml within layouts/application (18.5ms)
+Completed 200 OK in 32ms (Views: 30.8ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-08-15 09:30:31 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-15 09:30:31 -0600
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-08-15 09:30:31 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-15 09:30:31 -0600
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2014-08-15 09:30:31 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-15 09:30:31 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-15 09:30:31 -0600
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-08-15 09:30:31 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-15 09:30:31 -0600
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-08-15 09:30:31 -0600
+
+
+Started GET "/assets/test.jpg" for 127.0.0.1 at 2014-08-15 09:30:31 -0600
+
+
+Started GET "/assets/teach%20english.jpg" for 127.0.0.1 at 2014-08-15 09:30:31 -0600
+
+
+Started GET "/assets/english%20full.jpg" for 127.0.0.1 at 2014-08-15 09:30:31 -0600
+
+
+Started GET "/assets/grad.jpg" for 127.0.0.1 at 2014-08-15 09:30:31 -0600
+
+
+Started GET "/assets/talk.jpg" for 127.0.0.1 at 2014-08-15 09:30:31 -0600
+
+
+Started GET "/assets/workshop.jpg" for 127.0.0.1 at 2014-08-15 09:30:31 -0600
+
+
+Started GET "/assets/landing-video.mp4" for 127.0.0.1 at 2014-08-15 09:30:31 -0600
+
+
+Started GET "/assets/learn.jpg" for 127.0.0.1 at 2014-08-15 09:30:31 -0600
+
+
+Started GET "/assets/travel%20with%20us.jpg" for 127.0.0.1 at 2014-08-15 09:30:31 -0600
+
+
+Started GET "/assets/study.jpg" for 127.0.0.1 at 2014-08-15 09:30:31 -0600
+
+
+Started GET "/assets/landing-video.mp4" for 127.0.0.1 at 2014-08-15 09:30:31 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-15 09:32:41 -0600
+Processing by StaticController#landing as HTML
+  Rendered static/_navbar.html.haml (0.4ms)
+  Rendered static/_footer.html.haml (0.3ms)
+  Rendered static/landing.html.haml within layouts/application (18.4ms)
+Completed 200 OK in 53ms (Views: 52.6ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-08-15 09:32:41 -0600
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2014-08-15 09:32:41 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-15 09:32:41 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-15 09:32:41 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-15 09:32:41 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-15 09:32:41 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-08-15 09:32:41 -0600
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-08-15 09:32:41 -0600
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-08-15 09:32:41 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-15 09:32:41 -0600
+
+
+Started GET "/assets/teach%20english.jpg" for 127.0.0.1 at 2014-08-15 09:32:41 -0600
+
+
+Started GET "/assets/english%20full.jpg" for 127.0.0.1 at 2014-08-15 09:32:41 -0600
+
+
+Started GET "/assets/test.jpg" for 127.0.0.1 at 2014-08-15 09:32:41 -0600
+
+
+Started GET "/assets/talk.jpg" for 127.0.0.1 at 2014-08-15 09:32:41 -0600
+
+
+Started GET "/assets/workshop.jpg" for 127.0.0.1 at 2014-08-15 09:32:41 -0600
+
+
+Started GET "/assets/grad.jpg" for 127.0.0.1 at 2014-08-15 09:32:41 -0600
+
+
+Started GET "/assets/travel%20with%20us.jpg" for 127.0.0.1 at 2014-08-15 09:32:41 -0600
+
+
+Started GET "/assets/learn.jpg" for 127.0.0.1 at 2014-08-15 09:32:41 -0600
+
+
+Started GET "/assets/study.jpg" for 127.0.0.1 at 2014-08-15 09:32:41 -0600
+
+
+Started GET "/assets/landing-video.mp4" for 127.0.0.1 at 2014-08-15 09:32:41 -0600
+
+
+Started GET "/assets/landing-video.mp4" for 127.0.0.1 at 2014-08-15 09:32:42 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-15 09:33:26 -0600
+Processing by StaticController#landing as HTML
+  Rendered static/_navbar.html.haml (0.3ms)
+  Rendered static/_footer.html.haml (0.4ms)
+  Rendered static/landing.html.haml within layouts/application (15.4ms)
+Completed 200 OK in 168ms (Views: 166.8ms)
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2014-08-15 09:33:27 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-15 09:33:27 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-15 09:33:27 -0600
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-08-15 09:33:27 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-15 09:33:27 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-15 09:33:27 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-08-15 09:33:27 -0600
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-08-15 09:33:27 -0600
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-08-15 09:33:27 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-15 09:33:27 -0600
+
+
+Started GET "/assets/grad.jpg" for 127.0.0.1 at 2014-08-15 09:33:27 -0600
+
+
+Started GET "/assets/test.jpg" for 127.0.0.1 at 2014-08-15 09:33:27 -0600
+
+
+Started GET "/assets/english%20full.jpg" for 127.0.0.1 at 2014-08-15 09:33:27 -0600
+
+
+Started GET "/assets/teach%20english.jpg" for 127.0.0.1 at 2014-08-15 09:33:27 -0600
+
+
+Started GET "/assets/workshop.jpg" for 127.0.0.1 at 2014-08-15 09:33:27 -0600
+
+
+Started GET "/assets/talk.jpg" for 127.0.0.1 at 2014-08-15 09:33:27 -0600
+
+
+Started GET "/assets/learn.jpg" for 127.0.0.1 at 2014-08-15 09:33:27 -0600
+
+
+Started GET "/assets/travel%20with%20us.jpg" for 127.0.0.1 at 2014-08-15 09:33:27 -0600
+
+
+Started GET "/assets/study.jpg" for 127.0.0.1 at 2014-08-15 09:33:27 -0600
+
+
+Started GET "/assets/landing-video.mp4" for 127.0.0.1 at 2014-08-15 09:33:27 -0600
+
+
+Started GET "/assets/landing-video.mp4" for 127.0.0.1 at 2014-08-15 09:33:27 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-15 09:46:54 -0600
+Processing by StaticController#landing as HTML
+  Rendered static/_navbar.html.haml (0.4ms)
+  Rendered static/_footer.html.haml (0.3ms)
+  Rendered static/landing.html.haml within layouts/application (23.0ms)
+Completed 200 OK in 35ms (Views: 34.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-08-15 09:46:54 -0600
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2014-08-15 09:46:54 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-15 09:46:54 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-15 09:46:54 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-15 09:46:54 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-15 09:46:54 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-08-15 09:46:54 -0600
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-08-15 09:46:54 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-15 09:46:54 -0600
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-08-15 09:46:54 -0600
+
+
+Started GET "/assets/english%20full.jpg" for 127.0.0.1 at 2014-08-15 09:46:54 -0600
+
+
+Started GET "/assets/teach%20english.jpg" for 127.0.0.1 at 2014-08-15 09:46:54 -0600
+
+
+Started GET "/assets/grad.jpg" for 127.0.0.1 at 2014-08-15 09:46:54 -0600
+
+
+Started GET "/assets/test.jpg" for 127.0.0.1 at 2014-08-15 09:46:54 -0600
+
+
+Started GET "/assets/talk.jpg" for 127.0.0.1 at 2014-08-15 09:46:54 -0600
+
+
+Started GET "/assets/workshop.jpg" for 127.0.0.1 at 2014-08-15 09:46:54 -0600
+
+
+Started GET "/assets/learn.jpg" for 127.0.0.1 at 2014-08-15 09:46:54 -0600
+
+
+Started GET "/assets/travel%20with%20us.jpg" for 127.0.0.1 at 2014-08-15 09:46:54 -0600
+
+
+Started GET "/assets/study.jpg" for 127.0.0.1 at 2014-08-15 09:46:54 -0600
+
+
+Started GET "/assets/landing-video.mp4" for 127.0.0.1 at 2014-08-15 09:46:54 -0600
+
+
+Started GET "/assets/landing-video.mp4" for 127.0.0.1 at 2014-08-15 09:46:55 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-15 09:48:44 -0600
+Processing by StaticController#landing as HTML
+  Rendered static/_navbar.html.haml (0.5ms)
+  Rendered static/_footer.html.haml (0.4ms)
+  Rendered static/landing.html.haml within layouts/application (21.0ms)
+Completed 200 OK in 32ms (Views: 31.2ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-08-15 09:48:44 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-15 09:48:44 -0600
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2014-08-15 09:48:44 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-15 09:48:44 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-15 09:48:44 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-08-15 09:48:44 -0600
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-08-15 09:48:44 -0600
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-08-15 09:48:44 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-15 09:48:44 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-15 09:48:44 -0600
+
+
+Started GET "/assets/test.jpg" for 127.0.0.1 at 2014-08-15 09:48:44 -0600
+
+
+Started GET "/assets/english%20full.jpg" for 127.0.0.1 at 2014-08-15 09:48:44 -0600
+
+
+Started GET "/assets/grad.jpg" for 127.0.0.1 at 2014-08-15 09:48:44 -0600
+
+
+Started GET "/assets/talk.jpg" for 127.0.0.1 at 2014-08-15 09:48:44 -0600
+
+
+Started GET "/assets/teach%20english.jpg" for 127.0.0.1 at 2014-08-15 09:48:44 -0600
+
+
+Started GET "/assets/workshop.jpg" for 127.0.0.1 at 2014-08-15 09:48:44 -0600
+
+
+Started GET "/assets/learn.jpg" for 127.0.0.1 at 2014-08-15 09:48:44 -0600
+
+
+Started GET "/assets/study.jpg" for 127.0.0.1 at 2014-08-15 09:48:44 -0600
+
+
+Started GET "/assets/travel%20with%20us.jpg" for 127.0.0.1 at 2014-08-15 09:48:44 -0600
+
+
+Started GET "/assets/landing-video.mp4" for 127.0.0.1 at 2014-08-15 09:48:44 -0600
+
+
+Started GET "/assets/landing-video.mp4" for 127.0.0.1 at 2014-08-15 09:48:44 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-15 09:50:42 -0600
+Processing by StaticController#landing as HTML
+  Rendered static/_navbar.html.haml (0.3ms)
+  Rendered static/_footer.html.haml (0.4ms)
+  Rendered static/landing.html.haml within layouts/application (20.7ms)
+Completed 200 OK in 33ms (Views: 32.5ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-08-15 09:50:42 -0600
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2014-08-15 09:50:42 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-15 09:50:42 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-15 09:50:42 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-15 09:50:42 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-15 09:50:42 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-08-15 09:50:42 -0600
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-08-15 09:50:42 -0600
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-08-15 09:50:42 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-15 09:50:42 -0600
+
+
+Started GET "/assets/english%20full.jpg" for 127.0.0.1 at 2014-08-15 09:50:42 -0600
+
+
+Started GET "/assets/talk.jpg" for 127.0.0.1 at 2014-08-15 09:50:42 -0600
+
+
+Started GET "/assets/teach%20english.jpg" for 127.0.0.1 at 2014-08-15 09:50:42 -0600
+
+
+Started GET "/assets/grad.jpg" for 127.0.0.1 at 2014-08-15 09:50:42 -0600
+
+
+Started GET "/assets/test.jpg" for 127.0.0.1 at 2014-08-15 09:50:42 -0600
+
+
+Started GET "/assets/workshop.jpg" for 127.0.0.1 at 2014-08-15 09:50:42 -0600
+
+
+Started GET "/assets/learn.jpg" for 127.0.0.1 at 2014-08-15 09:50:42 -0600
+
+
+Started GET "/assets/study.jpg" for 127.0.0.1 at 2014-08-15 09:50:42 -0600
+
+
+Started GET "/assets/travel%20with%20us.jpg" for 127.0.0.1 at 2014-08-15 09:50:42 -0600
+
+
+Started GET "/assets/landing-video.mp4" for 127.0.0.1 at 2014-08-15 09:50:42 -0600
+
+
+Started GET "/assets/landing-video.mp4" for 127.0.0.1 at 2014-08-15 09:50:43 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-15 09:51:53 -0600
+Processing by StaticController#landing as HTML
+  Rendered static/_navbar.html.haml (0.4ms)
+  Rendered static/_footer.html.haml (0.7ms)
+  Rendered static/landing.html.haml within layouts/application (19.4ms)
+Completed 200 OK in 29ms (Views: 28.4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-15 09:51:54 -0600
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2014-08-15 09:51:54 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-15 09:51:54 -0600
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-08-15 09:51:54 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-15 09:51:54 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-15 09:51:54 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-08-15 09:51:54 -0600
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-08-15 09:51:54 -0600
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-08-15 09:51:54 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-15 09:51:54 -0600
+
+
+Started GET "/assets/english%20full.jpg" for 127.0.0.1 at 2014-08-15 09:51:54 -0600
+
+
+Started GET "/assets/grad.jpg" for 127.0.0.1 at 2014-08-15 09:51:54 -0600
+
+
+Started GET "/assets/teach%20english.jpg" for 127.0.0.1 at 2014-08-15 09:51:54 -0600
+
+
+Started GET "/assets/talk.jpg" for 127.0.0.1 at 2014-08-15 09:51:54 -0600
+
+
+Started GET "/assets/workshop.jpg" for 127.0.0.1 at 2014-08-15 09:51:54 -0600
+
+
+Started GET "/assets/test.jpg" for 127.0.0.1 at 2014-08-15 09:51:54 -0600
+
+
+Started GET "/assets/learn.jpg" for 127.0.0.1 at 2014-08-15 09:51:54 -0600
+
+
+Started GET "/assets/travel%20with%20us.jpg" for 127.0.0.1 at 2014-08-15 09:51:54 -0600
+
+
+Started GET "/assets/study.jpg" for 127.0.0.1 at 2014-08-15 09:51:54 -0600
+
+
+Started GET "/assets/landing-video.mp4" for 127.0.0.1 at 2014-08-15 09:51:54 -0600
+
+
+Started GET "/assets/landing-video.mp4" for 127.0.0.1 at 2014-08-15 09:51:54 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-15 09:52:30 -0600
+Processing by StaticController#landing as HTML
+  Rendered static/_navbar.html.haml (0.4ms)
+  Rendered static/_footer.html.haml (0.4ms)
+  Rendered static/landing.html.haml within layouts/application (20.3ms)
+Completed 200 OK in 30ms (Views: 29.5ms)
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2014-08-15 09:52:30 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-15 09:52:30 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-15 09:52:30 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-15 09:52:30 -0600
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-08-15 09:52:30 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-15 09:52:30 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-08-15 09:52:30 -0600
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-08-15 09:52:30 -0600
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-08-15 09:52:30 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-15 09:52:30 -0600
+
+
+Started GET "/assets/test.jpg" for 127.0.0.1 at 2014-08-15 09:52:31 -0600
+
+
+Started GET "/assets/english%20full.jpg" for 127.0.0.1 at 2014-08-15 09:52:31 -0600
+
+
+Started GET "/assets/teach%20english.jpg" for 127.0.0.1 at 2014-08-15 09:52:31 -0600
+
+
+Started GET "/assets/grad.jpg" for 127.0.0.1 at 2014-08-15 09:52:31 -0600
+
+
+Started GET "/assets/talk.jpg" for 127.0.0.1 at 2014-08-15 09:52:31 -0600
+
+
+Started GET "/assets/workshop.jpg" for 127.0.0.1 at 2014-08-15 09:52:31 -0600
+
+
+Started GET "/assets/learn.jpg" for 127.0.0.1 at 2014-08-15 09:52:31 -0600
+
+
+Started GET "/assets/travel%20with%20us.jpg" for 127.0.0.1 at 2014-08-15 09:52:31 -0600
+
+
+Started GET "/assets/study.jpg" for 127.0.0.1 at 2014-08-15 09:52:31 -0600
+
+
+Started GET "/assets/landing-video.mp4" for 127.0.0.1 at 2014-08-15 09:52:31 -0600
+
+
+Started GET "/assets/landing-video.mp4" for 127.0.0.1 at 2014-08-15 09:52:31 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-15 09:54:18 -0600
+Processing by StaticController#landing as HTML
+  Rendered static/_navbar.html.haml (0.4ms)
+  Rendered static/_footer.html.haml (0.3ms)
+  Rendered static/landing.html.haml within layouts/application (14.2ms)
+Completed 200 OK in 150ms (Views: 149.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-08-15 09:54:18 -0600
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2014-08-15 09:54:18 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-15 09:54:18 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-15 09:54:18 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-15 09:54:18 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-15 09:54:18 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-08-15 09:54:18 -0600
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-08-15 09:54:18 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-15 09:54:18 -0600
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-08-15 09:54:18 -0600
+
+
+Started GET "/assets/teach%20english.jpg" for 127.0.0.1 at 2014-08-15 09:54:18 -0600
+
+
+Started GET "/assets/test.jpg" for 127.0.0.1 at 2014-08-15 09:54:18 -0600
+
+
+Started GET "/assets/english%20full.jpg" for 127.0.0.1 at 2014-08-15 09:54:18 -0600
+
+
+Started GET "/assets/talk.jpg" for 127.0.0.1 at 2014-08-15 09:54:18 -0600
+
+
+Started GET "/assets/workshop.jpg" for 127.0.0.1 at 2014-08-15 09:54:18 -0600
+
+
+Started GET "/assets/grad.jpg" for 127.0.0.1 at 2014-08-15 09:54:18 -0600
+
+
+Started GET "/assets/learn.jpg" for 127.0.0.1 at 2014-08-15 09:54:18 -0600
+
+
+Started GET "/assets/study.jpg" for 127.0.0.1 at 2014-08-15 09:54:18 -0600
+
+
+Started GET "/assets/travel%20with%20us.jpg" for 127.0.0.1 at 2014-08-15 09:54:18 -0600
+
+
+Started GET "/assets/landing-video.mp4" for 127.0.0.1 at 2014-08-15 09:54:18 -0600
+
+
+Started GET "/assets/landing-video.mp4" for 127.0.0.1 at 2014-08-15 09:54:18 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-15 09:55:48 -0600
+Processing by StaticController#landing as HTML
+  Rendered static/_footer.html.haml (0.4ms)
+  Rendered static/landing.html.haml within layouts/application (18.1ms)
+Completed 200 OK in 28ms (Views: 26.9ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-15 09:55:48 -0600
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-08-15 09:55:48 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-15 09:55:48 -0600
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2014-08-15 09:55:48 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-15 09:55:48 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-08-15 09:55:48 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-15 09:55:48 -0600
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-08-15 09:55:48 -0600
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-08-15 09:55:48 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-15 09:55:48 -0600
+
+
+Started GET "/assets/english%20full.jpg" for 127.0.0.1 at 2014-08-15 09:55:48 -0600
+
+
+Started GET "/assets/teach%20english.jpg" for 127.0.0.1 at 2014-08-15 09:55:48 -0600
+
+
+Started GET "/assets/grad.jpg" for 127.0.0.1 at 2014-08-15 09:55:48 -0600
+
+
+Started GET "/assets/test.jpg" for 127.0.0.1 at 2014-08-15 09:55:48 -0600
+
+
+Started GET "/assets/workshop.jpg" for 127.0.0.1 at 2014-08-15 09:55:49 -0600
+
+
+Started GET "/assets/talk.jpg" for 127.0.0.1 at 2014-08-15 09:55:49 -0600
+
+
+Started GET "/assets/learn.jpg" for 127.0.0.1 at 2014-08-15 09:55:49 -0600
+
+
+Started GET "/assets/study.jpg" for 127.0.0.1 at 2014-08-15 09:55:49 -0600
+
+
+Started GET "/assets/travel%20with%20us.jpg" for 127.0.0.1 at 2014-08-15 09:55:49 -0600
+
+
+Started GET "/assets/landing-video.mp4" for 127.0.0.1 at 2014-08-15 09:55:49 -0600
+
+
+Started GET "/assets/landing-video.mp4" for 127.0.0.1 at 2014-08-15 09:55:49 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-15 09:58:53 -0600
+Processing by StaticController#landing as HTML
+  Rendered static/_footer.html.haml (0.4ms)
+  Rendered static/landing.html.haml within layouts/application (12.9ms)
+Completed 200 OK in 86ms (Views: 85.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-15 09:58:53 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-15 09:58:53 -0600
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-08-15 09:58:53 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-15 09:58:53 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-15 09:58:53 -0600
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2014-08-15 09:58:53 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-08-15 09:58:53 -0600
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-08-15 09:58:53 -0600
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-08-15 09:58:53 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-15 09:58:53 -0600
+
+
+Started GET "/assets/english%20full.jpg" for 127.0.0.1 at 2014-08-15 09:58:53 -0600
+
+
+Started GET "/assets/teach%20english.jpg" for 127.0.0.1 at 2014-08-15 09:58:53 -0600
+
+
+Started GET "/assets/grad.jpg" for 127.0.0.1 at 2014-08-15 09:58:53 -0600
+
+
+Started GET "/assets/test.jpg" for 127.0.0.1 at 2014-08-15 09:58:53 -0600
+
+
+Started GET "/assets/learn.jpg" for 127.0.0.1 at 2014-08-15 09:58:53 -0600
+
+
+Started GET "/assets/workshop.jpg" for 127.0.0.1 at 2014-08-15 09:58:53 -0600
+
+
+Started GET "/assets/travel%20with%20us.jpg" for 127.0.0.1 at 2014-08-15 09:58:53 -0600
+
+
+Started GET "/assets/talk.jpg" for 127.0.0.1 at 2014-08-15 09:58:53 -0600
+
+
+Started GET "/assets/study.jpg" for 127.0.0.1 at 2014-08-15 09:58:53 -0600
+
+
+Started GET "/assets/landing-video.mp4" for 127.0.0.1 at 2014-08-15 09:58:53 -0600
+
+
+Started GET "/assets/landing-video.mp4" for 127.0.0.1 at 2014-08-15 09:58:53 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-15 10:03:19 -0600
+Processing by StaticController#landing as HTML
+  Rendered static/_footer.html.haml (0.4ms)
+  Rendered static/landing.html.haml within layouts/application (16.5ms)
+Completed 200 OK in 26ms (Views: 25.6ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-08-15 10:03:19 -0600
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2014-08-15 10:03:19 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-15 10:03:19 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-15 10:03:19 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-15 10:03:19 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-08-15 10:03:19 -0600
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-08-15 10:03:19 -0600
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-08-15 10:03:19 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-15 10:03:19 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-15 10:03:19 -0600
+
+
+Started GET "/assets/english%20full.jpg" for 127.0.0.1 at 2014-08-15 10:03:19 -0600
+
+
+Started GET "/assets/teach%20english.jpg" for 127.0.0.1 at 2014-08-15 10:03:19 -0600
+
+
+Started GET "/assets/talk.jpg" for 127.0.0.1 at 2014-08-15 10:03:19 -0600
+
+
+Started GET "/assets/test.jpg" for 127.0.0.1 at 2014-08-15 10:03:19 -0600
+
+
+Started GET "/assets/grad.jpg" for 127.0.0.1 at 2014-08-15 10:03:19 -0600
+
+
+Started GET "/assets/workshop.jpg" for 127.0.0.1 at 2014-08-15 10:03:19 -0600
+
+
+Started GET "/assets/learn.jpg" for 127.0.0.1 at 2014-08-15 10:03:19 -0600
+
+
+Started GET "/assets/study.jpg" for 127.0.0.1 at 2014-08-15 10:03:19 -0600
+
+
+Started GET "/assets/travel%20with%20us.jpg" for 127.0.0.1 at 2014-08-15 10:03:19 -0600
+
+
+Started GET "/assets/landing-video.mp4" for 127.0.0.1 at 2014-08-15 10:03:19 -0600
+
+
+Started GET "/assets/landing-video.mp4" for 127.0.0.1 at 2014-08-15 10:03:19 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-15 10:20:52 -0600
+Processing by StaticController#landing as HTML
+  Rendered static/_footer.html.haml (0.7ms)
+  Rendered static/landing.html.haml within layouts/application (13.6ms)
+Completed 200 OK in 23ms (Views: 22.6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-15 10:20:52 -0600
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-08-15 10:20:52 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-15 10:20:52 -0600
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2014-08-15 10:20:52 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-15 10:20:52 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-15 10:20:52 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-08-15 10:20:52 -0600
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-08-15 10:20:52 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-15 10:20:52 -0600
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-08-15 10:20:52 -0600
+
+
+Started GET "/assets/teach%20english.jpg" for 127.0.0.1 at 2014-08-15 10:20:52 -0600
+
+
+Started GET "/assets/grad.jpg" for 127.0.0.1 at 2014-08-15 10:20:52 -0600
+
+
+Started GET "/assets/test.jpg" for 127.0.0.1 at 2014-08-15 10:20:52 -0600
+
+
+Started GET "/assets/talk.jpg" for 127.0.0.1 at 2014-08-15 10:20:52 -0600
+
+
+Started GET "/assets/english%20full.jpg" for 127.0.0.1 at 2014-08-15 10:20:52 -0600
+
+
+Started GET "/assets/workshop.jpg" for 127.0.0.1 at 2014-08-15 10:20:52 -0600
+
+
+Started GET "/assets/study.jpg" for 127.0.0.1 at 2014-08-15 10:20:52 -0600
+
+
+Started GET "/assets/learn.jpg" for 127.0.0.1 at 2014-08-15 10:20:52 -0600
+
+
+Started GET "/assets/travel%20with%20us.jpg" for 127.0.0.1 at 2014-08-15 10:20:52 -0600
+
+
+Started GET "/assets/landing-video.mp4" for 127.0.0.1 at 2014-08-15 10:20:52 -0600
+
+
+Started GET "/assets/landing-video.mp4" for 127.0.0.1 at 2014-08-15 10:20:52 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-15 10:21:12 -0600
+Processing by StaticController#landing as HTML
+  Rendered static/_navbar.html.haml (2.6ms)
+  Rendered static/_footer.html.haml (0.1ms)
+  Rendered static/landing.html.haml within layouts/application (19.9ms)
+Completed 200 OK in 29ms (Views: 28.7ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-08-15 10:21:12 -0600
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2014-08-15 10:21:12 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-15 10:21:12 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-15 10:21:12 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-15 10:21:12 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-15 10:21:12 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-08-15 10:21:12 -0600
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-08-15 10:21:12 -0600
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-08-15 10:21:12 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-15 10:21:12 -0600
+
+
+Started GET "/assets/english%20full.jpg" for 127.0.0.1 at 2014-08-15 10:21:12 -0600
+
+
+Started GET "/assets/teach%20english.jpg" for 127.0.0.1 at 2014-08-15 10:21:12 -0600
+
+
+Started GET "/assets/grad.jpg" for 127.0.0.1 at 2014-08-15 10:21:12 -0600
+
+
+Started GET "/assets/workshop.jpg" for 127.0.0.1 at 2014-08-15 10:21:12 -0600
+
+
+Started GET "/assets/test.jpg" for 127.0.0.1 at 2014-08-15 10:21:12 -0600
+
+
+Started GET "/assets/talk.jpg" for 127.0.0.1 at 2014-08-15 10:21:12 -0600
+
+
+Started GET "/assets/study.jpg" for 127.0.0.1 at 2014-08-15 10:21:12 -0600
+
+
+Started GET "/assets/learn.jpg" for 127.0.0.1 at 2014-08-15 10:21:12 -0600
+
+
+Started GET "/assets/travel%20with%20us.jpg" for 127.0.0.1 at 2014-08-15 10:21:12 -0600
+
+
+Started GET "/assets/landing-video.mp4" for 127.0.0.1 at 2014-08-15 10:21:12 -0600
+
+
+Started GET "/assets/landing-video.mp4" for 127.0.0.1 at 2014-08-15 10:21:13 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-15 10:21:25 -0600
+Processing by StaticController#landing as HTML
+  Rendered static/_navbar.html.haml (0.4ms)
+  Rendered static/_footer.html.haml (0.1ms)
+  Rendered static/landing.html.haml within layouts/application (14.6ms)
+Completed 200 OK in 62ms (Views: 61.3ms)
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2014-08-15 10:21:25 -0600
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-08-15 10:21:25 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-15 10:21:25 -0600
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-08-15 10:21:25 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-15 10:21:25 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-08-15 10:21:25 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-15 10:21:25 -0600
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-08-15 10:21:25 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-15 10:21:25 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-15 10:21:25 -0600
+
+
+Started GET "/assets/test.jpg" for 127.0.0.1 at 2014-08-15 10:21:25 -0600
+
+
+Started GET "/assets/english%20full.jpg" for 127.0.0.1 at 2014-08-15 10:21:25 -0600
+
+
+Started GET "/assets/grad.jpg" for 127.0.0.1 at 2014-08-15 10:21:25 -0600
+
+
+Started GET "/assets/talk.jpg" for 127.0.0.1 at 2014-08-15 10:21:25 -0600
+
+
+Started GET "/assets/workshop.jpg" for 127.0.0.1 at 2014-08-15 10:21:25 -0600
+
+
+Started GET "/assets/teach%20english.jpg" for 127.0.0.1 at 2014-08-15 10:21:25 -0600
+
+
+Started GET "/assets/learn.jpg" for 127.0.0.1 at 2014-08-15 10:21:25 -0600
+
+
+Started GET "/assets/study.jpg" for 127.0.0.1 at 2014-08-15 10:21:25 -0600
+
+
+Started GET "/assets/travel%20with%20us.jpg" for 127.0.0.1 at 2014-08-15 10:21:25 -0600
+
+
+Started GET "/assets/landing-video.mp4" for 127.0.0.1 at 2014-08-15 10:21:25 -0600
+
+
+Started GET "/assets/landing-video.mp4" for 127.0.0.1 at 2014-08-15 10:21:25 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-15 10:22:05 -0600
+Processing by StaticController#landing as HTML
+  Rendered static/_navbar.html.haml (0.4ms)
+  Rendered static/_footer.html.haml (0.1ms)
+  Rendered static/landing.html.haml within layouts/application (13.9ms)
+Completed 200 OK in 61ms (Views: 60.5ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-08-15 10:22:05 -0600
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2014-08-15 10:22:05 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-15 10:22:05 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-15 10:22:05 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-15 10:22:05 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-15 10:22:05 -0600
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-08-15 10:22:05 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-08-15 10:22:05 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-15 10:22:05 -0600
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-08-15 10:22:05 -0600
+
+
+Started GET "/assets/english%20full.jpg" for 127.0.0.1 at 2014-08-15 10:22:05 -0600
+
+
+Started GET "/assets/test.jpg" for 127.0.0.1 at 2014-08-15 10:22:05 -0600
+
+
+Started GET "/assets/teach%20english.jpg" for 127.0.0.1 at 2014-08-15 10:22:05 -0600
+
+
+Started GET "/assets/talk.jpg" for 127.0.0.1 at 2014-08-15 10:22:05 -0600
+
+
+Started GET "/assets/grad.jpg" for 127.0.0.1 at 2014-08-15 10:22:05 -0600
+
+
+Started GET "/assets/workshop.jpg" for 127.0.0.1 at 2014-08-15 10:22:05 -0600
+
+
+Started GET "/assets/learn.jpg" for 127.0.0.1 at 2014-08-15 10:22:05 -0600
+
+
+Started GET "/assets/travel%20with%20us.jpg" for 127.0.0.1 at 2014-08-15 10:22:05 -0600
+
+
+Started GET "/assets/study.jpg" for 127.0.0.1 at 2014-08-15 10:22:05 -0600
+
+
+Started GET "/assets/landing-video.mp4" for 127.0.0.1 at 2014-08-15 10:22:05 -0600
+
+
+Started GET "/assets/landing-video.mp4" for 127.0.0.1 at 2014-08-15 10:22:05 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-15 10:22:27 -0600
+Processing by StaticController#landing as HTML
+  Rendered static/_navbar.html.haml (0.4ms)
+  Rendered static/_footer.html.haml (0.1ms)
+  Rendered static/landing.html.haml within layouts/application (14.7ms)
+Completed 200 OK in 59ms (Views: 58.4ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-08-15 10:22:28 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-15 10:22:28 -0600
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2014-08-15 10:22:28 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-15 10:22:28 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-15 10:22:28 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-15 10:22:28 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-08-15 10:22:28 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-15 10:22:28 -0600
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-08-15 10:22:28 -0600
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-08-15 10:22:28 -0600
+
+
+Started GET "/assets/english%20full.jpg" for 127.0.0.1 at 2014-08-15 10:22:28 -0600
+
+
+Started GET "/assets/teach%20english.jpg" for 127.0.0.1 at 2014-08-15 10:22:28 -0600
+
+
+Started GET "/assets/grad.jpg" for 127.0.0.1 at 2014-08-15 10:22:28 -0600
+
+
+Started GET "/assets/test.jpg" for 127.0.0.1 at 2014-08-15 10:22:28 -0600
+
+
+Started GET "/assets/talk.jpg" for 127.0.0.1 at 2014-08-15 10:22:28 -0600
+
+
+Started GET "/assets/workshop.jpg" for 127.0.0.1 at 2014-08-15 10:22:28 -0600
+
+
+Started GET "/assets/learn.jpg" for 127.0.0.1 at 2014-08-15 10:22:28 -0600
+
+
+Started GET "/assets/study.jpg" for 127.0.0.1 at 2014-08-15 10:22:28 -0600
+
+
+Started GET "/assets/travel%20with%20us.jpg" for 127.0.0.1 at 2014-08-15 10:22:28 -0600
+
+
+Started GET "/assets/landing-video.mp4" for 127.0.0.1 at 2014-08-15 10:22:28 -0600
+
+
+Started GET "/assets/landing-video.mp4" for 127.0.0.1 at 2014-08-15 10:22:28 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-15 10:26:14 -0600
+Processing by StaticController#landing as HTML
+  Rendered static/_navbar.html.haml (2.6ms)
+  Rendered static/_footer.html.haml (0.1ms)
+  Rendered static/landing.html.haml within layouts/application (16.9ms)
+Completed 200 OK in 26ms (Views: 25.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-15 10:26:14 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-15 10:26:14 -0600
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-08-15 10:26:14 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-15 10:26:14 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-15 10:26:14 -0600
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2014-08-15 10:26:14 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-08-15 10:26:14 -0600
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-08-15 10:26:14 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-15 10:26:14 -0600
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-08-15 10:26:14 -0600
+
+
+Started GET "/assets/test.jpg" for 127.0.0.1 at 2014-08-15 10:26:14 -0600
+
+
+Started GET "/assets/talk.jpg" for 127.0.0.1 at 2014-08-15 10:26:14 -0600
+
+
+Started GET "/assets/english%20full.jpg" for 127.0.0.1 at 2014-08-15 10:26:14 -0600
+
+
+Started GET "/assets/teach%20english.jpg" for 127.0.0.1 at 2014-08-15 10:26:14 -0600
+
+
+Started GET "/assets/grad.jpg" for 127.0.0.1 at 2014-08-15 10:26:14 -0600
+
+
+Started GET "/assets/workshop.jpg" for 127.0.0.1 at 2014-08-15 10:26:14 -0600
+
+
+Started GET "/assets/learn.jpg" for 127.0.0.1 at 2014-08-15 10:26:14 -0600
+
+
+Started GET "/assets/travel%20with%20us.jpg" for 127.0.0.1 at 2014-08-15 10:26:14 -0600
+
+
+Started GET "/assets/study.jpg" for 127.0.0.1 at 2014-08-15 10:26:14 -0600
+
+
+Started GET "/assets/landing-video.mp4" for 127.0.0.1 at 2014-08-15 10:26:14 -0600
+
+
+Started GET "/assets/landing-video.mp4" for 127.0.0.1 at 2014-08-15 10:26:14 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-15 10:26:26 -0600
+Processing by StaticController#landing as HTML
+  Rendered static/_navbar.html.haml (0.5ms)
+  Rendered static/_footer.html.haml (0.1ms)
+  Rendered static/landing.html.haml within layouts/application (13.5ms)
+Completed 200 OK in 59ms (Views: 58.3ms)
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2014-08-15 10:26:26 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-15 10:26:26 -0600
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-08-15 10:26:26 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-15 10:26:26 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-15 10:26:26 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-15 10:26:26 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-08-15 10:26:26 -0600
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-08-15 10:26:26 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-15 10:26:26 -0600
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-08-15 10:26:26 -0600
+
+
+Started GET "/assets/english%20full.jpg" for 127.0.0.1 at 2014-08-15 10:26:26 -0600
+
+
+Started GET "/assets/teach%20english.jpg" for 127.0.0.1 at 2014-08-15 10:26:26 -0600
+
+
+Started GET "/assets/grad.jpg" for 127.0.0.1 at 2014-08-15 10:26:26 -0600
+
+
+Started GET "/assets/test.jpg" for 127.0.0.1 at 2014-08-15 10:26:26 -0600
+
+
+Started GET "/assets/talk.jpg" for 127.0.0.1 at 2014-08-15 10:26:26 -0600
+
+
+Started GET "/assets/workshop.jpg" for 127.0.0.1 at 2014-08-15 10:26:26 -0600
+
+
+Started GET "/assets/learn.jpg" for 127.0.0.1 at 2014-08-15 10:26:26 -0600
+
+
+Started GET "/assets/landing-video.mp4" for 127.0.0.1 at 2014-08-15 10:26:26 -0600
+
+
+Started GET "/assets/study.jpg" for 127.0.0.1 at 2014-08-15 10:26:26 -0600
+
+
+Started GET "/assets/travel%20with%20us.jpg" for 127.0.0.1 at 2014-08-15 10:26:26 -0600
+
+
+Started GET "/assets/landing-video.mp4" for 127.0.0.1 at 2014-08-15 10:26:26 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-15 10:27:14 -0600
+Processing by StaticController#landing as HTML
+  Rendered static/_navbar.html.haml (0.4ms)
+  Rendered static/_footer.html.haml (0.9ms)
+  Rendered static/landing.html.haml within layouts/application (14.6ms)
+Completed 200 OK in 27ms (Views: 26.5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-15 10:27:15 -0600
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2014-08-15 10:27:15 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-15 10:27:15 -0600
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-08-15 10:27:15 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-15 10:27:15 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-15 10:27:15 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-08-15 10:27:15 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-15 10:27:15 -0600
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-08-15 10:27:15 -0600
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-08-15 10:27:15 -0600
+
+
+Started GET "/assets/test.jpg" for 127.0.0.1 at 2014-08-15 10:27:15 -0600
+
+
+Started GET "/assets/teach%20english.jpg" for 127.0.0.1 at 2014-08-15 10:27:15 -0600
+
+
+Started GET "/assets/english%20full.jpg" for 127.0.0.1 at 2014-08-15 10:27:15 -0600
+
+
+Started GET "/assets/grad.jpg" for 127.0.0.1 at 2014-08-15 10:27:15 -0600
+
+
+Started GET "/assets/talk.jpg" for 127.0.0.1 at 2014-08-15 10:27:15 -0600
+
+
+Started GET "/assets/workshop.jpg" for 127.0.0.1 at 2014-08-15 10:27:15 -0600
+
+
+Started GET "/assets/learn.jpg" for 127.0.0.1 at 2014-08-15 10:27:15 -0600
+
+
+Started GET "/assets/travel%20with%20us.jpg" for 127.0.0.1 at 2014-08-15 10:27:15 -0600
+
+
+Started GET "/assets/study.jpg" for 127.0.0.1 at 2014-08-15 10:27:15 -0600
+
+
+Started GET "/assets/landing-video.mp4" for 127.0.0.1 at 2014-08-15 10:27:15 -0600
+
+
+Started GET "/assets/landing-video.mp4" for 127.0.0.1 at 2014-08-15 10:27:15 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-15 10:41:14 -0600
+Processing by StaticController#landing as HTML
+  Rendered static/_navbar.html.haml (20.0ms)
+  Rendered static/landing.html.haml within layouts/application (21.3ms)
+Completed 500 Internal Server Error in 51ms
+
+ActionView::Template::Error (Inconsistent indentation: "        \t" used for indentation, but the rest of the document was indented using 2 spaces.):
+    10:     .collapse.navbar-collapse#navbar-collapse
+    11:       %ul.nav.navbar-nav
+    12:         %li
+    13:         	%a{:href => "#"}Link
+    14:         %li
+    15:         	%a{:href => "#"}Link
+  app/views/static/_navbar.html.haml:13
+  app/views/static/landing.html.haml:1:in `_app_views_static_landing_html_haml__2560729026054270964_70234335546660'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (15.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-15 10:41:36 -0600
+Processing by StaticController#landing as HTML
+  Rendered static/_navbar.html.haml (2.0ms)
+  Rendered static/landing.html.haml within layouts/application (3.6ms)
+Completed 500 Internal Server Error in 7ms
+
+ActionView::Template::Error (Inconsistent indentation: 9 spaces used for indentation, but the rest of the document was indented using 2 spaces.):
+    10:     .collapse.navbar-collapse#navbar-collapse
+    11:       %ul.nav.navbar-nav
+    12:         %li
+    13:          %a{:href => "#"}Link
+    14:         %li
+    15:           %a{:href => "#"}Link
+  app/views/static/_navbar.html.haml:13
+  app/views/static/landing.html.haml:1:in `_app_views_static_landing_html_haml__2560729026054270964_70234335546660'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (13.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-15 10:41:43 -0600
+Processing by StaticController#landing as HTML
+  Rendered static/_navbar.html.haml (41.8ms)
+  Rendered static/landing.html.haml within layouts/application (42.8ms)
+Completed 500 Internal Server Error in 45ms
+
+SyntaxError (/Users/jakobhartman/Documents/Sites/NYEI/nyei/app/views/static/_navbar.html.haml:1: syntax error, unexpected ':', expecting ')'
+... [:navbar, :"navbar-default"] :role => :navigation)}>\n  <di...
+...                               ^
+/Users/jakobhartman/Documents/Sites/NYEI/nyei/app/views/static/_navbar.html.haml:1: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+...=> :navigation)}>\n  <div class='container-fluid'>\n    <div...
+...                               ^
+/Users/jakobhartman/Documents/Sites/NYEI/nyei/app/views/static/_navbar.html.haml:1: syntax error, unexpected $undefined
+... <div class='container-fluid'>\n    <div class='navbar-heade...
+...                               ^
+/Users/jakobhartman/Documents/Sites/NYEI/nyei/app/views/static/_navbar.html.haml:1: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+...ntainer-fluid'>\n    <div class='navbar-header'>\n      <but...
+...                               ^
+/Users/jakobhartman/Documents/Sites/NYEI/nyei/app/views/static/_navbar.html.haml:1: syntax error, unexpected $undefined
+...   <div class='navbar-header'>\n      <button#{_hamlout.adju...
+...                               ^
+/Users/jakobhartman/Documents/Sites/NYEI/nyei/app/views/static/_navbar.html.haml:4: syntax error, unexpected tSTRING_DEND, expecting '}'
+_hamlout.attributes({}, nil, :type => :button, :cla...
+                      ^
+/Users/jakobhartman/Documents/Sites/NYEI/nyei/app/views/static/_navbar.html.haml:4: Can't assign to nil
+_hamlout.attributes({}, nil, :type => :button, :class => ...
+                            ^
+/Users/jakobhartman/Documents/Sites/NYEI/nyei/app/views/static/_navbar.html.haml:4: syntax error, unexpected =>, expecting :: or '[' or '.'
+...ut.attributes({}, nil, :type => :button, :class => :"navbar-...
+...                               ^
+/Users/jakobhartman/Documents/Sites/NYEI/nyei/app/views/static/_navbar.html.haml:4: syntax error, unexpected ',', expecting tSTRING_DEND
+...on, :class => :"navbar-toggle", :"data-toggle" => :collapse,...
+...                               ^
+/Users/jakobhartman/Documents/Sites/NYEI/nyei/app/views/static/_navbar.html.haml:4: syntax error, unexpected =>, expecting tSTRING_DEND
+...vbar-toggle", :"data-toggle" => :collapse, :"data-target" =>...
+...                               ^
+/Users/jakobhartman/Documents/Sites/NYEI/nyei/app/views/static/_navbar.html.haml:4: syntax error, unexpected =>, expecting tSTRING_DEND
+...=> :collapse, :"data-target" => "#navbar-collapse")}>\n     ...
+...                               ^
+/Users/jakobhartman/Documents/Sites/NYEI/nyei/app/views/static/_navbar.html.haml:4: syntax error, unexpected ')', expecting tSTRING_DEND
+...-target" => "#navbar-collapse")}>\n        <span#{_hamlout.a...
+...                               ^
+/Users/jakobhartman/Documents/Sites/NYEI/nyei/app/views/static/_navbar.html.haml:5: syntax error, unexpected '}', expecting tSTRING_DEND
+...}, nil,  :class => :"sr-only")}>Toggle navigation</span>\n  ...
+...                               ^
+/Users/jakobhartman/Documents/Sites/NYEI/nyei/app/views/static/_navbar.html.haml:6: unknown regexp options - pa
+/Users/jakobhartman/Documents/Sites/NYEI/nyei/app/views/static/_navbar.html.haml:6: syntax error, unexpected $undefined
+...class => :"icon-bar")}></span>\n        <span#{
+...                               ^
+/Users/jakobhartman/Documents/Sites/NYEI/nyei/app/views/static/_navbar.html.haml:7: syntax error, unexpected '}', expecting tSTRING_DEND
+...}, nil, :class => :"icon-bar")}></span>\n        <span#{
+...                               ^
+/Users/jakobhartman/Documents/Sites/NYEI/nyei/app/views/static/_navbar.html.haml:8: unknown regexp options - pa
+/Users/jakobhartman/Documents/Sites/NYEI/nyei/app/views/static/_navbar.html.haml:8: syntax error, unexpected $undefined
+...class => :"icon-bar")}></span>\n      </button>\n      <a cl...
+...                               ^
+/Users/jakobhartman/Documents/Sites/NYEI/nyei/app/views/static/_navbar.html.haml:8: unknown regexp option - a
+/Users/jakobhartman/Documents/Sites/NYEI/nyei/app/views/static/_navbar.html.haml:8: syntax error, unexpected $undefined
+...vbar-brand' href='#'>Brand</a>\n    </div>\n    <div class='...
+...                               ^
+/Users/jakobhartman/Documents/Sites/NYEI/nyei/app/views/static/_navbar.html.haml:8: unknown regexp option - a
+/Users/jakobhartman/Documents/Sites/NYEI/nyei/app/views/static/_navbar.html.haml:8: syntax error, unexpected $undefined
+...          <a href='#'>Link</a>\n        </li>\n        <li>\...
+...                               ^
+/Users/jakobhartman/Documents/Sites/NYEI/nyei/app/views/static/_navbar.html.haml:8: unknown regexp option - a
+/Users/jakobhartman/Documents/Sites/NYEI/nyei/app/views/static/_navbar.html.haml:8: syntax error, unexpected $undefined
+...          <a href='#'>Link</a>\n        </li>\n      </ul>\n...
+...                               ^
+/Users/jakobhartman/Documents/Sites/NYEI/nyei/app/views/static/_navbar.html.haml:8: unknown regexp option - l
+/Users/jakobhartman/Documents/Sites/NYEI/nyei/app/views/static/_navbar.html.haml:8: syntax error, unexpected $undefined
+...a>\n        </li>\n      </ul>\n    </div>\n  </div>\n</nav>...
+...                               ^
+/Users/jakobhartman/Documents/Sites/NYEI/nyei/app/views/static/_navbar.html.haml:8: unknown regexp options - dv
+/Users/jakobhartman/Documents/Sites/NYEI/nyei/app/views/static/_navbar.html.haml:8: syntax error, unexpected $undefined
+...   </ul>\n    </div>\n  </div>\n</nav>\n", -4, false);::Haml...
+...                               ^
+/Users/jakobhartman/Documents/Sites/NYEI/nyei/app/views/static/_navbar.html.haml:8: unterminated regexp meets end of file
+/Users/jakobhartman/Documents/Sites/NYEI/nyei/app/views/static/_navbar.html.haml:8: syntax error, unexpected end-of-input, expecting tSTRING_DEND):
+  app/views/static/_navbar.html.haml:1: syntax error, unexpected ':', expecting ')'
+  app/views/static/_navbar.html.haml:1: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+  app/views/static/_navbar.html.haml:1: syntax error, unexpected $undefined
+  app/views/static/_navbar.html.haml:1: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+  app/views/static/_navbar.html.haml:1: syntax error, unexpected $undefined
+  app/views/static/_navbar.html.haml:4: syntax error, unexpected tSTRING_DEND, expecting '}'
+  app/views/static/_navbar.html.haml:4: Can't assign to nil
+  app/views/static/_navbar.html.haml:4: syntax error, unexpected =>, expecting :: or '[' or '.'
+  app/views/static/_navbar.html.haml:4: syntax error, unexpected ',', expecting tSTRING_DEND
+  app/views/static/_navbar.html.haml:4: syntax error, unexpected =>, expecting tSTRING_DEND
+  app/views/static/_navbar.html.haml:4: syntax error, unexpected =>, expecting tSTRING_DEND
+  app/views/static/_navbar.html.haml:4: syntax error, unexpected ')', expecting tSTRING_DEND
+  app/views/static/_navbar.html.haml:5: syntax error, unexpected '}', expecting tSTRING_DEND
+  app/views/static/_navbar.html.haml:6: unknown regexp options - pa
+  app/views/static/_navbar.html.haml:6: syntax error, unexpected $undefined
+  app/views/static/_navbar.html.haml:7: syntax error, unexpected '}', expecting tSTRING_DEND
+  app/views/static/_navbar.html.haml:8: unknown regexp options - pa
+  app/views/static/_navbar.html.haml:8: syntax error, unexpected $undefined
+  app/views/static/_navbar.html.haml:8: unknown regexp option - a
+  app/views/static/_navbar.html.haml:8: syntax error, unexpected $undefined
+  app/views/static/_navbar.html.haml:8: unknown regexp option - a
+  app/views/static/_navbar.html.haml:8: syntax error, unexpected $undefined
+  app/views/static/_navbar.html.haml:8: unknown regexp option - a
+  app/views/static/_navbar.html.haml:8: syntax error, unexpected $undefined
+  app/views/static/_navbar.html.haml:8: unknown regexp option - l
+  app/views/static/_navbar.html.haml:8: syntax error, unexpected $undefined
+  app/views/static/_navbar.html.haml:8: unknown regexp options - dv
+  app/views/static/_navbar.html.haml:8: syntax error, unexpected $undefined
+  app/views/static/_navbar.html.haml:8: unterminated regexp meets end of file
+  app/views/static/_navbar.html.haml:8: syntax error, unexpected end-of-input, expecting tSTRING_DEND
+  app/views/static/landing.html.haml:1:in `_app_views_static_landing_html_haml__2560729026054270964_70234335546660'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-15 10:42:00 -0600
+Processing by StaticController#landing as HTML
+  Rendered static/_navbar.html.haml (2.9ms)
+  Rendered static/_footer.html.haml (0.1ms)
+  Rendered static/landing.html.haml within layouts/application (73.6ms)
+Completed 200 OK in 95ms (Views: 93.9ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-15 10:42:00 -0600
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-08-15 10:42:00 -0600
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2014-08-15 10:42:00 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-15 10:42:00 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-15 10:42:00 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-15 10:42:00 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-08-15 10:42:00 -0600
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-08-15 10:42:00 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-15 10:42:00 -0600
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-08-15 10:42:00 -0600
+
+
+Started GET "/assets/teach%20english.jpg" for 127.0.0.1 at 2014-08-15 10:42:00 -0600
+
+
+Started GET "/assets/grad.jpg" for 127.0.0.1 at 2014-08-15 10:42:00 -0600
+
+
+Started GET "/assets/test.jpg" for 127.0.0.1 at 2014-08-15 10:42:00 -0600
+
+
+Started GET "/assets/english%20full.jpg" for 127.0.0.1 at 2014-08-15 10:42:00 -0600
+
+
+Started GET "/assets/talk.jpg" for 127.0.0.1 at 2014-08-15 10:42:00 -0600
+
+
+Started GET "/assets/workshop.jpg" for 127.0.0.1 at 2014-08-15 10:42:00 -0600
+
+
+Started GET "/assets/learn.jpg" for 127.0.0.1 at 2014-08-15 10:42:00 -0600
+
+
+Started GET "/assets/study.jpg" for 127.0.0.1 at 2014-08-15 10:42:00 -0600
+
+
+Started GET "/assets/travel%20with%20us.jpg" for 127.0.0.1 at 2014-08-15 10:42:00 -0600
+
+
+Started GET "/assets/landing-video.mp4" for 127.0.0.1 at 2014-08-15 10:42:00 -0600
+
+
+Started GET "/assets/landing-video.mp4" for 127.0.0.1 at 2014-08-15 10:42:00 -0600

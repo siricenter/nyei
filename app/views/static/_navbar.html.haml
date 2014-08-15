@@ -1,7 +1,15 @@
-%nav{ :class => [:navbar, :"navbar-inverse"], :role => "navigation"}
+%nav{ :class => [:navbar, :"navbar-default"], :role => :navigation}
   .container-fluid
-    - require 'date'
-    - @time = Time.new
-    .row
-      %p{:class => [:"lead",:"text-center",:vcenter],:id=>"time"}
-        = @time.strftime("%I:%M%P")
+    .navbar-header
+      %button{:type => :button, :class => :"navbar-toggle", :"data-toggle" => :collapse, :"data-target" => "#navbar-collapse"}
+        %span{ :class => :"sr-only"}Toggle navigation
+        %span{:class => :"icon-bar"}
+        %span{:class => :"icon-bar"}
+        %span{:class => :"icon-bar"}
+      %a{:class => "navbar-brand", :href => "#"}Brand
+    .collapse.navbar-collapse#navbar-collapse
+      %ul.nav.navbar-nav
+        %li
+          %a{:href => "#"}Link
+        %li
+          %a{:href => "#"}Link
