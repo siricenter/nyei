@@ -43,7 +43,8 @@ h1
 
 body
 {
-	background-color:#F2F3F4
+	//background-color: #f2f3f4;
+	background-color: #eeeeee;
 }
 
 #title
@@ -64,6 +65,7 @@ body
 .video-container
 {
 	@extend .jumbotron;
+	background-color: #eeeeee;
 
 	margin-left: auto;
 	margin-right: auto;
