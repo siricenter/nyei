@@ -4,30 +4,30 @@
   .row
     %h1.text-center#title New York English Institute
   .row
-    %video{:class => [:'landing-video'],:controls => true}
+    %video{:class => [:'landing-video'], :controls => true}
       %source{:src => "/assets/landing-video.oggtheora.ogv", :type => 'video/ogg; codecs="theora, vorbis"'}
       %source{:src => "/assets/landing-video.mp4", :type => 'video/mp4; codecs="avc1.4D401E, mp4a.40.2"'}
 
 #button-grid
-  .row.text-center.box
-    %a.col-xs-4
-      = image_tag "english full.jpg",:class => [:"button-img"],:alt => "English Full Course"
-    %a.col-xs-4
-      = image_tag "teach english.jpg",:class => [:"button-img"],:alt => "Acedemic English"
-    %a.col-xs-4
-      = image_tag "grad.jpg",:class => [:"button-img"],:alt => "Grad School Prep"
   .row.text-center
     %a.col-xs-4
-      = image_tag "test.jpg",:class => [:"button-img"],:alt => "Test Prep"
+      = image_tag "english full.jpg", :class => [:"button-img"], :alt => "English Full Course"
     %a.col-xs-4
-      = image_tag "talk.jpg",:class => [:"button-img"],:alt => "Conversation"
+      = image_tag "teach english.jpg", :class => [:"button-img"], :alt => "Acedemic English"
     %a.col-xs-4
-      = image_tag "workshop.jpg",:class => [:"button-img"],:alt => "Work Shops"
+      = image_tag "grad.jpg", :class => [:"button-img"], :alt => "Grad School Prep"
   .row.text-center
     %a.col-xs-4
-      = image_tag "learn.jpg",:class => [:"button-img"],:alt => "English for Travel"
+      = image_tag "test.jpg", :class => [:"button-img"], :alt => "Test Prep"
     %a.col-xs-4
-      = image_tag "travel with us.jpg",:class => [:"button-img"],:alt => "Travel to the Us"
+      = image_tag "talk.jpg", :class => [:"button-img"], :alt => "Conversation"
     %a.col-xs-4
-      = image_tag "study.jpg",:class => [:"button-img"],:alt => "Grad School Prep"
+      = image_tag "workshop.jpg", :class => [:"button-img"], :alt => "Work Shops"
+  .row.text-center
+    %a.col-xs-4
+      = image_tag "learn.jpg", :class => [:"button-img"], :alt => "English for Travel"
+    %a.col-xs-4
+      = image_tag "travel with us.jpg", :class => [:"button-img"], :alt => "Travel to the Us"
+    %a.col-xs-4
+      = image_tag "study.jpg", :class => [:"button-img"], :alt => "Grad School Prep"
 = render 'footer'
