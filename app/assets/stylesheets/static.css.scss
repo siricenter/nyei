@@ -29,6 +29,13 @@ h1
 	padding-top: 4em;
 	padding-bottom: 1em;
 	max-width: $container-width;
+
+	a
+	{
+		@extend .col-xs-12;
+		@extend .col-sm-6;
+		@extend .col-md-4;
+	}
 }
 
 .button-img
