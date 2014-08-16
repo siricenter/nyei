@@ -4,35 +4,41 @@
 @import 'bootstrap';
 @import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow);
 
-
-.navbar-inverse .navbar-nav li a{
+.navbar-inverse .navbar-nav li a
+{
 	color: #800023;
 }
 
-.navbar-inverse .navbar-nav li a:hover{
+.navbar-inverse .navbar-nav li a:hover
+{
 	color: rgba(128,0,35,0.5);
 }
 
 
-#button_grid{
+#button_grid
+{
 	padding-top: 4em;
 	padding-bottom: 1em;
 	max-width: 55%
 }
-.button-img{
+
+.button-img
+{
 	@extend .img-responsive;
 	@extend .img-thumbnail;
 	margin-bottom: 30px;
 	-webkit-filter: grayscale(100%);
 	-moz-filter: grayscale(100%);
-		filter: grayscale(100%);
+	filter: grayscale(100%);
 }
 
-body{
+body
+{
 	background-color:#F2F3F4
 }
 
-#title{
+#title
+{
 	font-size: 48px;
 	letter-spacing: -1.5pt;
 	font-weight: bold;
@@ -43,31 +49,43 @@ body{
 
 
 
-@media screen and (max-width: 1280px) {
-        h1 {
-    font-size:30px;
-    }
-    #button_grid{
-    	max-width: 85%;
-    }
+@media screen and (max-width: 1280px) 
+{
+	h1 
+	{
+		font-size:30px;
+	}
+
+	#button_grid
+	{
+		max-width: 85%;
+	}
 }
 
-@media screen and (max-width: 966px) {
-        h1 {
-    font-size:30px;
-    }
-    #button_grid{
-    	max-width: 70%;
-    }
+@media screen and (max-width: 966px) 
+{
+	h1 
+	{
+		font-size:30px;
+	}
+
+	#button_grid
+	{
+		max-width: 70%;
+	}
 }
 
-@media screen and (max-width: 568px) {
-        h1 {
-    font-size:30px;
-    }
-    #button_grid{
-    	max-width: 100%;
-    }
+@media screen and (max-width: 568px) 
+{
+	h1 
+	{
+		font-size:30px;
+	}
+
+	#button_grid
+	{
+		max-width: 100%;
+	}
 }
 
 .landing-video
@@ -76,14 +94,16 @@ body{
 	@extend .col-xs-12;
 }
 
-.header{
+.header
+{
 	@extend .navbar; 
 	@extend .navbar-inverse;
 	background-color: lightgrey;
 	border: #F2F3F4;
 }
 
-.footer{
+.footer
+{
 	@extend .navbar; 
 	@extend .navbar-inverse;
 	@extend .container-fluid;
