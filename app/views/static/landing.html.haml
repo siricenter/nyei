@@ -1,5 +1,6 @@
 = render "navbar"
-.container
+
+.video-container
   .row
     %h1.text-center#title New York English Institute
   .row
@@ -7,7 +8,7 @@
       %source{:src => "/assets/landing-video.oggtheora.ogv", :type => 'video/ogg; codecs="theora, vorbis"'}
       %source{:src => "/assets/landing-video.mp4", :type => 'video/mp4; codecs="avc1.4D401E, mp4a.40.2"'}
 
-.container-fluid#button_grid
+#button-grid
   .row.text-center.box
     %a.col-xs-4
       = image_tag "english full.jpg",:class => [:"button-img"],:alt => "English Full Course"

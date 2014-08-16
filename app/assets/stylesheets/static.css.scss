@@ -4,22 +4,31 @@
 @import 'bootstrap';
 @import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow);
 
-.navbar-inverse .navbar-nav li a
+$container-width: 800px;
+
+h1
 {
-	color: #800023;
+	font-size:30px;
 }
 
-.navbar-inverse .navbar-nav li a:hover
+.header .nav li a
+{
+	color: white;
+	//color: #800023;
+}
+
+.header .nav li a:hover
 {
 	color: rgba(128,0,35,0.5);
 }
 
 
-#button_grid
+#button-grid
 {
+	@extend .container;
 	padding-top: 4em;
 	padding-bottom: 1em;
-	max-width: 55%
+	max-width: $container-width;
 }
 
 .button-img
@@ -47,45 +56,17 @@ body
 	padding-top: 1em; 
 }
 
-
-
-@media screen and (max-width: 1280px) 
+.container, .jumbotron, #button-grid
 {
-	h1 
-	{
-		font-size:30px;
-	}
-
-	#button_grid
-	{
-		max-width: 85%;
-	}
+	max-width: $container-width;
 }
 
-@media screen and (max-width: 966px) 
+.video-container
 {
-	h1 
-	{
-		font-size:30px;
-	}
+	@extend .jumbotron;
 
-	#button_grid
-	{
-		max-width: 70%;
-	}
-}
-
-@media screen and (max-width: 568px) 
-{
-	h1 
-	{
-		font-size:30px;
-	}
-
-	#button_grid
-	{
-		max-width: 100%;
-	}
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .landing-video
@@ -97,8 +78,8 @@ body
 .header
 {
 	@extend .navbar; 
-	@extend .navbar-inverse;
-	background-color: lightgrey;
+	@extend .navbar-fixed-top;
+	background-color: grey;
 	border: #F2F3F4;
 }
 
