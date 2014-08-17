@@ -83,7 +83,7 @@ body
 	font-weight: bold;
 	font-family: PT Sans Narrow;
 	//padding-bottom: .5em;
-	padding-top: .5em; 
+	margin-top: 0px; 
 }
 
 #heading-container
@@ -94,7 +94,7 @@ body
 .video-container
 {
 	@extend .jumbotron;
-	min-height: 100%;
+	height: 95%;
 	position: relative;
 	background-color: $theme-black;
 
@@ -116,9 +116,16 @@ body
 #landing-video
 {
 	@extend .img-responsive;
-	min-height: 55%;
+
+	min-height: 40%;
 	margin-left: auto;
 	margin-right: auto;
+	margin: 50px auto auto auto;
+
+	@media (min-width: $screen-sm-min)
+	{
+		min-height: 60%;
+	}
 }
 
 .navbar-toggle
@@ -135,11 +142,8 @@ button
 {
 	background-color: $theme-black;
 	border: $theme-off-white;
-	//border-bottom: $theme-off-white;
-	//border-bottom-style: solid;
-	//border-bottom-width: 1px;
-
-	@extend .navbar-fixed-top;
+	border-radius: 0;
+	margin-bottom: 0;
 
 	.nav-item a
 	{
@@ -163,11 +167,6 @@ button
 			background-color: $theme-pink;
 		}
 	}
-
-	#nav-container
-	{
-		@extend .container-fluid;
-	}
 }
 
 .footer
@@ -187,13 +186,6 @@ button
 .chevron
 {
 	@extend .row;
-	@media (max-width: $screen-xs-max)
-	{
-		border-top-style: solid;
-		border-top-width: 1px;
-		border-top-color: $theme-off-white;
-	}
-
 	text-align: center;
 	font-size: 400%;
 	color: white;
