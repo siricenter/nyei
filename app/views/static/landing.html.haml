@@ -2,10 +2,10 @@
 
 .video-container
   .row
-    %h1.text-center#title New York English Institute
+    = video_tag('landing-video.oggtheora.ogv', 'landing-video.mp4', controls: false, autoplay: true, loop: true, id: [:'landing-video'])
   %hr.divider
   .row
-    = video_tag('landing-video.oggtheora.ogv', 'landing-video.mp4', controls: false, autoplay: true, loop: true, id: [:'landing-video'])
+    %h1.text-center#title New York English Institute
   .chevron.bottom
     %span.glyphicon.glyphicon-chevron-down
 
