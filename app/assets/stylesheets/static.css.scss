@@ -127,7 +127,7 @@ body
 
 .header
 {
-	background-color: $theme-red;
+	background-color: $theme-black;
 	border: $theme-off-white;
 
 	@extend .navbar; 
@@ -143,6 +143,12 @@ body
 	.nav-item a:hover
 	{
 		color: rgba(128,0,35,0.5);
+	}
+
+	.nav-item.active a
+	{
+		background-color: $theme-red;
+		color: $theme-off-white;
 	}
 }
 
