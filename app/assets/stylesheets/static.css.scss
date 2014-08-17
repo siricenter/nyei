@@ -120,9 +120,14 @@ body
 	margin-right: auto;
 }
 
-#nav-container
+.navbar-toggle
 {
-	@extend .container-fluid;
+	background-color: $theme-red;
+}
+
+button
+{
+	color: $theme-off-white;
 }
 
 .header
@@ -130,7 +135,6 @@ body
 	background-color: $theme-black;
 	border: $theme-off-white;
 
-	@extend .navbar; 
 	@extend .navbar-fixed-top;
 
 	.nav-item a
@@ -150,14 +154,19 @@ body
 		background-color: $theme-red;
 		color: $theme-off-white;
 	}
+
+	#nav-container
+	{
+		@extend .container;
+		border-bottom: $theme-off-white;
+		border-bottom-style: solid;
+		border-bottom-width: 1px;
+	}
 }
 
 .footer
 {
-	@extend .navbar; 
-	@extend .navbar-inverse;
-	@extend .container-fluid;
-	@extend .img-responsive;
+	@extend .container-fluid; 
 	background-color: $theme-black;
 	border: #231F20;
 	margin-bottom: 0px;
@@ -166,6 +175,14 @@ body
 
 .chevron
 {
+	@extend .row;
+	@media (max-width: $screen-xs-max)
+	{
+		border-top-style: solid;
+		border-top-width: 1px;
+		border-top-color: $theme-off-white;
+	}
+
 	text-align: center;
 	font-size: 400%;
 	color: white;
