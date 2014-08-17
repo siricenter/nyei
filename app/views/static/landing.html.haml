@@ -5,9 +5,7 @@
     %h1.text-center#title New York English Institute
   %hr.divider
   .row
-    %video{class: [:'landing-video'], controls: false, autoplay: true, loop: true}
-      %source{src: "/assets/landing-video.oggtheora.ogv", type: 'video/ogg; codecs="theora, vorbis"'}
-      %source{src: "/assets/landing-video.mp4", type: 'video/mp4; codecs="avc1.4D401E, mp4a.40.2"'}
+    = video_tag('landing-video.oggtheora.ogv', 'landing-video.mp4', controls: false, autoplay: true, loop: true, id: [:'landing-video'])
   .row.clearfix
     .chevron.bottom
       %span.glyphicon.glyphicon-chevron-down

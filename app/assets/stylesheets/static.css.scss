@@ -87,7 +87,7 @@ body
 
 #heading-container
 {
-	@extend container;
+	@extend .container;
 }
 
 .video-container
@@ -112,11 +112,10 @@ body
 	}
 }
 
-.landing-video
+#landing-video
 {
 	@extend .img-responsive;
-	@extend .col-xs-12;
-	max-height: 55%;
+	min-height: 55%;
 	margin-left: auto;
 	margin-right: auto;
 }
