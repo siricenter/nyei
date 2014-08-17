@@ -1,6 +1,6 @@
 %meta{:name => "viewport", :content => "width=device-width, user-scalable=no"}
 %nav.header{:role => :navigation}
-  .container-fluid
+  #nav-container
     .navbar-header
       %button{:type => :button, :class => :"navbar-toggle", :"data-toggle" => :collapse, :"data-target" => "#navbar-collapse"}
         %span{ :class => :"sr-only"}Toggle navigation
@@ -9,11 +9,11 @@
         %span{:class => :"icon-bar"}
     .collapse.navbar-collapse#navbar-collapse
       %ul.nav.nav-pills.nav-justified
-        %li
+        %li.nav-item
+          %a{:href => "#", class: [(:active if @page == :home)]}Home
+        %li.nav-item
           %a{:href => "#"}Link
-        %li
+        %li.nav-item
           %a{:href => "#"}Link
-        %li
-          %a{:href => "#"}Link
-        %li
+        %li.nav-item
           %a{:href => "#"}Link

@@ -1,34 +1,49 @@
 // Place all the styles related to the Static controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/ d
-@import 'bootstrap';
-@import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow);
 
-$container-width: 800px;
+$container-width: 900px;
+$theme-black: #231F20;//black;
+$theme-off-white: #F2F3F4;
+$theme-red: #800023;
 
-h1
+@mixin divider($color)
 {
-	font-size:30px;
+	height: 30px;
+	border-style: solid;
+	border-color: $color;
+	border-width: 1px 0 0 0;
+	border-radius: 20px;
+	max-width: 90%;
+
+	&:before {
+		display: block;
+		content: "";
+		height: 30px;
+		margin-top: -31px;    
+		border-style: solid;
+		border-color: $color;
+		border-width: 0 0 1px 0;
+		border-radius: 20px;
+	}
 }
 
-.header .nav li a
+html, body
 {
-	color: white;
-	//color: #800023;
+	height: 100%;
 }
 
-.header .nav li a:hover
+.divider
 {
-	color: rgba(128,0,35,0.5);
+	@include divider($theme-black);
 }
-
 
 #button-grid
 {
-	@extend .container;
-	padding-top: 4em;
-	padding-bottom: 1em;
-	max-width: $container-width;
+	@extend .container-fluid;
+	padding-top: 0;
+	padding-bottom: 0;
+	//max-width: $container-width;
 
 	a
 	{
@@ -42,54 +57,94 @@ h1
 {
 	@extend .img-responsive;
 	@extend .img-thumbnail;
+
 	margin-bottom: 30px;
 	-webkit-filter: grayscale(100%);
-	-moz-filter: grayscale(100%);
+	// Firefox Filter
+	filter: url("data:image/svg+xml;utf8,<svg
+	xmlns=\'http://www.w3.org/2000/svg\'><filter
+	id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333
+	0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1
+	0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
+
 	filter: grayscale(100%);
 }
 
 body
 {
 	//background-color: #f2f3f4;
-	background-color: #eeeeee;
+	background-color: $theme-off-white;
 }
 
 #title
 {
-	font-size: 48px;
 	letter-spacing: -1.5pt;
 	font-weight: bold;
 	font-family: PT Sans Narrow;
-	padding-bottom: .5em;
-	padding-top: 1em; 
+	//padding-bottom: .5em;
+	padding-top: .5em; 
 }
 
-.container, .jumbotron, #button-grid
+#heading-container
 {
-	max-width: $container-width;
+	@extend container;
 }
 
 .video-container
 {
 	@extend .jumbotron;
-	background-color: #eeeeee;
+	min-height: 100%;
+	position: relative;
+	background-color: $theme-black;
 
-	margin-left: auto;
-	margin-right: auto;
+	$video-padding: 10px;
+	padding-top: $video-padding;
+	padding-bottom: $video-padding;
+
+	.divider
+	{
+		@include divider($theme-off-white);
+	}
+
+	h1
+	{
+		color: white;
+	}
 }
 
 .landing-video
 {
 	@extend .img-responsive;
 	@extend .col-xs-12;
+	max-height: 55%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#nav-container
+{
+	@extend .container-fluid;
 }
 
 .header
 {
+	background-color: $theme-red;
+	border: $theme-off-white;
+
 	@extend .navbar; 
 	@extend .navbar-fixed-top;
-	background-color: grey;
-	border: #F2F3F4;
+
+	.nav-item a
+	{
+		color: $theme-off-white;
+		height: 50px;
+		border-radius: 0;
+	}
+
+	.nav-item a:hover
+	{
+		color: rgba(128,0,35,0.5);
+	}
 }
 
 .footer
@@ -98,8 +153,23 @@ body
 	@extend .navbar-inverse;
 	@extend .container-fluid;
 	@extend .img-responsive;
-	background-color: #231F20;
+	background-color: $theme-black;
 	border: #231F20;
 	margin-bottom: 0px;
 	height: 223px;
+}
+
+.chevron
+{
+	text-align: center;
+	font-size: 400%;
+	color: white;
+}
+
+.bottom
+{
+	position: absolute;
+	width: 100%;
+	bottom:0;
+	margin-left: -30px;
 }

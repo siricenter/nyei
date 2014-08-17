@@ -1,5 +1,5 @@
 class StaticController < ApplicationController
-  def landing
-  	
-  end
+	def landing
+		@page = :home  	
+	end
 end

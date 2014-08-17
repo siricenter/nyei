@@ -3,29 +3,35 @@
 .video-container
   .row
     %h1.text-center#title New York English Institute
+  %hr.divider
   .row
-    %video{:class => [:'landing-video'], :controls => true}
-      %source{:src => "/assets/landing-video.oggtheora.ogv", :type => 'video/ogg; codecs="theora, vorbis"'}
-      %source{:src => "/assets/landing-video.mp4", :type => 'video/mp4; codecs="avc1.4D401E, mp4a.40.2"'}
+    %video{class: [:'landing-video'], controls: false, autoplay: true, loop: true}
+      %source{src: "/assets/landing-video.oggtheora.ogv", type: 'video/ogg; codecs="theora, vorbis"'}
+      %source{src: "/assets/landing-video.mp4", type: 'video/mp4; codecs="avc1.4D401E, mp4a.40.2"'}
+  .row.clearfix
+    .chevron.bottom
+      %span.glyphicon.glyphicon-chevron-down
 
 #button-grid
+  %hr.divider
   .row.text-center
     %a
-      = image_tag "english full.jpg", :class => [:"button-img"], :alt => "English Full Course"
+      = image_tag "english full.jpg", class: [:"button-img"], alt: "English Full Course"
     %a
-      = image_tag "teach english.jpg", :class => [:"button-img"], :alt => "Acedemic English"
+      = image_tag "teach english.jpg", class: [:"button-img"], alt: "Acedemic English"
     %a
-      = image_tag "grad.jpg", :class => [:"button-img"], :alt => "Grad School Prep"
+      = image_tag "grad.jpg", class: [:"button-img"], alt: "Grad School Prep"
     %a
-      = image_tag "test.jpg", :class => [:"button-img"], :alt => "Test Prep"
+      = image_tag "test.jpg", class: [:"button-img"], alt: "Test Prep"
     %a
-      = image_tag "talk.jpg", :class => [:"button-img"], :alt => "Conversation"
+      = image_tag "talk.jpg", class: [:"button-img"], alt: "Conversation"
     %a
-      = image_tag "workshop.jpg", :class => [:"button-img"], :alt => "Work Shops"
+      = image_tag "workshop.jpg", class: [:"button-img"], alt: "Work Shops"
     %a
-      = image_tag "learn.jpg", :class => [:"button-img"], :alt => "English for Travel"
+      = image_tag "learn.jpg", class: [:"button-img"], alt: "English for Travel"
     %a
-      = image_tag "travel with us.jpg", :class => [:"button-img"], :alt => "Travel to the Us"
+      = image_tag "travel with us.jpg", class: [:"button-img"], alt: "Travel to the Us"
     %a
-      = image_tag "study.jpg", :class => [:"button-img"], :alt => "Grad School Prep"
+      = image_tag "study.jpg", class: [:"button-img"], alt: "Grad School Prep"
+
 = render 'footer'
