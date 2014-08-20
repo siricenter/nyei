@@ -7,26 +7,59 @@
       %source{:src => "/assets/landing-video.oggtheora.ogv", :type => 'video/ogg; codecs="theora, vorbis"'}
       %source{:src => "/assets/landing-video.mp4", :type => 'video/mp4; codecs="avc1.4D401E, mp4a.40.2"'}
 
-.container-fluid#button_grid
-  .row.text-center.box
-    %a.col-xs-4
-      = image_tag "english full.jpg",:class => [:"button-img"],:alt => "English Full Course"
-    %a.col-xs-4
-      = image_tag "teach english.jpg",:class => [:"button-img"],:alt => "Acedemic English"
-    %a.col-xs-4
-      = image_tag "grad.jpg",:class => [:"button-img"],:alt => "Grad School Prep"
-  .row.text-center
-    %a.col-xs-4
-      = image_tag "test.jpg",:class => [:"button-img"],:alt => "Test Prep"
-    %a.col-xs-4
-      = image_tag "talk.jpg",:class => [:"button-img"],:alt => "Conversation"
-    %a.col-xs-4
-      = image_tag "workshop.jpg",:class => [:"button-img"],:alt => "Work Shops"
-  .row.text-center
-    %a.col-xs-4
-      = image_tag "learn.jpg",:class => [:"button-img"],:alt => "English for Travel"
-    %a.col-xs-4
-      = image_tag "travel with us.jpg",:class => [:"button-img"],:alt => "Travel to the Us"
-    %a.col-xs-4
-      = image_tag "study.jpg",:class => [:"button-img"],:alt => "Grad School Prep"
+#button_grid
+  %h1 Courses
+  .carousel.slide{:"data-ride" => "carousel"}
+    %ol.carousel-indicators
+      %li.active{:"data-target" => "#carousel-example-generic", :"data-slide-to" => "0"}
+      %li{:"data-target" => "#carousel-example-generic", :"data-slide-to" => "1"}
+      %li{:"data-target" => "#carousel-example-generic", :"data-slide-to" => "2"}
+      %li{:"data-target" => "#carousel-example-generic", :"data-slide-to" => "3"}
+      %li{:"data-target" => "#carousel-example-generic", :"data-slide-to" => "4"}
+      %li{:"data-target" => "#carousel-example-generic", :"data-slide-to" => "5"}
+      %li{:"data-target" => "#carousel-example-generic", :"data-slide-to" => "6"}
+    .carousel-inner
+      .item.active
+        .container
+          =image_tag "english full.jpg",:class => [:"button-img"],:alt => "Tavel to"
+      .item
+        .container
+          = image_tag "teach english.jpg",:class => [:"button-img"],:alt => "Acedemic English"
+      .item
+        .container
+          = image_tag "grad.jpg",:class => [:"button-img"],:alt => "Grad School Prep"
+      .item
+        .container
+          = image_tag "test.jpg",:class => [:"button-img"],:alt => "Test Prep"
+      .item
+        .container
+          = image_tag "talk.jpg",:class => [:"button-img"],:alt => "Conversation"
+      .item
+        .container
+          = image_tag "workshop.jpg",:class => [:"button-img"],:alt => "Work Shops"
+      .item
+        .container
+          = image_tag "learn.jpg",:class => [:"button-img"],:alt => "English for Travel"
+    %a.left.carousel-control{ :href => "#carousel-example-generic", :role => "button", :"data-slide" => "prev"}
+      %span.glyphicon.glyphicon-chevron-left
+
+    %a.right.carousel-control{ :href => "#carousel-example-generic", :role => "button", :"data-slide" => "next"}
+      %span.glyphicon.glyphicon-chevron-right
+
+  %h1 Travel
+  .carousel.slide{:"data-ride" => "carousel"}
+    %ol.carousel-indicators
+      %li.active{:"data-target" => "#carousel-example-generic", :"data-slide-to" => "0"}
+      %li{:"data-target" => "#carousel-example-generic", :"data-slide-to" => "1"}
+      %li{:"data-target" => "#carousel-example-generic", :"data-slide-to" => "2"}
+    .carousel-inner
+      .item.active
+        .container
+          =image_tag "travel with us.jpg",:class => [:"button-img"],:alt => "Tavel to"
+      .item
+        .container
+          =image_tag "travel with us.jpg",:class => [:"button-img"],:alt => "Tavel to"
+      .item
+        .container
+          =image_tag "travel with us.jpg",:class => [:"button-img"],:alt => "Grad School Prep"
 = render 'footer'
