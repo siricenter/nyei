@@ -22,26 +22,13 @@
   background-color: #000;
 }
 
-#button_grid{
-	padding-top: 4em;
-	padding-bottom: 1em;
-	@extend .text-center;
-	@extend .container;
-	
-	max-width: 70%
-
-}
-
 .button-img{
-	height: 300px;
-	width: 100%;
+
+	@extend .img-responsive;
+	@extend .center-block;
 	-webkit-filter: grayscale(100%);
 	-moz-filter: grayscale(100%);
 		filter: grayscale(100%);
-}
-
-.carousel-inner .item img {
-    margin: 0 auto;
 }
 
 #title{
@@ -50,15 +37,10 @@
 	font-weight: bold;
 	font-family: PT Sans Narrow;
 	padding-bottom: .5em;
-	padding-top: 1em; 
 }
 
 
-.landing-video
-{
-	@extend .img-responsive;
-	@extend .col-xs-12;
-}
+
 
 .header{
 	@extend .navbar; 
@@ -67,12 +49,39 @@
 	border: #F2F3F4;
 }
 
+.box{
+	padding:4em;
+	background-color: lightgrey;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
 .footer{
-	@extend .navbar; 
-	@extend .navbar-inverse;
-	@extend .container-fluid;
-	@extend .img-responsive;
+	margin-top: 4em;
 	background-color: #231F20;
 	border: #231F20;
-	margin-bottom: 0px;
+	height: 52px;
+}
+
+.brand{
+	@extend .navbar-brand ;
+	font-size: 24px;
+}
+
+.myCarousel{
+	@extend .col-xs-12;
+	@extend .col-md-6;
+	@extend .col-lg-6;
+}
+
+.landing-video{
+	@extend .col-xs-12;
+	background-color: black;
+	@extend .col-md-6;
+	@extend .col-lg-6;
+}
+
+.landingContent{
+	@extend .row;
 }
