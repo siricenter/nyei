@@ -59,12 +59,20 @@ html, body
 		@extend .col-sm-6;
 		@extend .col-md-4;
 	}
+
+	#travel
+		{
+			@extend .col-lg-8;
+			@extend .col-md-8;
+		}
 }
+
+
+
 
 .button-img
 {
 	@extend .img-responsive;
-	@extend .img-thumbnail;
 
 	margin-bottom: 30px;
     opacity: 0.4;
@@ -79,6 +87,7 @@ html, body
 	0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1
 	0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
 }
+
 
 .button-img:hover
 { 
@@ -108,7 +117,9 @@ body
 
 .video-container
 {
+	@extend .container;
 	@extend .jumbotron;
+	width: 100%;
 	height: 95%;
 	position: relative;
 	background-color: $theme-black;
@@ -169,6 +180,7 @@ button
 
 	.nav-item a:hover
 	{
+		@extend .text-center;
 		background-color: $theme-blue;
 	}
 
@@ -199,18 +211,20 @@ button
     ul
     {
         margin-top: 50px;
-        a
+    	a
         {
-            color: white;
-        }
+        	color: white;
+       	}
     }
 }
+
+
 
 .chevron
 {
 	@extend .row;
 	text-align: center;
-	font-size: 50%;
+	font-size: 35px;
 	color: white;
 }
 
@@ -220,4 +234,72 @@ button
 	width: 100%;
 	bottom:0;
 	margin-left: -30px;
+}
+
+.landing-video
+{
+	@extend .col-xs-12;
+	max-height: 70%;
+}
+
+.footer-col
+{
+	@extend .col-lg-offset-0;
+	@extend .col-md-offset-0;
+	@extend .col-sm-offset-0;
+
+	@extend .col-md-4;
+	@extend .col-xs-3;
+}
+
+
+
+@media screen and (max-width: 640px){
+	.footer
+	{
+		height: 240px;
+	}
+	#bottom-Links
+	{
+		li
+		{
+			margin-top: 5px;
+		}
+		margin-top: 0px;
+	}
+	#top-Links
+	{
+		li
+		{
+			margin-top: 5px;
+		}
+	}
+	.video-container
+	{
+		height: 86%
+	}
+	.footer-col
+	{
+		@extend .col-xs-hidden;
+	}
+	.footer-col
+	{
+		@extend .hidden-xs;
+	}
+
+}
+
+
+@media screen and (min-width: 829px){
+	#button-grid
+	{
+		#travel
+		{
+			img
+			{
+				max-height: 40%;
+				width: 100%;
+			}
+		}
+	}
 }

@@ -1,3 +1,4 @@
+%meta{:name => "viewport", :content => "width=device-width; initial-scale=1.0; maximum-scale=1.0;"}
 %nav.header.navbar.navbar-default{:role => :navigation}
   .navbar-header#nav-header
     %button.navbar-toggle{type: :button, 'data-toggle' => :collapse, 'data-target' => '#navbar-collapse'}
@@ -6,12 +7,11 @@
       %span.icon-bar
       %span.icon-bar
       %span.icon-bar
+    %a{:href => root_path}
+      %p.navbar-brand NYEI LOGO
   .collapse.navbar-collapse#navbar-collapse
-    %a
-      = image_tag "logo_mark", class: [:"navbar-brand"], alt: "logo"
+    
     %ul.nav.nav-pills.nav-justified
-      %li.nav-item{class: [(:active if @page == :home)]}
-        %a{:href => root_path}Home
       %li.nav-item
         %a{:href => "#"}Methodology
       %li.nav-item
