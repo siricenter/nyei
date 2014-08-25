@@ -67,11 +67,42 @@ html, body
 		}
 }
 
-.method-img{
+.method-img
+{
+	@extend .col-lg-4;
 	@extend .img-responsive;
+	margin-top: 2em;
+	float: left;
+}
 
+.method-img-inverse
+{
+	@extend .col-lg-4;
+	@extend .img-responsive;
+	margin-top: 2em;
+	float: right;
+}
 
+.method-text
+{
+	@extend .col-lg-8;
+	@extend .col-md-6;
+	@extend .col-sm-4;
+	@extend .col-xs-12;
+}
 
+.course-text{
+	@extend .col-lg-8;
+}
+
+.course-list{
+	@extend .col-lg-2;
+	
+}
+
+.course-img
+{
+	@extend .method-img;
 }
 
 .button-img
