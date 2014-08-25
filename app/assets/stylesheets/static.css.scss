@@ -67,8 +67,12 @@ html, body
 		}
 }
 
+.method-img{
+	@extend .img-responsive;
 
 
+
+}
 
 .button-img
 {
