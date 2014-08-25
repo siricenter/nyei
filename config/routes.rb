@@ -1,5 +1,14 @@
 Rails.application.routes.draw do
 	root 'static#landing'
+	get "/methodology", to: "static#methodology", as: :methodology_page
+	get "/courses_offered", to: "static#Courses", as: :courses_offered
+	get "/travel_opportunities", to: "static#travel", as: :travel_opportunities
+	get "/teachers", to: "static#teachers", as: :teachers_page
+	get "/about_us", to: "static#about", as: :about_us
+	get "/contact_us", to: "static#contact", as: :contact_us
+	get "/work_with_us", to: "static#work_with_us", as: :work_with_us
+	get "/faq", to: "static#faq", as: :faq_page
+	
 
 	# The priority is based upon order of creation: first created -> highest priority.
 	# See how all your routes lay out with "rake routes".
