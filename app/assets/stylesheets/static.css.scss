@@ -97,12 +97,28 @@ html, body
 
 .course-list{
 	@extend .col-lg-2;
-	
+
 }
 
 .course-img
 {
 	@extend .method-img;
+}
+
+.teacher-profile
+{	
+	@extend .col-lg-6;
+	@extend .row;
+	margin-top: 2em;
+
+}
+
+.teacher-img
+{
+	@extend .img-responsive;
+	@extend .col-lg-3;
+	max-height: 200px;
+	float: left;
 }
 
 .button-img
