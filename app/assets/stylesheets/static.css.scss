@@ -11,132 +11,136 @@ $theme-blue: #4183D7;
 
 .header .nav-item a
 {
-    height: 50px !important;
+    height: 20px !important;
+}
+
+.header .nav-item a :hover{
+  color: transparent;
 }
 
 @mixin divider($color)
 {
-	height: 30px;
-	border-style: solid;
-	border-color: $color;
-	border-width: 1px 0 0 0;
-	border-radius: 20px;
-	max-width: 90%;
+  height: 30px;
+  border-style: solid;
+  border-color: $color;
+  border-width: 1px 0 0 0;
+  border-radius: 20px;
+  max-width: 90%;
 
-	&:before {
-		display: block;
-		content: "";
-		height: 30px;
-		margin-top: -31px;    
-		border-style: solid;
-		border-color: $color;
-		border-width: 0 0 1px 0;
-		border-radius: 20px;
-	}
+  &:before {
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;    
+    border-style: solid;
+    border-color: $color;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+  }
 }
 
 html, body
 {
-	height: 100%;
+  height: 100%;
     background-color: white;
 }
 
 .divider
 {
-	@include divider($theme-black);
+  @include divider($theme-black);
 }
 
 #button-grid
 {
-	@extend .container-fluid;
-	padding-top: 0;
-	padding-bottom: 0;
-	//max-width: $container-width;
+  @extend .container-fluid;
+  padding-top: 0;
+  padding-bottom: 0;
+  //max-width: $container-width;
 
-	a
-	{
-		@extend .col-xs-12;
-		@extend .col-sm-6;
-		@extend .col-md-4;
-	}
+  a
+  {
+    @extend .col-xs-12;
+    @extend .col-sm-6;
+    @extend .col-md-4;
+  }
 
-	#travel
-		{
-			@extend .col-lg-8;
-			@extend .col-md-8;
-		}
+  #travel
+    {
+      @extend .col-lg-8;
+      @extend .col-md-8;
+    }
 }
 
 .method-img
 {
-	@extend .col-lg-4;
-	@extend .img-responsive;
-	margin-top: 2em;
-	float: left;
+  @extend .col-lg-4;
+  @extend .img-responsive;
+  margin-top: 2em;
+  float: left;
 }
 
 .method-img-inverse
 {
-	@extend .col-lg-4;
-	@extend .img-responsive;
-	margin-top: 2em;
-	float: right;
+  @extend .col-lg-4;
+  @extend .img-responsive;
+  margin-top: 2em;
+  float: right;
 }
 
 .method-text
 {
-	@extend .col-lg-8;
-	@extend .col-md-6;
-	@extend .col-sm-4;
-	@extend .col-xs-12;
+  @extend .col-lg-8;
+  @extend .col-md-6;
+  @extend .col-sm-4;
+  @extend .col-xs-12;
 }
 
 .course-text{
-	@extend .col-lg-8;
+  @extend .col-lg-8;
 }
 
 .course-list{
-	@extend .col-lg-2;
+  @extend .col-lg-2;
 
 }
 
 .course-img
 {
-	@extend .method-img;
+  @extend .method-img;
 }
 
 .teacher-profile
-{	
-	@extend .col-lg-6;
-	@extend .row;
-	margin-top: 2em;
+{ 
+  @extend .col-lg-6;
+  @extend .row;
+  margin-top: 2em;
 
 }
 
 .teacher-img
 {
-	@extend .img-responsive;
-	@extend .col-lg-3;
-	max-height: 200px;
-	float: left;
+  @extend .img-responsive;
+  @extend .col-lg-3;
+  max-height: 200px;
+  float: left;
 }
 
 .button-img
 {
-	@extend .img-responsive;
+  @extend .img-responsive;
 
-	margin-bottom: 30px;
+  margin-bottom: 30px;
     opacity: 0.4;
     filter: alpha(opacity=40); /* For IE8 and earlier */
     
     
-	-webkit-filter: grayscale(100%);
-	// Firefox Filter
-	filter: url("data:image/svg+xml;utf8,<svg
-	xmlns=\'http://www.w3.org/2000/svg\'><filter
-	id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333
-	0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1
-	0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
+  -webkit-filter: grayscale(100%);
+  // Firefox Filter
+  filter: url("data:image/svg+xml;utf8,<svg
+  xmlns=\'http://www.w3.org/2000/svg\'><filter
+  id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333
+  0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1
+  0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
 }
 
 
@@ -148,124 +152,137 @@ html, body
 
 body
 {
-	background-color: $theme-off-white;
+  background-color: $theme-off-white;
 }
 
 #title
 {
-	letter-spacing: -1.5pt;
-	font-weight: bold;
-	font-family: PT Sans Narrow;
-	//padding-bottom: .5em;
-	margin-top: 0px; 
+  letter-spacing: -1.5pt;
+  font-weight: bold;
+  font-family: PT Sans Narrow;
+  //padding-bottom: .5em;
+  margin-top: 0px; 
 }
 
 #heading-container
 {
-	@extend .container;
+  @extend .container;
 }
 
 
 .video-container
 {
-	@extend .container;
-	@extend .jumbotron;
-	width: 100%;
-	height: 95%;
-	position: relative;
-	background-color: $theme-black;
+  @extend .container;
+  @extend .jumbotron;
+  height: 100%;
+  position: absolute;
+  background-color: $theme-black;
 
-	$video-padding: 10px;
-	padding-top: $video-padding;
-	padding-bottom: $video-padding;
+  $video-padding: 10px;
+  padding-top: $video-padding;
+  padding-bottom: $video-padding;
 
-	.divider
-	{
-		@include divider($theme-off-white);
-	}
+  .divider
+  {
+    @include divider($theme-off-white);
+  }
 
-	h1
-	{
-		color: white;
-	}
+  h1
+  {
+    color: white;
+  }
+}
+
+.video-header
+{
+    video
+    {
+        width: 100%;
+        height: auto;
+    }
 }
 
 #landing-video
 {
-	@extend .img-responsive;
+  @extend .img-responsive;
 
-	min-height: 40%;
-	margin-left: auto;
-	margin-right: auto;
-	margin: 50px auto auto auto;
+  min-height: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 50px auto auto auto;
 
-	@media (min-width: $screen-sm-min)
-	{
-		min-height: 60%;
-	}
+  @media (min-width: $screen-sm-min)
+  {
+    min-height: 60%;
+  }
 }
 
 .navbar-toggle
 {
-	background-color: $theme-off-white;
+  background-color: $theme-off-white;
 }
 
 button
 {
-	color: $theme-off-white;
+  color: $theme-off-white;
 }
 
 .header
 {
-	background-color: $theme-black;
-	border: $theme-off-white;
-	border-radius: 0;
-	margin-bottom: 0;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  z-index: 12;
+  background-color: rgba(0,0,0,0);
+  border: $theme-off-white;
+  border-radius: 0;
+  margin-bottom: 0;
 
-	.nav-item a
-	{
-		color: $theme-off-white;
-		height: 50px;
-		border-radius: 0;
-	}
+  .nav-item a
+  {
+    color: $theme-off-white;
+    height: 50px;
+    border-radius: 0;
+  }
 
-	.nav-item a:hover
-	{
-		@extend .text-center;
-		background-color: $theme-blue;
-	}
+  .nav-item a:hover
+  {
+    @extend .text-center;
+    background-color: $theme-blue;
+  }
 
-	.nav-item.active a
-	{
-		background-color: $theme-red;
-		color: $theme-off-white;
+  .nav-item.active a
+  {
+    background-color: $theme-red;
+    color: $theme-off-white;
 
-		&:hover
-		{
-			background-color: $theme-red;
-		}
-	}
+    &:hover
+    {
+      background-color: $theme-red;
+    }
+  }
 }
 
 .footer
 {
-	@extend .container-fluid; 
-	background-color: $theme-black;
-	border: $theme-black;
-	margin-bottom: 0px;
-	height: 223px;
+  @extend .container-fluid; 
+  background-color: $theme-black;
+  border: $theme-black;
+  margin-bottom: 0px;
+  height: 223px;
 
-	img
-	{
-		max-height: 200px;
-	}
+  img
+  {
+    max-height: 200px;
+  }
     ul
     {
         margin-top: 50px;
-    	a
+      a
         {
-        	color: white;
-       	}
+          color: white;
+        }
     }
 }
 
@@ -273,84 +290,84 @@ button
 
 .chevron
 {
-	@extend .row;
-	text-align: center;
-	font-size: 35px;
-	color: white;
+  @extend .row;
+  text-align: center;
+  font-size: 35px;
+  color: white;
 }
 
 .bottom
 {
-	position: absolute;
-	width: 100%;
-	bottom:0;
-	margin-left: -30px;
+  position: absolute;
+  width: 100%;
+  bottom:0;
+  margin-left: -30px;
 }
 
 .landing-video
 {
-	@extend .col-xs-12;
-	max-height: 70%;
+  @extend .col-xs-12;
+  max-height: 70%;
 }
 
 .footer-col
 {
-	@extend .col-lg-offset-0;
-	@extend .col-md-offset-0;
-	@extend .col-sm-offset-0;
+  @extend .col-lg-offset-0;
+  @extend .col-md-offset-0;
+  @extend .col-sm-offset-0;
 
-	@extend .col-md-4;
-	@extend .col-xs-3;
+  @extend .col-md-4;
+  @extend .col-xs-3;
 }
 
 
 
 @media screen and (max-width: 640px){
-	.footer
-	{
-		height: 240px;
-	}
-	#bottom-Links
-	{
-		li
-		{
-			margin-top: 5px;
-		}
-		margin-top: 0px;
-	}
-	#top-Links
-	{
-		li
-		{
-			margin-top: 5px;
-		}
-	}
-	.video-container
-	{
-		height: 86%
-	}
-	.footer-col
-	{
-		@extend .col-xs-hidden;
-	}
-	.footer-col
-	{
-		@extend .hidden-xs;
-	}
+  .footer
+  {
+    height: 240px;
+  }
+  #bottom-Links
+  {
+    li
+    {
+      margin-top: 5px;
+    }
+    margin-top: 0px;
+  }
+  #top-Links
+  {
+    li
+    {
+      margin-top: 5px;
+    }
+  }
+  .video-container
+  {
+    height: 86%
+  }
+  .footer-col
+  {
+    @extend .col-xs-hidden;
+  }
+  .footer-col
+  {
+    @extend .hidden-xs;
+  }
 
 }
 
 
 @media screen and (min-width: 829px){
-	#button-grid
-	{
-		#travel
-		{
-			img
-			{
-				max-height: 40%;
-				width: 100%;
-			}
-		}
-	}
+  #button-grid
+  {
+    #travel
+    {
+      img
+      {
+        max-height: 40%;
+        width: 100%;
+      }
+    }
+  }
 }
