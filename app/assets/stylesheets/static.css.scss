@@ -139,20 +139,12 @@ html, body
   float: left;
 }
 
-.layover-text
-{
-  @extend .col-xs-12;
-  @extend .lead;
-  @extend .travel-text;
-  
-  position: relative;
-}
 
-travel-text
+
+.travel-text
 {
-  background-color: rgba(0,0,0,.3);
-  padding-top: 1em;
-  padding-bottom: 1em;
+  background-color: rgba(0,0,0,.5);
+  padding: 1em;
   color:white;
 }
 
