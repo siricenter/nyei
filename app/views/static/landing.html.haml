@@ -1,16 +1,17 @@
-= render "navbar"
-
-.video-container
-  .row
-    = video_tag('landing-video.oggtheora.ogv', 'landing-video.mp4', controls: false, autoplay: true, loop: true, id: [:'landing-video'])
-  %hr.divider
-  .row
-    %h1.text-center#title New York English Institute
-  .chevron.bottom
-    %span.glyphicon.glyphicon-chevron-down
-
+.container-fluid
+  = render "navbar"
+  
+  .video-header
+    .row
+      //= video_tag('landing-video.oggtheora.ogv', 'landing-video.mp4', controls: false, autoplay: true, loop: true, id: [:'landing-video'])
+      = video_tag('5085491.mp4', controls: false, autoplay: true, loop: true, id: [:'5085491.mp4'], height: "800", width: "100%")
+    //%hr.divider
+    .row
+      %h1.text-center#title New York English Institute
+    .chevron.bottom
+      %span.glyphicon.glyphicon-chevron-down
+  
 #button-grid
-  %hr.divider
   .row.text-center
     %a
       = image_tag "english full.jpg", class: [:"button-img"], alt: "English Full Course"

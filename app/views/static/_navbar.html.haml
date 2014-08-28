@@ -1,3 +1,4 @@
+%meta{:name => "viewport", :content => "width=device-width; initial-scale=1.0; maximum-scale=1.0;"}
 %nav.header.navbar.navbar-default{:role => :navigation}
   .navbar-header#nav-header
     %button.navbar-toggle{type: :button, 'data-toggle' => :collapse, 'data-target' => '#navbar-collapse'}
@@ -6,13 +7,23 @@
       %span.icon-bar
       %span.icon-bar
       %span.icon-bar
+    %a{:href => root_path}
+      %p.navbar-brand NYEI LOGO
   .collapse.navbar-collapse#navbar-collapse
     %ul.nav.nav-pills.nav-justified
-      %li.nav-item{class: [(:active if @page == :home)]}
-        %a{:href => root_path}Home
+      %li.nav-item#link
+        = link_to "Methodology", :methodology_page
       %li.nav-item
-        %a{:href => "#"}Link
+        = link_to "Courses Offered", :courses_offered
       %li.nav-item
-        %a{:href => "#"}Link
+        = link_to "Travel Oppertunities", :travel_opportunities
       %li.nav-item
-        %a{:href => "#"}Link
+        = link_to "Teachers", :teachers_page
+      %li.nav-item
+        = link_to "About Us", :about_us
+      %li.nav-item
+        = link_to "Contact Us", :contact_us
+      %li.nav-item
+        = link_to "Work With Us", :work_with_us
+      %li.nav-item
+        = link_to "FAQ", :faq_page
