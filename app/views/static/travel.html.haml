@@ -1,2 +1,28 @@
-= render 'navbar';
-= render 'footer';
+= render 'navbar'
+.navbar.navbar-inverse
+#myCarousel.carousel.slide
+  .carousel-inner
+    .item.active
+      = image_tag "travel with us.jpg",:class => [:"travel-img"],:alt => "Travel to the Us"
+      .container
+        .carousel-caption
+          %h1.travel-text Travel with us to the USA!
+#myCarousel.carousel.slide
+  .carousel-inner
+    .item.active
+      = image_tag "travel with us.jpg",:class => [:"travel-img"],:alt => "Travel to the Us"
+      .container
+        .carousel-caption
+          %h1.travel-text Travel with us to Brazil!
+
+          // You can add extra info, buttons, etc.
+          //%p.lead Blah blah blah blah blah blah blah.
+          //%a.btn.btn-large.btn-primary{:href => "#"} Sign up today
+= render 'footer'
+
+
+// Some extra working code
+// = image_tag "travel with us.jpg",:class => [:"travel-img"],:alt => "Travel to the Us"
+
+// What I had it as
+// %img{:alt => "travel to the USA", :src => "travel with us.jpg"}/
