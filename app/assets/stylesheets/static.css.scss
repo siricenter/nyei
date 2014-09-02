@@ -387,6 +387,10 @@ button
   text-align: center;
   font-size: 35px;
   color: white;
+  h2, button {
+    font-family: helvetica neue, sans serif;
+    font-weight: lighter;
+  }
 }
 
 .bottom
@@ -401,6 +405,22 @@ button
 {
   @extend .col-xs-12;
   max-height: 70%;
+}
+#home-marketing-text {
+  text-align: left;
+  font-size: 35px;
+}
+#home-marketing-btn {
+  position: relative;
+  bottom: -12px;
+  button {
+    background: rgba(159, 55, 41, .65);
+    border: 0;
+    font-size: 23px;
+    padding: 8px 15px 7px;
+    letter-spacing: 2px;
+    font-weight: 500;
+  }
 }
 
 .footer-col
