@@ -11,11 +11,20 @@ $theme-blue: #4183D7;
 
 .header .nav-item a
 {
-    height: 24px !important;
+    height: 20px !important;
     color:rgba(255,255,255,1) !important;
-
     font-size: 16px;
     font-family: "HelveticaNeue-Light"
+}
+.navbar-default
+{
+  height: 20px;
+}
+
+
+.navabar
+{
+  min-height: 20px !important;
 }
 
 .header .nav-item .open a
