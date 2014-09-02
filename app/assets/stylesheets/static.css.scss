@@ -12,7 +12,10 @@ $theme-blue: #4183D7;
 .header .nav-item a
 {
     height: 24px !important;
-    color:rgba(255,255,255,0.6) !important;
+    color:rgba(255,255,255,1) !important;
+
+    font-size: 16px;
+    font-family: "HelveticaNeue-Light"
 }
 
 .header .nav-item .open a
@@ -80,9 +83,6 @@ html, body
     }
 }
 
-.nav-item :hover{
-  background-color: rgba(0,0,0,.1);
-}
 
 .method-img
 {
@@ -312,7 +312,7 @@ button
   right: 0px;
   top: 0px;
   z-index: 12;
-  background-color: rgba(0,0,0,0);
+  background-color: rgba(0,0,0,.1);
   border: $theme-off-white;
   border-radius: 0;
   margin-bottom: 0;
