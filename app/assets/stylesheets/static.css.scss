@@ -300,6 +300,11 @@ body
   background-color: $theme-off-white;
 }
 
+.landing-titles
+{
+
+}
+
 button
 {
   color: $theme-off-white;
@@ -312,7 +317,7 @@ button
   right: 0px;
   top: 0px;
   z-index: 12;
-  background-color: rgba(0,0,0,.1);
+  background-color: rgba(50,69,111,.25);
   border: $theme-off-white;
   border-radius: 0;
   margin-bottom: 0;
@@ -321,6 +326,7 @@ button
   {
     color: $theme-off-white;
     height: 50px;
+    padding-bottom: 0px;
     border-radius: 0;
   }
 
