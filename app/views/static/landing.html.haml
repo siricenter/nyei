@@ -7,7 +7,7 @@
       = video_tag('http://www.galleries.evancaldwell.com/videos/homePage_webmhd.webm', controls: false, autoplay: true, loop: true, id: [:'homePage_webmhd.webm'], height: "800", width: "100%", poster: "/images/homePageVidPoster.png")
     //%hr.divider
     .row
-      .chevron.bottom
+      #landing-chevron.chevron.bottom
         #home-marketing.col-md-12
           .row
             .col-md-7.col-md-offset-2
@@ -19,36 +19,38 @@
             %a
               = image_tag "chevronThin.svg", class: [:"chevron-img"], alt: "It points down"
   
-#button-grid
-  .row.text-center
-    %h1.landing-titles Courses
-  %hr
-    %a
-      = image_tag "Ninaglass2.jpg", class: [:"button-img"], alt: "English Full Course"
-    %a
-      = image_tag "hands2.jpg", class: [:"button-img"], alt: "Acedemic English"
-    %a
-      = image_tag "graduate2.jpg", class: [:"button-img"], alt: "Grad School Prep"
-    %a
-      = image_tag "learn4.jpg", class: [:"button-img"], alt: "Test Prep"
-    %a
-      = image_tag "walk1.jpg", class: [:"button-img"], alt: "Conversation"
-    %a
-      = image_tag "cellphoneshare.jpg", class: [:"button-img"], alt: "Work Shops"
-  .row.text-center
-    %h1.text-center.col-xs-12 Travel
-  %hr
-    %a
-      = image_tag "Ninaup2.jpg", class: [:"button-img"], alt: "English for Travel"
-    %a
-      = image_tag "Josephglass1.jpg", class: [:"button-img"], alt: "Travel to the Us"
-    %a
-      = image_tag "wall2.jpg", class: [:"button-img"], alt: "Grad School Prep"
-    %a
-      = image_tag "learn.jpg", class: [:"button-img"], alt: "English for Travel"
-    %a
-      = image_tag "travel with us.jpg", class: [:"button-img"], alt: "Travel to the Us"
-    %a
-      = image_tag "study.jpg", class: [:"button-img"], alt: "Grad School Prep"
-
-= render 'footer'
+  #button-grid
+    .row.text-center
+      %h1.landing-titles Courses
+    %hr
+    .row
+      %a
+        = image_tag "Ninaglass2.jpg", class: [:"button-img"], alt: "English Full Course"
+      %a
+        = image_tag "hands2.jpg", class: [:"button-img"], alt: "Acedemic English"
+      %a
+        = image_tag "graduate2.jpg", class: [:"button-img"], alt: "Grad School Prep"
+      %a
+        = image_tag "learn4.jpg", class: [:"button-img"], alt: "Test Prep"
+      %a
+        = image_tag "walk1.jpg", class: [:"button-img"], alt: "Conversation"
+      %a
+        = image_tag "cellphoneshare.jpg", class: [:"button-img"], alt: "Work Shops"
+    .row.text-center
+      %h1.text-center.col-xs-12 Travel
+    %hr
+    .row
+      %a
+        = image_tag "Ninaup2.jpg", class: [:"button-img"], alt: "English for Travel"
+      %a
+        = image_tag "Josephglass1.jpg", class: [:"button-img"], alt: "Travel to the Us"
+      %a
+        = image_tag "wall2.jpg", class: [:"button-img"], alt: "Grad School Prep"
+      %a
+        = image_tag "learn.jpg", class: [:"button-img"], alt: "English for Travel"
+      %a
+        = image_tag "travel with us.jpg", class: [:"button-img"], alt: "Travel to the Us"
+      %a
+        = image_tag "study.jpg", class: [:"button-img"], alt: "Grad School Prep"
+  
+  = render 'footer'
