@@ -1,3 +1,47 @@
 = render 'navbar';
 .navbar.navbar-inverse
+
+%h1.text-center Lorum Ipsum Dolor Sit Amet
+.container
+  %p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+%h1.text-center Brazil
+.container
+  %p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  %form.contactForm{:novalidate => "novalidate", :role => "form"}
+    .form-group
+      %label.control-label Name
+      .controls
+        .input-group
+          %span.input-group-addon
+            %i.glyphicon.glyphicon-user
+          %input.form-control{:name => "name", :placeholder => "Name", :type => "text"}/
+    .form-group
+      %label.control-label Email
+      .controls
+        .input-group
+          %span.input-group-addon
+            %i.glyphicon.glyphicon-envelope
+          %input#email.form-control{:name => "email", :placeholder => "Email", :type => "text"}/
+    .controls{:style => "margin-left: 40%;"}
+      %button.btn{:type => "submit"} Submit
+%h1.text-center USA
+.container
+  %p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  %form.contactForm{:novalidate => "novalidate", :role => "form"}
+    .form-group
+      %label.control-label Name
+      .controls
+        .input-group
+          %span.input-group-addon
+            %i.glyphicon.glyphicon-user
+          %input.form-control{:name => "name", :placeholder => "Name", :type => "text"}/
+    .form-group
+      %label.control-label Email
+      .controls
+        .input-group
+          %span.input-group-addon
+            %i.glyphicon.glyphicon-envelope
+          %input#email.form-control{:name => "email", :placeholder => "Email", :type => "text"}/
+    .controls{:style => "margin-left: 40%;"}
+      %button.btn{:type => "submit"} Submit
 = render 'footer';
