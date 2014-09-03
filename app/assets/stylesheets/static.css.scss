@@ -14,7 +14,7 @@ $theme-blue: #4183D7;
     height: 20px !important;
     color:rgba(255,255,255,1) !important;
     font-size: 16px;
-    font-family: "HelveticaNeue-Light"
+    font-family: "HelveticaNeue-Light", Sans-serif;
 }
 .navbar-default
 {
@@ -388,7 +388,7 @@ button
   font-size: 35px;
   color: white;
   h2, button {
-    font-family: helvetica neue, sans serif;
+    font-family: helvetica neue, Sans-serif;
     font-weight: lighter;
   }
 }

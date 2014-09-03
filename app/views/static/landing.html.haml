@@ -4,14 +4,15 @@
   .video-header
     .row
       //= video_tag('landing-video.oggtheora.ogv', 'landing-video.mp4', controls: false, autoplay: true, loop: true, id: [:'landing-video'])
-      = video_tag('5085491.mp4', controls: false, autoplay: true, loop: true, id: [:'5085491.mp4'], height: "800", width: "100%")
+      = video_tag('http://www.galleries.evancaldwell.com/videos/homePage_webmhd.webm', controls: false, autoplay: true, loop: true, id: [:'homePage_webmhd.webm'], height: "800", width: "100%", poster: "/images/homePageVidPoster.png")
     //%hr.divider
     .row
       .chevron.bottom
         #home-marketing.col-md-12
           .row
             .col-md-7.col-md-offset-2
-              %h2#home-marketing-text Sign up for next semester. Only 21 days left!
+              %h2#home-marketing-text 
+                Sign up for next semester. Only 21 days left!
             #home-marketing-btn.col-md-2
               %button Learn More
         .col-md-12
