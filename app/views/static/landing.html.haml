@@ -1,3 +1,4 @@
+%script{:type => "text/javascript",:src  => "javascripts/geolocation.js"}
 .container-fluid
   = render "navbar"
   
@@ -26,27 +27,36 @@
     %hr
     .row
       %a
+        %p.landing-overlay English Full Course
         = image_tag "Ninaglass2.jpg", class: [:"button-img"], alt: "English Full Course"
       %a
+        %p.landing-overlay Acedemic English
         = image_tag "hands2.jpg", class: [:"button-img"], alt: "Acedemic English"
       %a
+        %p.landing-overlay Grad School Prep
         = image_tag "graduate2.jpg", class: [:"button-img"], alt: "Grad School Prep"
       %a
+        %p.landing-overlay Test Prep
         = image_tag "learn4.jpg", class: [:"button-img"], alt: "Test Prep"
       %a
+        %p.landing-overlay Conversation
         = image_tag "walk1.jpg", class: [:"button-img"], alt: "Conversation"
       %a
+        %p.landing-overlay Workshops
         = image_tag "cellphoneshare.jpg", class: [:"button-img"], alt: "Work Shops"
     .row.text-center
       %h1.text-center.col-xs-12 Travel
     %hr
     .row
       %a
+        %p.landing-overlay English for Travel
         = image_tag "Ninaup2.jpg", class: [:"button-img"], alt: "English for Travel"
       %a
-        = image_tag "Josephglass1.jpg", class: [:"button-img"], alt: "Travel to the Us"
+        %p.landing-overlay Travel to the US
+        = image_tag "Josephglass1.jpg", class: [:"button-img"], alt: "Travel to the US"
       %a
-        = image_tag "wall2.jpg", class: [:"button-img"], alt: "Grad School Prep"
+        %p.landing-overlay Travel to Brazil
+        = image_tag "wall2.jpg", class: [:"button-img"], alt: "Travel to the US"
       %a
         = image_tag "learn.jpg", class: [:"button-img"], alt: "English for Travel"
       %a
@@ -54,4 +64,4 @@
       %a
         = image_tag "study.jpg", class: [:"button-img"], alt: "Grad School Prep"
   
-  = render 'footer'
+= render 'footer'
