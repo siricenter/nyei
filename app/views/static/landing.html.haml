@@ -1,67 +1,60 @@
-%script{:type => "text/javascript",:src  => "javascripts/geolocation.js"}
 .container-fluid
   = render "navbar"
   
   .video-header
-    .row
-      //= video_tag('landing-video.oggtheora.ogv', 'landing-video.mp4', controls: false, autoplay: true, loop: true, id: [:'landing-video'])
-      = video_tag('http://www.galleries.evancaldwell.com/videos/homePage_webmhd.webm', controls: false, autoplay: true, loop: true, id: [:'homePage_webmhd.webm'], height: "800", width: "100%", poster: "homePageVidPoster.png")
-    //%hr.divider
+    .row#landing-video
+      = video_tag('http://www.galleries.evancaldwell.com/videos/homePage_webmhd.webm', controls: false, autoplay: true, loop: true, id: [:'homePage_webmhd.webm'], height: "100%", width: "100%", poster: "homePageVidPoster.png")
     .row
       #landing-chevron.chevron.bottom
         #home-marketing.col-md-12
           .row
-            .col-md-7.col-md-offset-2
+            #home-marketing-box
               %h2#home-marketing-text 
                 Sign up for next semester. Only 21 days left!
-            #home-marketing-btn.col-md-2
-              %button Learn More
-        .col-md-12
+            #home-marketing-btn
+              %button Learn More        
           %span
             %a
               = image_tag "chevronThin.svg", class: [:"chevron-img"], alt: "It points down"
   
-  #button-grid
-    .row.text-center
+  .button-grid
+    .col-md-12
       %h1.landing-titles Courses
-    %hr
-    .row
-      %a
-        %p.landing-overlay English Full Course
-        = image_tag "Ninaglass2.jpg", class: [:"button-img"], alt: "English Full Course"
-      %a
-        %p.landing-overlay Acedemic English
-        = image_tag "hands2.jpg", class: [:"button-img"], alt: "Acedemic English"
-      %a
-        %p.landing-overlay Grad School Prep
-        = image_tag "graduate2.jpg", class: [:"button-img"], alt: "Grad School Prep"
-      %a
-        %p.landing-overlay Test Prep
-        = image_tag "learn4.jpg", class: [:"button-img"], alt: "Test Prep"
-      %a
-        %p.landing-overlay Conversation
-        = image_tag "walk1.jpg", class: [:"button-img"], alt: "Conversation"
-      %a
-        %p.landing-overlay Workshops
-        = image_tag "cellphoneshare.jpg", class: [:"button-img"], alt: "Work Shops"
-    .row.text-center
-      %h1.text-center.col-xs-12 Travel
-    %hr
-    .row
-      %a
-        %p.landing-overlay English for Travel
-        = image_tag "Ninaup2.jpg", class: [:"button-img"], alt: "English for Travel"
-      %a
-        %p.landing-overlay Travel to the US
-        = image_tag "Josephglass1.jpg", class: [:"button-img"], alt: "Travel to the US"
-      %a
-        %p.landing-overlay Travel to Brazil
-        = image_tag "wall2.jpg", class: [:"button-img"], alt: "Travel to the US"
-      %a
-        = image_tag "learn.jpg", class: [:"button-img"], alt: "English for Travel"
-      %a
-        = image_tag "travel with us.jpg", class: [:"button-img"], alt: "Travel to the Us"
-      %a
-        = image_tag "study.jpg", class: [:"button-img"], alt: "Grad School Prep"
+    %a
+      %p.landing-overlay English Full Course
+      = image_tag "Ninaglass2.jpg", class: [:"button-img"], alt: "English Full Course"
+    %a
+      %p.landing-overlay Acedemic English
+      = image_tag "hands2.jpg", class: [:"button-img"], alt: "Acedemic English"
+    %a       
+      %p.landing-overlay Grad School Prep
+      = image_tag "graduate2.jpg", class: [:"button-img"], alt: "Grad School Prep"
+    %a
+      %p.landing-overlay Test Prep
+      = image_tag "learn4.jpg", class: [:"button-img"], alt: "Test Prep"
+    %a
+      %p.landing-overlay Conversation
+      = image_tag "walk1.jpg", class: [:"button-img"], alt: "Conversation"
+    %a
+      %p.landing-overlay Workshops
+      = image_tag "cellphoneshare.jpg", class: [:"button-img"], alt: "Work Shops"
+  .button-grid
+    .col-md-12
+      %h1 Travel
+    %a
+      %p.landing-overlay English for Travel
+      = image_tag "Ninaup2.jpg", class: [:"button-img"], alt: "English for Travel"
+    %a
+      %p.landing-overlay Travel to the US
+      = image_tag "Josephglass1.jpg", class: [:"button-img"], alt: "Travel to the US"
+    %a
+      %p.landing-overlay Travel to Brazil
+      = image_tag "wall2.jpg", class: [:"button-img"], alt: "Travel to the US"
+    %a
+      = image_tag "learn.jpg", class: [:"button-img"], alt: "English for Travel"
+    %a
+      = image_tag "travel with us.jpg", class: [:"button-img"], alt: "Travel to the Us"
+    %a
+      = image_tag "study.jpg", class: [:"button-img"], alt: "Grad School Prep"
   
 = render 'footer'
