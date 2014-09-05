@@ -60,7 +60,7 @@ $theme-blue: #4183D7;
 	}
 }
 
-html, body
+html
 {
 	height: 100%;  
 	background-color: white;
@@ -386,13 +386,14 @@ button
 #landing-chevron {
 	position: relative;
 	margin-top: -155px;
+	width: 100%;
 }
 #home-marketing-box
 {
 	@extend .col-xs-6;
 	@extend .col-xs-offset-1;
 	@extend .col-md-7;
-	@extned .col-md-offset-2;
+	@extend .col-md-offset-2;
 }
 
 #landing-video
