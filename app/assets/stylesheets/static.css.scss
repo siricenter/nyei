@@ -11,32 +11,24 @@ $theme-blue: #4183D7;
 
 .header .nav-item a
 {
-	height: 20px !important;
-	color:rgba(255,255,255,1) !important;
+	height: 20px;
+	color: white;
 	font-size: 16px;
 	font-family: "HelveticaNeue-Light", Sans-serif;
 }
+
 .navbar-default
 {
 	height: 20px;
 }
 
-
-.navabar
-{
-	min-height: 20px !important;
-}
-
 .header .nav-item .open a
 {
-	height: 20px !important;
-
+	height: 20px;
 }
 
 .header .nav-item a:hover{
-	background-color: rgba(0,0,0,0.0) !important;
-	color:rgba(255,255,255,1) !important;
-
+	color: white;
 }
 
 @mixin divider($color)
@@ -76,7 +68,6 @@ html
 	@extend .row;
 	padding-top: 0;
 	padding-bottom: 0;
-	//max-width: $container-width;
 
 	a
 	{
