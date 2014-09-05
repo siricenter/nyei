@@ -263,11 +263,17 @@ body
 
 .video-header
 {
-    	height:100vh;
-    	video
-    	{
-        	height: 100%;
-    	}
+	min-height: 100%;
+	video
+	{
+		min-height: 100%;
+
+		@media screen and (max-width: 640px){
+			min-height: 0;
+			height: 100%;
+		}
+		min-width: 100%;
+	}
 }
 
 .navbar-toggle
