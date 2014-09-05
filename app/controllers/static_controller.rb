@@ -1,6 +1,11 @@
 class StaticController < ApplicationController
+	require 'solareventcalculator'
+	require 'geokit'
+
 	def landing
-		@page = :home  	
+
+		@page = :home  
+
 	end
 
 	def methodology
