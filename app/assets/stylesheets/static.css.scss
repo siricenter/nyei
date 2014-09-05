@@ -71,9 +71,9 @@ html, body
   @include divider($theme-black);
 }
 
-#button-grid
+.button-grid
 {
-  @extend .container-fluid;
+  @extend .row;
   padding-top: 0;
   padding-bottom: 0;
   //max-width: $container-width;
