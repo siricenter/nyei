@@ -2,20 +2,17 @@
   = render "navbar"
   
   .video-header
-    .row
-      //= video_tag('landing-video.oggtheora.ogv', 'landing-video.mp4', controls: false, autoplay: true, loop: true, id: [:'landing-video'])
-      = video_tag('http://www.galleries.evancaldwell.com/videos/homePage_webmhd.webm', controls: false, autoplay: true, loop: true, id: [:'homePage_webmhd.webm'], height: "800", width: "100%", poster: "homePageVidPoster.png")
-    //%hr.divider
+    .row#landing-video
+      = video_tag('http://www.galleries.evancaldwell.com/videos/homePage_webmhd.webm', controls: false, autoplay: true, loop: true, id: [:'homePage_webmhd.webm'], height: "100%", width: "100%", poster: "homePageVidPoster.png")
     .row
       #landing-chevron.chevron.bottom
         #home-marketing.col-md-12
           .row
-            .col-md-7.col-md-offset-2
+            #home-marketing-box
               %h2#home-marketing-text 
                 Sign up for next semester. Only 21 days left!
-            #home-marketing-btn.col-md-2
-              %button Learn More
-        .col-md-12
+            #home-marketing-btn
+              %button Learn More        
           %span
             %a
               = image_tag "chevronThin.svg", class: [:"chevron-img"], alt: "It points down"
