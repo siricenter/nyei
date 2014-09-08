@@ -4,18 +4,16 @@
   .video-header
     .row#landing-video
       = video_tag('http://www.galleries.evancaldwell.com/videos/homePage_webmhd.webm', controls: false, autoplay: true, loop: true, id: [:'homePage_webmhd.webm'], height: "100%", poster: "homePageVidPoster.png")
-    .row
-      #landing-chevron.chevron.bottom
-        #home-marketing.col-md-12
-          .row
-            #home-marketing-box
-              %h2#home-marketing-text 
-                Sign up for next semester. Only 21 days left!
-            #home-marketing-btn
-              %button Learn More        
-          %span
-            %a
-              = image_tag "chevronThin.svg", class: [:"chevron-img"], alt: "It points down"
+    #landing-marketing
+      #landing-marketing-box
+        %h2#home-marketing-text 
+          Sign up for next semester. Only 21 days left!
+        #home-marketing-btn
+          %button Learn More        
+      .row
+        %span.chevron-thin
+          %a
+            = image_tag "chevronThin.svg", class: [:"chevron-img"], alt: "Scroll down for more info."
   
   .button-grid
     .col-md-12

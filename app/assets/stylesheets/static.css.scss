@@ -353,59 +353,42 @@ button
 	}
 }
 
-
-
-.chevron
-{
-	@extend .row;
-	text-align: center;
-	font-size: 35px;
-	color: white;
-	h2, button {
-		font-family: helvetica neue, Sans-serif;
-		font-weight: lighter;
-	}
-}
-.chevron-bottom
-{
-	@extned .col-xs-12;
-}
 .chevron-img
 {
 
 	width: 7rem;
 }
-
-.bottom
+#landing-marketing 
 {
-	position: absolute;
-	width: 100%;
-	bottom:0%;
-	margin-left: -30px;
-}
-
-#landing-chevron {
 	position: relative;
 	margin-top: -155px;
 	width: 100%;
 }
-#home-marketing-box
+#landing-marketing-box
 {
-	@extend .col-xs-6;
-	@extend .col-xs-offset-1;
-	@extend .col-md-7;
-	@extend .col-md-offset-2;
+	@extend .row;
+  h2 {
+    @extend .col-lg-7;
+    @extend .col-lg-offset-2;
+    text-align: left;
+	  font-size: 35px;
+    color: $theme-off-white;
+  }
+  a {
+    margin: 0 auto;
+  }
+}
+.chevron-thin
+{
+  @extend .col-md-12;
+  @extend .col-xs-12;  
+  text-align: center;
 }
 
 #landing-video
 {
 	overflow-x:hidden; 
 	height: 100%;
-}
-
-#home-marketing-text {
-	text-align: left;
-	font-size: 35px;
 }
 #home-marketing-btn {
 	@extend .col-xs-5;
