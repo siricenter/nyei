@@ -139,21 +139,28 @@ html
 
 .teacher-profile
 { 
-	@extend .col-lg-5;
-	
+	@extend .col-md-6;
+	img 
+	{
+		@extend .img-responsive;
+	  @extend .col-md-3;
+		@extend .col-sm-4;
+		@extend .col-xs-12;
+    padding-top: 25px;
+	  max-height: 200px;
+	  float: left;
+	}
+	h2, p 
+	{
+		@extend .col-md-9;
+		@extend .col-sm-8;
+		@extend .col-xs-12;
+	}
 }
 
-.teacher-img
+.intro-text
 {
-	@extend .img-responsive;
-	@extend .col-lg-3;
-	max-height: 200px;
-	float: left;
-}
-
-.teacher-content
-{
-	@extend .col-lg-6;
+	@extend .col-xs-12;
 }
 
 .landing-overlay

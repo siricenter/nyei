@@ -8,7 +8,7 @@ Rails.application.routes.draw do
 	get "/contact_us", to: "static#contact", as: :contact_us
 	get "/work_with_us", to: "static#work_with_us", as: :work_with_us
 	get "/faq", to: "static#faq", as: :faq_page
-  get "/Register", to: "static#register", as: :register_page
+  get "/register", to: "static#register", as: :register_page
 	
 
 	# The priority is based upon order of creation: first created -> highest priority.
