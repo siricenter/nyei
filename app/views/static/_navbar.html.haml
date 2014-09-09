@@ -13,13 +13,7 @@
       %li.nav-item#link
         = link_to "Methodology", :methodology_page
       %li.nav-item
-        .dropdown
-          %button{ class: [:"dropdown-toggle",:btn,:"btn-default"], :type => :button, :id => "dropdownMenu", :"data-toggle" => :dropdown} Courses
-          %ul.dropdown-menu{ :role => :menu, :"aria-labelledby" => "dropdownMenu"}
-            %li{ :role => :presentation}
-              %a{:role => :menuitem,:tabindex => "-1",:href => "#"} Courses Offered
-            %li{ :role => :presentation}
-              %a{:role => :menuitem,:tabindex => "-1",:href => "#"} Prices
+        = link_to "Courses", :courses_offered
       %li.nav-item
         = link_to "Travel", :travel_opportunities
       %li.nav-item

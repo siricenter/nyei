@@ -17,7 +17,7 @@
 //= require_tree .
 
 
-$(window).load(function(){
+/*$(window).load(function(){
 	var date = new Date();
 	var hour = date.getHours();
 	if(hour < 19 && hour > 7){
