@@ -446,6 +446,18 @@ button
 	}
 }
 
+.reg-btn
+{
+	button {
+		background: rgba(159, 55, 41, .65);
+		border: 0;
+		font-size: 23px;
+		padding: 8px 15px 7px;
+		letter-spacing: 2px;
+		font-weight: bold;
+	}
+}
+
 .footer-col
 {
 	@extend .col-lg-offset-0;
