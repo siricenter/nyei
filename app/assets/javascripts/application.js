@@ -15,3 +15,15 @@
 //= require bootstrap
 //= require turbolinks
 //= require_tree .
+
+
+$(window).load(function(){
+	var date = new Date();
+	var hour = date.getHours();
+	if(hour < 19 && hour > 7){
+		$(".video").attr('src','landing-day.mp4');
+	}
+	else{
+		$(".video").attr('src','http://www.galleries.evancaldwell.com/videos/homePage_webmhd.webm');
+	}
+});

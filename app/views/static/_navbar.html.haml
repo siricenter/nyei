@@ -1,4 +1,3 @@
-%meta{:name => "viewport", :content => "width=device-width; initial-scale=1.0; maximum-scale=1.0;"}
 %nav.header.navbar.navbar-default{:role => :navigation}
   .navbar-header#nav-header
     %button.navbar-toggle{type: :button, 'data-toggle' => :collapse, 'data-target' => '#navbar-collapse'}
@@ -14,15 +13,23 @@
       %li.nav-item#link
         = link_to "Methodology", :methodology_page
       %li.nav-item
-        = link_to "Courses", :courses_offered
+        .dropdown
+          %button{ class: [:"dropdown-toggle",:btn,:"btn-default"], :type => :button, :id => "dropdownMenu", :"data-toggle" => :dropdown} Courses
+          %ul.dropdown-menu{ :role => :menu, :"aria-labelledby" => "dropdownMenu"}
+            %li{ :role => :presentation}
+              %a{:role => :menuitem,:tabindex => "-1",:href => "#"} Courses Offered
+            %li{ :role => :presentation}
+              %a{:role => :menuitem,:tabindex => "-1",:href => "#"} Prices
       %li.nav-item
-        = link_to "Travel Opportunities", :travel_opportunities
+        = link_to "Travel", :travel_opportunities
       %li.nav-item
         = link_to "Teachers", :teachers_page
       %li.nav-item
-        = link_to "About Us", :about_us
+        = link_to "Register"
       %li.nav-item
-        = link_to "Contact Us", :contact_us
+        = link_to "About", :about_us
+      %li.nav-item
+        = link_to "Contact", :contact_us
       %li.nav-item
         = link_to "Careers", :work_with_us
       %li.nav-item
