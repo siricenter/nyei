@@ -137,25 +137,9 @@ html
 	// border: .1em dashed blue;
 }
 
-.teachers-content
-{
-	@extend .row;
-	margin-left: 2em;
-	margin-right: 2em;
-}
-
-.teacher-profiles
-{
-	@extend .row;
-	margin: 0em;
-	padding: 0em;
-}
-
 .teacher-profile
 { 
 	@extend .col-lg-5;
-	@extend .row;
-	margin: 0em 1em 0em 1em;
 	
 }
 
