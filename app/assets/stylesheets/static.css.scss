@@ -80,6 +80,7 @@ html
 
 	a
 	{
+		@extend .col-lg-4;
 		@extend .col-xs-12;
 		@extend .col-sm-6;
 		@extend .col-md-4;
@@ -167,11 +168,12 @@ html
 {
 	position: absolute;
 	top: 40%;
-	width:80%;
+	width:65%;
 	z-index: 20;
-	font-size: 30px;
-	background-color: rgba(0,0,0,.2);
-	padding: 1em;
+	font-size: 25px;
+	background-color: rgba(50,69,111,.4);
+	padding: .5em;
+	font-weight: lighter;
 	color:white;
 
 }
@@ -205,6 +207,8 @@ hr {
 	border-width: 1px 0 0 0;
 
 }
+
+
 
 .caret
 {
@@ -240,11 +244,11 @@ hr {
 .button-img
 {
 	@extend .img-responsive;
-
+	max-width: 77%;
 	margin-bottom: 30px;
-	opacity: 0.4;
-	filter: alpha(opacity=40); /* For IE8 and earlier */
-
+	 /* For IE8 and earlier */
+	opacity: 1.0;
+	filter: alpha(opacity=100);
 
 	-webkit-filter: grayscale(100%);
 	// Firefox Filter
@@ -258,8 +262,9 @@ hr {
 
 .button-img:hover
 { 
-	opacity: 1.0;
-	filter: alpha(opacity=100); /* For IE8 and earlier */
+	opacity: 0.4;
+	filter: alpha(opacity=40);
+	 /* For IE8 and earlier */
 }
 
 body
