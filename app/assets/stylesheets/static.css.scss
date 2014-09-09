@@ -132,13 +132,31 @@ html
 	@extend .method-img;
 }
 
+*
+{
+	// border: .1em dashed blue;
+}
+
+.teachers-content
+{
+	@extend .row;
+	margin-left: 2em;
+	margin-right: 2em;
+}
+
+.teacher-profiles
+{
+	@extend .row;
+	margin: 0em;
+	padding: 0em;
+}
+
 .teacher-profile
 { 
-	@extend .col-lg-6;
+	@extend .col-lg-5;
 	@extend .row;
-	margin-top: 1em;
-	margin-bottom: 1em; 
-
+	margin: 0em 1em 0em 1em;
+	
 }
 
 .teacher-img
@@ -147,6 +165,11 @@ html
 	@extend .col-lg-3;
 	max-height: 200px;
 	float: left;
+}
+
+.teacher-content
+{
+	@extend .col-lg-6;
 }
 
 .landing-overlay
@@ -192,10 +215,22 @@ hr {
 
 }
 
+.caret
+{
+  color:white;
+}
+
+#dropdownMenu{
+	background-color: rgba(51,51,51,0);
+  border: rgba(51,51,51,0);
+  color:white;
+}
+
 
 .map
 {
 	@extend img-responsive;
+  height: 100%;
 	width: 100%;
 
 }
