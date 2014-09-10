@@ -6,8 +6,6 @@
       %span.icon-bar
       %span.icon-bar
       %span.icon-bar
-    %a{:href => root_path}
-      %p.navbar-brand NYEI LOGO
   .collapse.navbar-collapse#navbar-collapse
     %ul.nav.nav-pills.nav-justified
       %li.nav-item#link
@@ -19,12 +17,8 @@
       %li.nav-item
         = link_to "Teachers", :teachers_page
       %li.nav-item
-        = link_to "Register"
-      %li.nav-item
         = link_to "About", :about_us
       %li.nav-item
         = link_to "Contact", :contact_us
       %li.nav-item
-        = link_to "Careers", :work_with_us
-      %li.nav-item
-        = link_to "FAQ", :faq_page
+        = link_to "Register", :register_page
