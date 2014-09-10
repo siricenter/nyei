@@ -76,6 +76,7 @@ html
 	@extend .row;
 	padding-top: 0;
 	padding-bottom: 0;
+	margin-left:4em;
 	//max-width: $container-width;
 
 	a
@@ -167,10 +168,10 @@ html
 .landing-overlay
 {
 	position: absolute;
-	top: 40%;
+	top: 35%;
 	width:65%;
 	z-index: 20;
-	font-size: 25px;
+	font-size: 22px;
 	background-color: rgba(50,69,111,.4);
 	padding: .5em;
 	font-weight: lighter;
@@ -241,13 +242,7 @@ hr {
 	margin-top:2em;
 }
 
-.chevron-right
-{
-	width: 40px;
-	height: 40px;
-	color: white;
-	padding-bottom: 5px;
-}
+
 
 .button-img
 {
@@ -459,11 +454,16 @@ button
 	button {
 		background: rgba(159, 55, 41, .65);
 		border: 0;
-		font-size: 23px;
 		padding: 8px 15px 7px;
 		letter-spacing: 2px;
-		font-weight: bold;
+		font-weight: lighter;
 	}
+}
+
+.chevron-right
+{
+	height: 15px;
+	color: white;
 }
 
 .footer-col
