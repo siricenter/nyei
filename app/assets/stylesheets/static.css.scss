@@ -9,6 +9,23 @@ $theme-red: #128, 0, 35, 66;
 $theme-pink: #DB0A5B;
 $theme-blue: #4183D7;
 
+.logo
+{
+	width: 150px;
+}
+
+.navbar
+{
+
+	min-height: 36px !important;
+
+}
+
+.navbar-brand
+{
+	padding-top: 10px;
+}
+
 .header .nav-item a
 {
 	height: 20px !important;
