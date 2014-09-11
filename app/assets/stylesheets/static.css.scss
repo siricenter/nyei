@@ -31,6 +31,20 @@ $theme-blue: #4183D7;
 	padding-top: 10px;
 }
 
+.landing-logo
+{
+  width: 200px;
+}
+
+.landing-logo-back
+{
+  position: absolute;
+  width: 200px;
+  height: 70px;
+  top: 36px;
+  background: rgba(50, 69, 111, 0.25);
+}
+
 .header .nav-item a
 {
 	height: 20px !important;
@@ -320,16 +334,15 @@ body
 
 .video-header
 {
-	min-height: 100vh;
+	@extend .row;
+
 	video
 	{
 		min-height: 100%;
-
+		min-width: 100%;
 		@media screen and (max-width: 640px){
 			min-height: 0;
-			height: 100vh;
 		}
-		min-width: 100vw;
 	}
 }
 
@@ -453,9 +466,9 @@ button
 
 #landing-video
 {
-	overflow-x:hidden; 
 	height: 100%;
 }
+
 #home-marketing-btn {
 	@extend .col-xs-5;
 	@extend .col-md-2;
@@ -576,6 +589,31 @@ button
 	{
 		font-size: 20px;
 	}
+	#home-marketing-btn button
+	{
+		font-size: 10px;
+
+	}
+
+}
+
+
+
+
+@media screen and (min-width: 829px){
+
+	#button-grid
+	{
+		#travel
+		{
+			img
+			{
+				max-height: 40%;
+				width: 100%;
+			}
+		}
+	}
+	font-size: 20px;  /* QUESTION: there was 2 extra curly braces above this line that were throwing an error, I removed them - EC */
 	#home-marketing-btn button
 	{
 		font-size: 10px;
