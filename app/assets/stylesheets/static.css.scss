@@ -19,17 +19,32 @@ $theme-blue: #4183D7;
 	left: 3%;
 }
 
+//------------------------------------------------------------------------------
+// NAVIGATION BAR //
+//------------------------------------------------------------------------------
 .navbar
 {
-
 	min-height: 36px !important;
+}
 
+.navbar-default
+{
+	height: 20px;
+}
+
+.navabar
+{
+	min-height: 20px !important;
 }
 
 .navbar-brand
 {
 	padding-top: 10px;
 }
+
+//------------------------------------------------------------------------------
+// LANDING //
+//------------------------------------------------------------------------------
 
 .landing-logo
 {
@@ -51,16 +66,6 @@ $theme-blue: #4183D7;
 	color:rgba(255,255,255,1) !important;
 	font-size: 16px;
 	font-family: "HelveticaNeue-Light", Sans-serif;
-}
-.navbar-default
-{
-	height: 20px;
-}
-
-
-.navabar
-{
-	min-height: 20px !important;
 }
 
 .header .nav-item .open a
@@ -130,7 +135,9 @@ html
 	}
 }
 
-
+//------------------------------------------------------------------------------
+// METHODOLOGY
+//------------------------------------------------------------------------------
 .method-img
 {
 	@extend .col-lg-4;
@@ -155,6 +162,9 @@ html
 	@extend .col-xs-12;
 }
 
+//------------------------------------------------------------------------------
+// COURSES
+//------------------------------------------------------------------------------
 .course-text{
 	@extend .col-lg-6;
 }
@@ -175,6 +185,9 @@ html
 	// border: .1em dashed blue;
 }
 
+//------------------------------------------------------------------------------
+// TEACHERS
+//------------------------------------------------------------------------------
 .teacher-profile
 { 
 	@extend .col-md-6;
@@ -215,7 +228,9 @@ html
 
 }
 
-
+//------------------------------------------------------------------------------
+// TRAVEL
+//------------------------------------------------------------------------------
 .travel-text
 {
 	background-color: rgba(0,0,0,.5);
@@ -227,9 +242,19 @@ html
 {
 	@extend .img-responsive;
 	@extend .col-xs-12;
+  @extend .col-md-4;
 	max-height: 300px;
 	margin-bottom: 1em;
 }
+
+.travel-loc-text
+{
+  @extend.col-xs-12;
+  @extend.col-md-8;
+}
+
+//------------------------------------------------------------------------------
+
 
 #myCarousel
 {
@@ -242,14 +267,6 @@ hr {
 	border-style: solid;
 	border-color: black;
 	border-width: 1px 0 0 0;
-
-}
-
-
-
-.caret
-{
-  color:white;
 }
 
 #dropdownMenu{
@@ -258,15 +275,9 @@ hr {
   color:white;
 }
 
-
-.map
-{
-	@extend img-responsive;
-  height: 100%;
-	width: 100%;
-
-}
-
+//------------------------------------------------------------------------------
+// CONTACT
+//------------------------------------------------------------------------------
 .contactForm
 {
 	margin-bottom: 2em;
@@ -278,7 +289,12 @@ hr {
 	margin-top:2em;
 }
 
-
+.map
+{
+	@extend img-responsive;
+  height: 100%;
+	width: 100%;
+}
 
 .button-img
 {
@@ -297,7 +313,6 @@ hr {
 	0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1
 	0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
 }
-
 
 .button-img:hover
 { 
@@ -331,11 +346,9 @@ body
 	@extend .container;
 }
 
-
 .video-header
 {
 	@extend .row;
-
 	video
 	{
 		min-height: 100%;
@@ -423,6 +436,11 @@ button
 	}
 }
 
+.caret
+{
+  color:white;
+}
+
 .chevron-img
 {
 
@@ -484,6 +502,11 @@ button
 	}
 }
 
+
+//------------------------------------------------------------------------------
+// CONTACT
+//------------------------------------------------------------------------------
+
 .reg-btn
 {
 	button {
@@ -501,6 +524,20 @@ button
 	color: white;
 }
 
+.info
+{
+  td
+  {
+    background-color: #e5e5e5 !important;
+    color: #bfbfbf;
+    button
+    {
+      visibility: hidden;
+    }
+  }
+}
+//------------------------------------------------------------------------------
+
 .footer-col
 {
 	@extend .col-lg-offset-0;
@@ -515,10 +552,7 @@ button
 	z-index: 1000;
 }
 
-
-
 @media screen and (max-width: 640px){
-
 	#title
 	{
 		font-size: 40px;
@@ -560,12 +594,9 @@ button
 	{
 		@extend .hidden-xs;
 	}
-
 }
 
 @media screen and (max-width: 1024px){
-
-
 	#home-marketing-text
 	{
 		font-size: 25px;
@@ -573,18 +604,14 @@ button
 	#home-marketing-btn button
 	{
 		font-size: 15px;
-
 	}
-
 }
-
 
 @media screen and (max-width: 290px){
 	.landing-overlay
 	{
 		font-size: 20px;
 	}
-
 	#home-marketing-text
 	{
 		font-size: 20px;
@@ -592,16 +619,10 @@ button
 	#home-marketing-btn button
 	{
 		font-size: 10px;
-
 	}
-
 }
 
-
-
-
 @media screen and (min-width: 829px){
-
 	#button-grid
 	{
 		#travel
@@ -617,16 +638,10 @@ button
 	#home-marketing-btn button
 	{
 		font-size: 10px;
-
 	}
-
 }
 
-
-
-
 @media screen and (min-width: 829px){
-
 	#button-grid
 	{
 		#travel

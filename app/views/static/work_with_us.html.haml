@@ -3,23 +3,56 @@
 
 %h1.text-center Trabalhe Conosco
 .container
-  %p Antes de cadastrar seu currículo verifique que suas qualificações estão dentro dos parâmetros exigidos pela New York English Institute. Segue abaixo as qualificações básicas exigidas para todas as vaga de emprego dentro da nossa instituição:
-  %ul
-    %li Candidatos devem ser maiores de 21 anos 
-    %li Candidatos devem estar cursando ou já ter uma diploma do Ensino Superior
-    %li Candidatos devem falar Inglês fluente
-  %p Nome
-  %p Data de Nascimento
-  %p Endereço
-  %p Telefone para contato
-  %p Área de Interesse
-  %p Upload seu currículo 
+  .row
+    .col-xs-12
+      %p 
+        Localidades:
+        %ul
+          %li Escola Online
+          %li Sao Paulo Zona Norte 
+          %li Sao Paulo Zona Sul 
+          %li Sao Paulo Zona Interlagos 
+          %li Sao Paulo Zona Oeste 
+          %li Sao Paulo Santos 
+          %li Rio De Janeiro 
+          %li Manaus 
+          %li Florianopolis 
+          %li Recife 
+          %li Fortaleza 
+          %li Belo Horizonte 
+          %li Salvador 
+          %li Espírito Santo 
+          %li Cuiaba 
+          %li Curitiba 
+          %li Porto Alegre 
+          %li Campinas 
+          %li Maceió 
+          %li Natal 
+          %li Campo Grande 
+      %p 
+        Vagas Disponíveis
+        %ul
+          %li Representante Comercial (Candidatos devem ter nível avançado de Inglês)
+          %li Recepcionista (M/F)  (Candidatos devem ter nível avançado de Inglês)
+          %li Monitor de Inglês (Candidatos devem falar Português e Inglês fluentemente)
+          %li Secretário Financeiro
+          %li Representante de Marketing (local)
+          %li Secretário (a) de RH  
+          %li Coordenador (a) Pedagógico
+      &p Nome
+      &p Data de Nascimento
+      &p Endereço
+      &p Instituto de Interesse
+      &p Posição Desejada
+      &p Experiência com Inglês 
+      &p Referencias 1, 2 and 3 (família não conta como referência)
+      &p Anexar Carta de Apresentação 
+      &p Anexar Currículo
 %h1.text-center Brazil
 .container
-  %p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
   %form.contactForm{:novalidate => "novalidate", :role => "form"}
     .form-group
-      %label.control-label Name
+      %label.control-label Nome
       .controls
         .input-group
           %span.input-group-addon
@@ -33,10 +66,9 @@
             %i.glyphicon.glyphicon-envelope
           %input#email.form-control{:name => "email", :placeholder => "Email", :type => "text"}/
     .controls{:style => "margin-left: 40%;"}
-      %button.btn{:type => "submit"} Submit
+      %button.btn{:type => "submit"} Enviar
 %h1.text-center USA
 .container
-  %p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
   %form.contactForm{:novalidate => "novalidate", :role => "form"}
     .form-group
       %label.control-label Name
