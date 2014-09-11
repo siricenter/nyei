@@ -1,8 +1,8 @@
+
 = render "navbar"
 .container-fluid
-  
-  
   .video-header
+    = image_tag "logotypeWhite-10.svg", :class => :logo
     .row#landing-video
       = video_tag('http://www.galleries.evancaldwell.com/videos/homePage_webmhd.webm', controls: false, autoplay: true, loop: true, id: [:'homePage_webmhd.webm'], height: "100%", poster: "homePageVidPoster.png",class: :video)
     #landing-marketing
