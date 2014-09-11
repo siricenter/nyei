@@ -19,22 +19,11 @@ $theme-blue: #4183D7;
 	left: 3%;
 }
 
-//------------------------------------------------------------------------------
-// NAVIGATION BAR //
-//------------------------------------------------------------------------------
 .navbar
 {
+
 	min-height: 36px !important;
-}
 
-.navbar-default
-{
-	height: 20px;
-}
-
-.navabar
-{
-	min-height: 20px !important;
 }
 
 .navbar-brand
@@ -66,6 +55,16 @@ $theme-blue: #4183D7;
 	color:rgba(255,255,255,1) !important;
 	font-size: 16px;
 	font-family: "HelveticaNeue-Light", Sans-serif;
+}
+.navbar-default
+{
+	height: 20px;
+}
+
+
+.navabar
+{
+	min-height: 20px !important;
 }
 
 .header .nav-item .open a
@@ -162,9 +161,6 @@ html
 	@extend .col-xs-12;
 }
 
-//------------------------------------------------------------------------------
-// COURSES
-//------------------------------------------------------------------------------
 .course-text{
 	@extend .col-lg-6;
 }
@@ -185,9 +181,6 @@ html
 	// border: .1em dashed blue;
 }
 
-//------------------------------------------------------------------------------
-// TEACHERS
-//------------------------------------------------------------------------------
 .teacher-profile
 { 
 	@extend .col-md-6;
@@ -228,9 +221,7 @@ html
 
 }
 
-//------------------------------------------------------------------------------
-// TRAVEL
-//------------------------------------------------------------------------------
+
 .travel-text
 {
 	background-color: rgba(0,0,0,.5);
@@ -242,19 +233,9 @@ html
 {
 	@extend .img-responsive;
 	@extend .col-xs-12;
-  @extend .col-md-4;
 	max-height: 300px;
 	margin-bottom: 1em;
 }
-
-.travel-loc-text
-{
-  @extend.col-xs-12;
-  @extend.col-md-8;
-}
-
-//------------------------------------------------------------------------------
-
 
 #myCarousel
 {
@@ -267,6 +248,14 @@ hr {
 	border-style: solid;
 	border-color: black;
 	border-width: 1px 0 0 0;
+
+}
+
+
+
+.caret
+{
+  color:white;
 }
 
 #dropdownMenu{
@@ -275,9 +264,15 @@ hr {
   color:white;
 }
 
-//------------------------------------------------------------------------------
-// CONTACT
-//------------------------------------------------------------------------------
+
+.map
+{
+	@extend img-responsive;
+  height: 100%;
+	width: 100%;
+
+}
+
 .contactForm
 {
 	margin-bottom: 2em;
@@ -289,12 +284,7 @@ hr {
 	margin-top:2em;
 }
 
-.map
-{
-	@extend img-responsive;
-  height: 100%;
-	width: 100%;
-}
+
 
 .button-img
 {
@@ -447,7 +437,6 @@ button
 .caret
 {
   color:white;
-}
 
 .chevron-img
 {
