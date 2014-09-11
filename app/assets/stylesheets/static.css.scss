@@ -320,16 +320,15 @@ body
 
 .video-header
 {
-	min-height: 100vh;
+	@extend .row;
+
 	video
 	{
 		min-height: 100%;
-
+		min-width: 100%;
 		@media screen and (max-width: 640px){
 			min-height: 0;
-			height: 100vh;
 		}
-		min-width: 100vw;
 	}
 }
 
@@ -453,9 +452,9 @@ button
 
 #landing-video
 {
-	overflow-x:hidden; 
 	height: 100%;
 }
+
 #home-marketing-btn {
 	@extend .col-xs-5;
 	@extend .col-md-2;
