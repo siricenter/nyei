@@ -308,6 +308,7 @@ hr {
 
 body
 {
+
 	background-color: $theme-off-white;
 }
 
@@ -335,15 +336,21 @@ body
 .video-header
 {
 	@extend .row;
-
+	overflow: hidden !important;
 	video
 	{
+
 		min-height: 100%;
 		min-width: 100%;
 		@media screen and (max-width: 640px){
 			min-height: 0;
 		}
 	}
+}
+
+.video
+{
+	x-overflow: hidden;
 }
 
 .navbar-toggle
