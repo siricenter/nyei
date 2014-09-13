@@ -423,7 +423,8 @@ button
 
 	img
 	{
-		max-height: 200px;
+		max-height: 110px;
+    margin-top: 50px;
 	}
 	ul
 	{
@@ -545,7 +546,7 @@ button
 	@extend .col-md-offset-0;
 	@extend .col-sm-offset-0;
 
-	@extend .col-md-4;
+	@extend .col-md-3;
 	@extend .col-xs-3;
 }
 

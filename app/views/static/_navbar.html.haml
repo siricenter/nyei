@@ -6,9 +6,11 @@
       %span.icon-bar
       %span.icon-bar
       %span.icon-bar
-    =link_to (image_tag "logotypeWhite-10.svg"),root_path, :class => [:"navbar-brand", :"landing-logo"]
+    =link_to "NYEI",root_path, :class => [:"navbar-brand"]
   .collapse.navbar-collapse#navbar-collapse
     %ul.nav.nav-pills.nav-justified
+      %li.nav-item
+        = link_to "Home",root_path
       %li.nav-item#link
         = link_to "Metodologia", :methodology_page
       %li.nav-item
