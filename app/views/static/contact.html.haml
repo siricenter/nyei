@@ -1,36 +1,37 @@
 =render 'navbar'
 .navbar.navbar-inverse
-%h1.text-center Contate o NYEI
-.container#contact-content
-  .row
-    .col-xs-6
-    .col-xs-6
-      =image_tag "map2.jpg",:class => :map
 .container
   .row
-.container
-  %form.contactForm{:novalidate => "novalidate", :role => "form"}
-    .form-group
-      %label.control-label Nome
-      .controls
-        .input-group
-          %span.input-group-addon
-            %i.glyphicon.glyphicon-user
-          %input.form-control{:name => "name", :placeholder => "Nome", :type => "text"}/
-    .form-group
-      %label.control-label Email
-      .controls
-        .input-group
-          %span.input-group-addon
-            %i.glyphicon.glyphicon-envelope
-          %input#email.form-control{:name => "email", :placeholder => "Email", :type => "text"}/
-    .form-group
-      %label.control-label Mensagem
-      .controls
-        .input-group
-          %span.input-group-addon
-            %i.glyphicon.glyphicon-pencil
-          %textarea.form-control{:cols => "78", :name => "msg", :placeholder => "Coloque sua mensagem aqui", :rows => "4"}
-    .controls{:style => "margin-left: 40%;"}
-      %button#mybtn.btn.text-center{:type => "submit"} Enviar Mensagem
+    .col-md-12
+      %h1.text-center Contate o NYEI
+  .row#contact-content
+    .col-md-12
+      = link_to "Cursos", :courses_offered
+    .col-md-12
+      = link_to "Ajuda (Perguntas Frequentes)", :faq_page
+  .row
+    %form.contactForm{:novalidate => "novalidate", :role => "form"}
+      .form-group
+        %label.control-label Nome
+        .controls
+          .input-group
+            %span.input-group-addon
+              %i.glyphicon.glyphicon-user
+            %input.form-control{:name => "name", :placeholder => "Nome", :type => "text"}/
+      .form-group
+        %label.control-label Email
+        .controls
+          .input-group
+            %span.input-group-addon
+              %i.glyphicon.glyphicon-envelope
+            %input#email.form-control{:name => "email", :placeholder => "Email", :type => "text"}/
+      .form-group
+        %label.control-label Mensagem
+        .controls
+          .input-group
+            %span.input-group-addon
+              %i.glyphicon.glyphicon-pencil
+            %textarea.form-control{:cols => "78", :name => "msg", :placeholder => "Coloque sua mensagem aqui", :rows => "4"}
+      .controls{:style => "margin-left: 40%;"}
+        %button#mybtn.btn.text-center{:type => "submit"} Enviar Mensagem
 

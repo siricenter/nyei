@@ -202,9 +202,15 @@ html
 	}
 }
 
-.intro-text
+.teachers-intro-img
 {
-	@extend .col-xs-12;
+  @extend .col-md-4;
+}
+
+.teachers-intro-text
+{
+  @extend .col-md-8;
+	@extend .col-xs-8;
 }
 
 .landing-overlay
@@ -410,6 +416,14 @@ button
 			background-color: $theme-red;
 		}
 	}
+  .nav-item.lang-btn
+  {
+    margin-right: 10px;
+    a
+    {
+      font-size: 80%;
+    }
+  }
 }
 
 .footer
@@ -548,6 +562,11 @@ button
 
 	@extend .col-md-3;
 	@extend .col-xs-3;
+  
+  li 
+  {
+    list-style: none;
+  }
 }
 
 .navbar-collapse{
