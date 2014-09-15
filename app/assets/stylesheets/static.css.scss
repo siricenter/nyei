@@ -116,7 +116,7 @@ html
 	@extend .row;
 	padding-top: 0;
 	padding-bottom: 0;
-	margin-left:4em;
+	//margin-left:4em;
 	//max-width: $container-width;
 
 	a
@@ -125,6 +125,11 @@ html
 		@extend .col-xs-12;
 		@extend .col-sm-6;
 		@extend .col-md-4;
+    
+    img
+    {
+      @extend .img-responsive;
+    }
 	}
 
 	#travel
@@ -220,7 +225,7 @@ html
 	width:65%;
 	z-index: 20;
 	font-size: 22px;
-	background-color: rgba(0,0,0,.45);
+	background-color: rgba(0,0,0,.5);
 	padding: .5em;
 	font-weight: lighter;
 	color:white;
@@ -422,6 +427,7 @@ button
     a
     {
       font-size: 80%;
+      margin-right: -40px;
     }
   }
 }
