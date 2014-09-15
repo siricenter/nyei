@@ -1,0 +1,54 @@
+:javascript
+  $(window).load(function(){
+    changeVideo();
+  });
+=render 'navbar_landing_eng'
+.container-fluid
+  .video-header
+    .landing-logo-back
+    .row#landing-video
+      = video_tag('http://www.galleries.evancaldwell.com/videos/homePage_webmhd.webm', controls: false, autoplay: true, loop: true, id: [:'homePage_webmhd.webm'], height: "100%", poster: "homePageVidPoster.png",class: :video)
+    #landing-marketing
+      #landing-marketing-box
+        %h2#home-marketing-text 
+          Welcome to the New York English Institute!
+      .row
+        %span.chevron-thin
+          %a
+            = image_tag "chevronThin.svg", class: [:"chevron-img"], alt: "Scroll down for more info."
+.container
+  %h1.landing-titles 
+    Cources Offered
+  .button-grid
+
+    %a
+      %p.landing-overlay English Fluency
+      = image_tag "study_group.jpg", class: [:"button-img"], alt: "English Full Course"
+    %a
+      %p.landing-overlay Academic English
+      = image_tag "Academic English.jpg", class: [:"button-img"], alt: "Acedemic English"
+    %a       
+      %p.landing-overlay Preparatory Course - Masters
+      = image_tag "Prep Course Undergrad.jpg", class: [:"button-img"], alt: "Grad School Prep"
+    %a
+      %p.landing-overlay Preparatory Course - Higher Education
+      = image_tag "Prep Course Grad.jpg", class: [:"button-img"], alt: "Test Prep"
+    %a
+      %p.landing-overlay Conversational English
+      = image_tag "Conversation.jpg", class: [:"button-img"], alt: "Conversation"
+    %a
+      %p.landing-overlay English for Travel
+      = image_tag "English for Travelers.jpg", class: [:"button-img"], alt: "Work Shops"
+  %h1.landing-titles 
+    Travel Opportunities
+  .button-grid
+
+    %a
+      %p.landing-overlay Travel to the USA
+      = image_tag "Ninaup2.jpg", class: [:"button-img"], alt: "English for Travel"
+    %a
+      %p.landing-overlay Cultural Immersion
+      = image_tag "Cultural Immersion.jpg", class: [:"button-img"], alt: "Travel to the US"
+    %a
+      %p.landing-overlay Study Abroad
+      = image_tag "Study Abroad.jpg", class: [:"button-img"], alt: "Travel to the US"

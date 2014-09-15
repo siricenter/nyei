@@ -1,0 +1,88 @@
+=render 'navbar_eng'
+.navbar.navbar-inverse
+
+%h1.text-center Work With Us
+.container
+  .row
+    .col-xs-12
+      %p 
+        Localidades:
+        %ul
+          %li Escola Online
+          %li Sao Paulo Zona Norte 
+          %li Sao Paulo Zona Sul 
+          %li Sao Paulo Zona Interlagos 
+          %li Sao Paulo Zona Oeste 
+          %li Sao Paulo Santos 
+          %li Rio De Janeiro 
+          %li Manaus 
+          %li Florianopolis 
+          %li Recife 
+          %li Fortaleza 
+          %li Belo Horizonte 
+          %li Salvador 
+          %li Espírito Santo 
+          %li Cuiaba 
+          %li Curitiba 
+          %li Porto Alegre 
+          %li Campinas 
+          %li Maceió 
+          %li Natal 
+          %li Campo Grande 
+      %p 
+        Vagas Disponíveis
+        %ul
+          %li Representante Comercial (Candidatos devem ter nível avançado de Inglês)
+          %li Recepcionista (M/F)  (Candidatos devem ter nível avançado de Inglês)
+          %li Monitor de Inglês (Candidatos devem falar Português e Inglês fluentemente)
+          %li Secretário Financeiro
+          %li Representante de Marketing (local)
+          %li Secretário (a) de RH  
+          %li Coordenador (a) Pedagógico
+      &p Nome
+      &p Data de Nascimento
+      &p Endereço
+      &p Instituto de Interesse
+      &p Posição Desejada
+      &p Experiência com Inglês 
+      &p Referencias 1, 2 and 3 (família não conta como referência)
+      &p Anexar Carta de Apresentação 
+      &p Anexar Currículo
+%h1.text-center Brazil
+.container
+  %form.contactForm{:novalidate => "novalidate", :role => "form"}
+    .form-group
+      %label.control-label Nome
+      .controls
+        .input-group
+          %span.input-group-addon
+            %i.glyphicon.glyphicon-user
+          %input.form-control{:name => "nome", :placeholder => "Nome", :type => "text"}/
+    .form-group
+      %label.control-label Email
+      .controls
+        .input-group
+          %span.input-group-addon
+            %i.glyphicon.glyphicon-envelope
+          %input#email.form-control{:name => "email", :placeholder => "Email", :type => "text"}/
+    .controls{:style => "margin-left: 40%;"}
+      %button.btn{:type => "submit"} Enviar
+%h1.text-center USA
+.container
+  %form.contactForm{:novalidate => "novalidate", :role => "form"}
+    .form-group
+      %label.control-label Name
+      .controls
+        .input-group
+          %span.input-group-addon
+            %i.glyphicon.glyphicon-user
+          %input.form-control{:name => "name", :placeholder => "Name", :type => "text"}/
+    .form-group
+      %label.control-label Email
+      .controls
+        .input-group
+          %span.input-group-addon
+            %i.glyphicon.glyphicon-envelope
+          %input#email.form-control{:name => "email", :placeholder => "Email", :type => "text"}/
+    .controls{:style => "margin-left: 40%;"}
+      %button.btn{:type => "submit"} Submit
