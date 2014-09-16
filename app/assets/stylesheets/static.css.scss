@@ -232,6 +232,11 @@ html
 
 }
 
+.travel-loc-header
+{
+  @extend .row;
+  margin-top: 80px;
+}
 
 .travel-text
 {
@@ -243,9 +248,28 @@ html
 .travel-img
 {
 	@extend .img-responsive;
+	@extend .col-lg-4;
+	@extend .col-md-4;
+	@extend .col-sm-12;
 	@extend .col-xs-12;
 	max-height: 300px;
 	margin-bottom: 1em;
+}
+
+.travel-loc-text
+{
+	@extend .col-lg-8;
+	@extend .col-md-8;
+	@extend .col-sm-12;
+	@extend .col-xs-12;
+}
+
+.travel-loc-col
+{
+  @extend .col-lg-4;
+  @extend .col-md-4;
+  @extend .col-sm-12;
+  @extend .col-xs-12;
 }
 
 #myCarousel
