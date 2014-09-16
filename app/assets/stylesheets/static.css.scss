@@ -166,6 +166,12 @@ html
 	@extend .col-xs-12;
 }
 
+.course-container
+{
+  @extend .row;
+  margin-top: 60px;
+}
+
 .course-text{
 	@extend .col-lg-6;
 }
