@@ -35,6 +35,16 @@ $theme-blue: #4183D7;
 // LANDING //
 //------------------------------------------------------------------------------
 
+.carousel .item {-webkit-transition: opacity 8s; -moz-transition: opacity 8s; -ms-transition: opacity 8s; -o-transition: opacity 8s; transition: opacity 8s;}
+.carousel .active.left {left:0;opacity:0;z-index:2;}
+.carousel .next {left:0;opacity:1;z-index:1;}
+
+#home-marketing-text, .chevron-thin
+{
+	z-index: 100;
+}
+
+
 .landing-logo
 {
 	width: 200px;
@@ -513,6 +523,7 @@ button
 	@extend .col-xs-5;
 	@extend .col-md-2;
 	position: relative;
+  
 	bottom: -12px;
 	button {
 		background: rgba(159, 55, 41, .65);
