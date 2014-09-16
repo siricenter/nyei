@@ -1,7 +1,7 @@
 =render 'navbar_landing_eng'
 .container-fluid
   .video-header
-    .landing-logo-back
+    /.landing-logo-back
     .row#landing-video
       .carousel.slide{:id=>"slide-images", :data => {:ride => "carousel", :interval => "12000"}}
         .carousel-inner
@@ -30,19 +30,19 @@
 
     %a
       %p.landing-overlay English Fluency
-      = image_tag "study_group.jpg", class: [:"button-img"], alt: "English Full Course"
+      = image_tag "raising_hand.jpg", class: [:"button-img"], alt: "English Full Course"
     %a
       %p.landing-overlay Academic English
       = image_tag "Academic English.jpg", class: [:"button-img"], alt: "Acedemic English"
     %a       
       %p.landing-overlay Preparatory Course - Masters
-      = image_tag "Prep Course Undergrad.jpg", class: [:"button-img"], alt: "Grad School Prep"
+      = image_tag "Prep Course Grad.jpg", class: [:"button-img"], alt: "Grad School Prep"
     %a
       %p.landing-overlay Preparatory Course - Higher Education
-      = image_tag "Prep Course Grad.jpg", class: [:"button-img"], alt: "Test Prep"
+      = image_tag "Prep Course Undergrad.jpg", class: [:"button-img"], alt: "Test Prep"
     %a
       %p.landing-overlay Conversational English
-      = image_tag "Conversation.jpg", class: [:"button-img"], alt: "Conversation"
+      = image_tag "landing_conversation.jpg", class: [:"button-img"], alt: "Conversation"
     %a
       %p.landing-overlay English for Travel
       = image_tag "English for Travelers.jpg", class: [:"button-img"], alt: "Work Shops"
@@ -59,3 +59,20 @@
     %a
       %p.landing-overlay Study Abroad
       = image_tag "Study Abroad.jpg", class: [:"button-img"], alt: "Travel to the US"
+   = image_tag "Conversation.jpg", class: [:"button-img"], alt: "Conversation"
+    %a
+      %p.landing-overlay English for Travel
+      = image_tag "English for Travelers.jpg", class: [:"button-img"], alt: "Work Shops"
+  %h1.landing-titles 
+    Travel Opportunities
+  .button-grid
+
+    %a
+      %p.landing-overlay Travel to the USA
+      = image_tag "Ninaup2.jpg", class: [:"button-img"], alt: "English for Travel"
+    %a
+      %p.landing-overlay Cultural Immersion
+      = image_tag "landing_cultural_immersion.jpg", class: [:"button-img"], alt: "Travel to the US"
+    %a
+      %p.landing-overlay Study Abroad
+      = image_tag "walking_students.jpg", class: [:"button-img"], alt: "Travel to the US"
