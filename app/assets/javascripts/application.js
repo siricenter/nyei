@@ -16,3 +16,9 @@
 //= require turbolinks
 //= require_tree .
 //= require bootstrap
+
+$(window).load(function x(){
+	$(".video").prop('muted', true);
+})
+
+
