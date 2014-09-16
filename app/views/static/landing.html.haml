@@ -3,12 +3,18 @@
   .video-header
     .landing-logo-back
     .row#landing-video
-      .carousel.slide{:id=>"slide-images", :data => {:ride => "carousel"}}
+      .carousel.slide{:id=>"slide-images", :data => {:ride => "carousel", :interval => "12000"}}
         .carousel-inner
           .item.active
-            = video_tag('http://www.galleries.evancaldwell.com/videos/homePage_webmhd.webm', controls: false, autoplay: true, loop: true, id: [:'homePage_webmhd.webm'], height: "100%", poster: "homePageVidPoster.png",class: :video)
+            = video_tag('http://www.galleries.evancaldwell.com/videos/landing-day.webmhd.webm', controls: false, autoplay: true, loop: true, id: [:'homePage_webmhd.webm'], height: "100%", poster: "",class: :video)
           .item
-            = video_tag('http://www.galleries.evancaldwell.com/videos/landing-day.webmhd.webm', controls: false, autoplay: true, loop: true, id: [:'homePage_webmhd.webm'], height: "100%", poster: "homePageVidPoster.png",class: :video)
+            = video_tag('http://www.galleries.evancaldwell.com/videos/landing_park.webmhd.webm', controls: false, autoplay: true, loop: true, id: [:'homePage_webmhd.webm'], height: "100%", poster: "",class: :video)
+          .item
+            = video_tag('http://www.galleries.evancaldwell.com/videos/landing_intersection.webmhd.webm', controls: false, autoplay: true, loop: true, id: [:'homePage_webmhd.webm'], height: "100%", poster: "",class: :video)
+          .item
+            = video_tag('http://www.galleries.evancaldwell.com/videos/landing_skyline2.webmhd.webm', controls: false, autoplay: true, loop: true, id: [:'homePage_webmhd.webm'], height: "100%", poster: "",class: :video)
+          .item
+            = video_tag('http://www.galleries.evancaldwell.com/videos/landing_sign.webmhd.webm', controls: false, autoplay: true, loop: true, id: [:'homePage_webmhd.webm'], height: "100%", poster: "",class: :video)
     #landing-marketing
       #landing-marketing-box
         %h2#home-marketing-text 
