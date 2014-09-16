@@ -2,15 +2,17 @@
 .navbar.navbar-inverse
 .container
   .row
-    .col-xs-12
+    .col-xs-12.col-
       %h1.text-center Travel Opportunities
       %p O New York English Institute proporciona aos alunos além do ensino de qualidade, a oportunidade de vivenciar a cultura dos Estados Unidos. Oferecemos várias opções de programas para os estudantes viajarem pelos Estados Unidos e aplicar o que eles têm aprendido no nosso instituto.
-  .row
+  .travel-loc-header
     .travel-img
       = image_tag "western.jpg", class: [:"img-responsive"], alt: "Western United States"
     .travel-loc-text
       %h2 Estados do Oeste
       %p Os estudantes que estão interessados em fazer parte deste programa precisam iniciar o processo de cadastramento o mais rápido possível e garantir o seu lugar. Nesta viagem, visitamos locais turísticos e ícones americanos, tais como:
+  .row
+    .travel-loc-col
       %ul
         %li 
           Utah:
@@ -20,6 +22,8 @@
             %li Goblin Valley
             %li Tour of Brigham Univeristy Idaho and University of Utah
             %li Hike the Y
+    .travel-loc-col
+      %ul
         %li 
           Nevada (Las Vegas):
           %ul
@@ -35,6 +39,8 @@
             %li The Las Vegas Welcome sign
             %li Helicopter Ride over the Strip
             %li Hoover Dam
+    .travel-loc-col
+      %ul
         %li 
           Arizona:
           %ul
@@ -47,96 +53,109 @@
             %li Disneyland 
             %li Walt Disney Concert Hall
             %li San Diego Zoo
-      %p Importante: Informamos que apenas alunos matriculados em nossos cursos terão acesso a este pacote, o aluno também deve ter completado pelo menos dois semestres para estar apto. 
-      %p Para fazer parte deste programa alunos menores de 21 anos devem ter autorização dos pais ou responsáveis autenticada. O New York Institute se compromete em ajudar os alunos a preencherem os formulários necessários para solicitar um visto americano tipo B1/B2. Para os que possuem dupla cidadania, aconselhamos que consulte se seu segundo país faz parte do USA Visa Waiver Program. O NYEI não garante aos alunos a obtenção do visto, uma vez que a decisão de quem está apto a entrar em seu território é do Consulado americano. 
-      %p A fim de garantir aos nossos alunos um preço acessível, é necessário o mínimo de oito inscrições para a viagem. E para garantir a sua segurança, viajamos com um número máximo de 15 alunos.
-      /%p Nosso Curso de Inglês foi desenvolvido para estudantes a partir de 12 anos de idade. Começamos com o básico do idioma e auxiliamos nossos alunos a alcançarem individualmente fluência ao longo do curso. 
-  .row    
+  .row
+    %p Importante: Informamos que apenas alunos matriculados em nossos cursos terão acesso a este pacote, o aluno também deve ter completado pelo menos dois semestres para estar apto. 
+    %p Para fazer parte deste programa alunos menores de 21 anos devem ter autorização dos pais ou responsáveis autenticada. O New York Institute se compromete em ajudar os alunos a preencherem os formulários necessários para solicitar um visto americano tipo B1/B2. Para os que possuem dupla cidadania, aconselhamos que consulte se seu segundo país faz parte do USA Visa Waiver Program. O NYEI não garante aos alunos a obtenção do visto, uma vez que a decisão de quem está apto a entrar em seu território é do Consulado americano. 
+    %p A fim de garantir aos nossos alunos um preço acessível, é necessário o mínimo de oito inscrições para a viagem. E para garantir a sua segurança, viajamos com um número máximo de 15 alunos.
+    /%p Nosso Curso de Inglês foi desenvolvido para estudantes a partir de 12 anos de idade. Começamos com o básico do idioma e auxiliamos nossos alunos a alcançarem individualmente fluência ao longo do curso. 
+  .travel-loc-header
     .travel-img
       = image_tag "eastern.jpg", class: [:"img-responsive"], alt: "Eastern United States"
     .travel-loc-text
       %h2 Estados do Leste
       %p
         Os estudantes que estão interessados em fazer parte deste programa precisam iniciar o processo de cadastramento o mais rápido possível e garantir o seu lugar. Nesta viagem, visitamos locais turísticos e ícones americanos, tais como:
-        %ul
-          %li 
-            New York:
-            %ul
-              %li The statue of Liberty
-              %li Ground Zero
-              %li Central Park
-              %li Metropolitan Museum
-              %li Times Square
-              %li A Broadway Show
-              %li Empire State Building tour
-              %li China Town
-              %li Guggenheim Museum
-              %li One World Observatory
-              %li Wall Street (Bull)
-              %li Central Station
-          %li 
-            Pennsylvania (Philadelphia) 
-            %ul
-              %li Hershey’s Park
-              %li Hop on Hop off City Tour
-              %li Liberty Bell
-              %li Historic Tour
-          %li 
-            Washington DC:
-            %ul
-              %li Outside tour of the White House
-              %li Lincoln Memorial
-              %li Washington Monument
-              %li National Air and Space Museum
-              %li International Spy Museum
-              %li Changing of the Guard
-              %li Fourth of July Fire Works
-              %li Fords Theater
-          %li
-            Virginia (Richmond)
-            %ul
-              %li Historical tour
-              %li Theme Parks
-      %p Importante: Informamos que apenas alunos matriculados em nossos cursos terão acesso a este pacote, o aluno também deve ter completado pelo menos dois semestres para estar apto. 
-      %p Para fazer parte deste programa alunos menores de 21 anos devem ter autorização dos pais ou responsáveis autenticada. O New York Institute se compromete em ajudar os alunos a preencherem os formulários necessários para solicitar um visto americano tipo B1/B2. Para os que possuem dupla cidadania, aconselhamos que consulte se seu segundo país faz parte do USA Visa Waiver Program. O NYEI não garante aos alunos a obtenção do visto, uma vez que a decisão de quem está apto a entrar em seu território é do Consulado americano. 
-      %p A fim de garantir aos nossos alunos um preço acessível, é necessário o mínimo de oito inscrições para a viagem. E para garantir a sua segurança, viajamos com um número máximo de 15 alunos.
   .row
+    .travel-loc-col
+      %ul
+        %li 
+          New York:
+          %ul
+            %li The statue of Liberty
+            %li Ground Zero
+            %li Central Park
+            %li Metropolitan Museum
+            %li Times Square
+            %li A Broadway Show
+            %li Empire State Building tour
+            %li China Town
+            %li Guggenheim Museum
+            %li One World Observatory
+            %li Wall Street (Bull)
+            %li Central Station
+    .travel-loc-col
+      %ul
+        %li 
+          Pennsylvania (Philadelphia) 
+          %ul
+            %li Hershey’s Park
+            %li Hop on Hop off City Tour
+            %li Liberty Bell
+            %li Historic Tour
+        %li 
+          Washington DC:
+          %ul
+            %li Outside tour of the White House
+            %li Lincoln Memorial
+            %li Washington Monument
+            %li National Air and Space Museum
+            %li International Spy Museum
+            %li Changing of the Guard
+            %li Fourth of July Fire Works
+            %li Fords Theater
+    .travel-loc-col
+      %ul
+        %li
+          Virginia (Richmond)
+          %ul
+            %li Historical tour
+            %li Theme Parks
+  .row
+    %p Importante: Informamos que apenas alunos matriculados em nossos cursos terão acesso a este pacote, o aluno também deve ter completado pelo menos dois semestres para estar apto. 
+    %p Para fazer parte deste programa alunos menores de 21 anos devem ter autorização dos pais ou responsáveis autenticada. O New York Institute se compromete em ajudar os alunos a preencherem os formulários necessários para solicitar um visto americano tipo B1/B2. Para os que possuem dupla cidadania, aconselhamos que consulte se seu segundo país faz parte do USA Visa Waiver Program. O NYEI não garante aos alunos a obtenção do visto, uma vez que a decisão de quem está apto a entrar em seu território é do Consulado americano. 
+    %p A fim de garantir aos nossos alunos um preço acessível, é necessário o mínimo de oito inscrições para a viagem. E para garantir a sua segurança, viajamos com um número máximo de 15 alunos.
+  .travel-loc-header
     .travel-img
       = image_tag "chicago_florida.jpg", class: [:"img-responsive"], alt: "Chicago and Florida"
     .travel-loc-text
       %h2 Chicago e Florida
       %p 
         Os estudantes que estão interessados em fazer parte deste programa precisam iniciar o processo de cadastramento o mais rápido possível e garantir o seu lugar. Nesta viagem, visitamos locais turísticos e ícones americanos, tais como:
-        %ul
-          %li
-            Chicago:
-            %ul
-              %li Shedd Aquarium
-              %li Sky Deck Chicago
-              %li The Field Museum
-              %li Navy Pier
-              %li Hancock Observatory
-              %li Sears Towers
-              %li Adler Planetarium
-              %li Windy Chicago
-              %li Brookfield Zoo
-              %li Chicago Theatre
-              %li Architecture River Cruise
-              %li South Side Tour
-          %li
-            Orlando: 
-            //Flórida:
-            %ul
-              %li Walt Disney world
-          %li
-            Miami:
-            %ul
-              %li Two Night Cruise Ship in the Atlantic Ocean
-              %li Beach (voted by the students)
+  .row
+    .travel-loc-col
+      %ul
+        %li
+          Chicago:
+          %ul
+            %li Shedd Aquarium
+            %li Sky Deck Chicago
+            %li The Field Museum
+            %li Navy Pier
+            %li Hancock Observatory
+            %li Sears Towers
+            %li Adler Planetarium
+            %li Windy Chicago
+            %li Brookfield Zoo
+            %li Chicago Theatre
+            %li Architecture River Cruise
+            %li South Side Tour
+    .travel-loc-col
+      %ul
+        %li
+          Orlando: 
+          //Flórida:
+          %ul
+            %li Walt Disney world
+        %li
+          Miami:
+          %ul
+            %li Two Night Cruise Ship in the Atlantic Ocean
+            %li Beach (voted by the students)
+    .col-md-12
       %p Importante: Informamos que apenas alunos matriculados em nossos cursos terão acesso a este pacote, o aluno também deve ter completado pelo menos dois semestres para estar apto. 
       %p Para fazer parte deste programa alunos menores de 21 anos devem ter autorização dos pais ou responsáveis autenticada. O New York Institute se compromete em ajudar os alunos a preencherem os formulários necessários para solicitar um visto americano tipo B1/B2. Para os que possuem dupla cidadania, aconselhamos que consulte se seu segundo país faz parte do USA Visa Waiver Program. O NYEI não garante aos alunos a obtenção do visto, uma vez que a decisão de quem está apto a entrar em seu território é do Consulado americano. 
       %p A fim de garantir aos nossos alunos um preço acessível, é necessário o mínimo de oito inscrições para a viagem. E para garantir a sua segurança, viajamos com um número máximo de 15 alunos.
-  .row    
+  .travel-loc-header    
     .travel-img
       //= image_tag "immersion.jpg", class: [:"course-img"], alt: "Cultural Immersion Program"
     //.travel-loc-text
@@ -146,7 +165,7 @@
       %p Neste programa, além da oportunidade de melhorar ainda mais o Inglês o estudante fará novos amigos que falam Inglês e será imerso na cultura dos Estados Unidos. 
       %p Importante: Informamos que apenas alunos matriculados em nossos cursos terão acesso a este pacote, o aluno também deve ter completado pelo menos dois semestres para estar apto. 
       %p Para fazer parte deste programa os candidatos devem providenciar toda a documentação necessária incluindo autorização dos pais ou responsáveis autenticada. O New York Institute se compromete em ajudar os alunos a preencherem os formulários necessários para solicitar um visto americano tipo B1/B2. Para os que possuem dupla cidadania, aconselhamos que consulte se seu segundo país faz parte do USA Visa Waiver Program. O NYEI não garante aos alunos a obtenção do visto, uma vez que a decisão de quem está apto a entrar em seu território é do Consulado americano. 
-  .row  
+  .travel-loc-header  
     .travel-img
       //= image_tag "abroad.jpg", class: [:"course-img"], alt: "Study Abroad Program"
     //.travel-loc-text
