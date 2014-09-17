@@ -1,14 +1,24 @@
+=render 'navbar_landing'
 .container-fluid
   .video-header
-    .landing-logo-back
+    /.landing-logo-back
     .row#landing-video
-      = video_tag('http://www.galleries.evancaldwell.com/videos/homePage_webmhd.webm', controls: false, autoplay: true, loop: true, id: [:'homePage_webmhd.webm'], height: "100%", poster: "homePageVidPoster.png",class: :video)
+      .carousel.slide{:id=>"slide-images", :data => {:ride => "carousel", :interval => "12000"}}
+        .carousel-inner
+          .item.active
+            = video_tag('http://www.galleries.evancaldwell.com/videos/landing-day.webmhd.webm', controls: false, autoplay: true, loop: true, id: [:'homePage_webmhd.webm1'], height: "100%", poster: "",class: :video, muted: :true)
+          .item
+            = video_tag('http://www.galleries.evancaldwell.com/videos/landing_park.webmhd.webm', controls: false, autoplay: true, loop: true, id: [:'homePage_webmhd.webm'], height: "100%", poster: "",class: :video, muted: :true)
+          .item
+            = video_tag('http://www.galleries.evancaldwell.com/videos/landing_intersection.webmhd.webm', controls: false, autoplay: true, loop: true, id: [:'homePage_webmhd.webm'], height: "100%", poster: "",class: :video, muted: :true)
+          .item
+            = video_tag('http://www.galleries.evancaldwell.com/videos/landing_skyline2.webmhd.webm', controls: false, autoplay: true, loop: true, id: [:'homePage_webmhd.webm'], height: "100%", poster: "",class: :video, muted: :true)
+          .item
+            = video_tag('http://www.galleries.evancaldwell.com/videos/landing_sign.webmhd.webm', controls: false, autoplay: true, loop: true, id: [:'homePage_webmhd.webm'], height: "100%", poster: "",class: :video, muted: :true)
     #landing-marketing
       #landing-marketing-box
         %h2#home-marketing-text 
           Inscreva-se para o próximo semestre. Apenas 21 dias!
-        #home-marketing-btn
-          %button Aprenda Mais        
       .row
         %span.chevron-thin
           %a
@@ -20,19 +30,19 @@
 
     %a
       %p.landing-overlay Inglês Fluente
-      = image_tag "Fluent English Course.jpg", class: [:"button-img"], alt: "English Full Course"
+      = image_tag "fluent_eng.jpg", class: [:"button-img"], alt: "English Full Course"
     %a
       %p.landing-overlay Inglês Acadêmico
       = image_tag "Academic English.jpg", class: [:"button-img"], alt: "Acedemic English"
     %a       
       %p.landing-overlay Curso Preparatório – Mestrado
-      = image_tag "Prep Course Undergrad.jpg", class: [:"button-img"], alt: "Grad School Prep"
+      = image_tag "Prep Course Grad.jpg", class: [:"button-img"], alt: "Grad School Prep"
     %a
       %p.landing-overlay Curso Preparatório – Ensino Superior
-      = image_tag "Prep Course Grad.jpg", class: [:"button-img"], alt: "Test Prep"
+      = image_tag "Prep Course Undergrad.jpg", class: [:"button-img"], alt: "Test Prep"
     %a
       %p.landing-overlay Conversação
-      = image_tag "Conversation.jpg", class: [:"button-img"], alt: "Conversation"
+      = image_tag "landing_conversation.jpg", class: [:"button-img"], alt: "Conversation"
     %a
       %p.landing-overlay Inglês para Viajantes
       = image_tag "English for Travelers.jpg", class: [:"button-img"], alt: "Work Shops"
@@ -42,10 +52,10 @@
 
     %a
       %p.landing-overlay Viajar para os EUA
-      = image_tag "Ninaup2.jpg", class: [:"button-img"], alt: "English for Travel"
+      = image_tag "liberty.jpg", class: [:"button-img"], alt: "English for Travel"
     %a
       %p.landing-overlay Imersão Cultural
-      = image_tag "Cultural Immersion.jpg", class: [:"button-img"], alt: "Travel to the US"
+      = image_tag "cultural-immersion.jpg", class: [:"button-img"], alt: "Travel to the US"
     %a
       %p.landing-overlay Estudar no Exterior
-      = image_tag "Study Abroad.jpg", class: [:"button-img"], alt: "Travel to the US"
+      = image_tag "cheerful-university-students.jpg", class: [:"button-img"], alt: "Travel to the US"

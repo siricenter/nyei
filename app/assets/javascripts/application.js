@@ -15,18 +15,33 @@
 //= require bootstrap
 //= require turbolinks
 //= require_tree .
+//= require bootstrap
 
-$(window).load(function(){
-		changeVideo();
-});
+$(window).load(function x(){
+    
+    startVideoClock();
+  });
 
-function changeVideo(){
-	var date = new Date();
-	var hour = date.getHours();
-	if(hour < 19 && hour > 7){
-		$(".video").attr("src","http://www.galleries.evancaldwell.com/videos/landing-day.webmhd.webm");
-	}
-	else{
-		$(".video").attr("src",'http://www.galleries.evancaldwell.com/videos/homePage_webmhd.webm');
-	}
+function startVideoClock(){
+	$('.carousel').carousel('pause');
+	setTimeout(function(){
+		$('.carousel').carousel('next');
+	},16000);
+	setTimeout(function(){
+		$('.carousel').carousel('next');
+	},33000)
+	setTimeout(function(){
+		$('.carousel').carousel('next');	
+	},56000)
+	setTimeout(function(){
+		$('.carousel').carousel('next');		
+	},72000)
+	setTimeout(function(){
+		$('.carousel').carousel('next');
+		startVideoClock();
+	},84000)
+}
+
+function mute(){
+	$(".video").prop('muted', true);
 }

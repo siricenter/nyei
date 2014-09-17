@@ -6,10 +6,11 @@
       %span.icon-bar
       %span.icon-bar
       %span.icon-bar
-    %a.navbar-brand.landing-logo
-      = image_tag "logotypeWhite-10.svg"
+    =link_to "NYEI",root_path, :class => [:"navbar-brand"]
   .collapse.navbar-collapse#navbar-collapse
     %ul.nav.nav-pills.nav-justified
+      %li.nav-item
+        = link_to "Home",root_path
       %li.nav-item#link
         = link_to "Metodologia", :methodology_page
       %li.nav-item
@@ -24,3 +25,5 @@
         = link_to "Contato", :contact_us
       %li.nav-item
         = link_to "Agenda", :register_page
+      %li.nav-item.lang-btn
+        = link_to "English #{image_tag('flag-icon-us.gif')}".html_safe, :landing_eng

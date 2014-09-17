@@ -1,0 +1,37 @@
+=render 'navbar_eng'
+.navbar.navbar-inverse
+.container
+  .row
+    .col-md-12
+      %h1.text-center Contact NYEI
+  .row#contact-content
+    .col-md-12
+      = link_to "Courses", :courses_offered_eng
+    .col-md-12
+      = link_to "FAQ", :faq_page_eng
+  .row
+    %form.contactForm{:novalidate => "novalidate", :role => "form"}
+      .form-group
+        %label.control-label Name
+        .controls
+          .input-group
+            %span.input-group-addon
+              %i.glyphicon.glyphicon-user
+            %input.form-control{:name => "name", :placeholder => "Name", :type => "text"}/
+      .form-group
+        %label.control-label Email
+        .controls
+          .input-group
+            %span.input-group-addon
+              %i.glyphicon.glyphicon-envelope
+            %input#email.form-control{:name => "email", :placeholder => "Email", :type => "text"}/
+      .form-group
+        %label.control-label Message
+        .controls
+          .input-group
+            %span.input-group-addon
+              %i.glyphicon.glyphicon-pencil
+            %textarea.form-control{:cols => "78", :name => "msg", :placeholder => "Enter your message here", :rows => "4"}
+      .controls{:style => "margin-left: 40%;"}
+        %button#mybtn.btn.text-center{:type => "submit"} Enviar Mensagem
+
