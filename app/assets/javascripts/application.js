@@ -18,7 +18,26 @@
 //= require bootstrap
 
 $(window).load(function x(){
-	$(".video").prop('muted', true);
-})
+    $(".video").prop('muted', true);
+    startVideoClock();
+  });
 
-
+function startVideoClock(){
+	$('.carousel').carousel('pause');
+	setTimeout(function(){
+		$('.carousel').carousel('next');
+	},16000);
+	setTimeout(function(){
+		$('.carousel').carousel('next');
+	},33000)
+	setTimeout(function(){
+		$('.carousel').carousel('next');	
+	},56000)
+	setTimeout(function(){
+		$('.carousel').carousel('next');		
+	},72000)
+	setTimeout(function(){
+		$('.carousel').carousel('next');
+		startVideoClock();
+	},84000)
+}
