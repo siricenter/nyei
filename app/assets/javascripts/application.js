@@ -18,7 +18,7 @@
 //= require bootstrap
 
 $(window).load(function x(){
-    $(".video").prop('muted', true);
+    
     startVideoClock();
   });
 
@@ -40,4 +40,8 @@ function startVideoClock(){
 		$('.carousel').carousel('next');
 		startVideoClock();
 	},84000)
+}
+
+function mute(){
+	$(".video").prop('muted', true);
 }
