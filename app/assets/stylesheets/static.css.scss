@@ -282,6 +282,24 @@ html
 	margin-bottom: 1em;
 }
 
+.travel-img-strip-1
+{
+	@extend .img-responsive;
+	@extend .col-xs-1;
+	height: 75px;
+	margin-bottom: 0em;
+  padding: 0;
+}
+
+.travel-img-strip-2
+{
+	@extend .img-responsive;
+	@extend .col-xs-2;
+	height: 150px;
+	margin-bottom: 0em;
+  padding: 0;
+}
+
 .travel-loc-text
 {
 	@extend .col-lg-8;
