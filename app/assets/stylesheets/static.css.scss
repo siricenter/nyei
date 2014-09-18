@@ -36,7 +36,7 @@ $theme-blue: #4183D7;
 //------------------------------------------------------------------------------
 
 .carousel .item {-webkit-transition: opacity 1.25s; -moz-transition: opacity 1.25s; -ms-transition: opacity 1.25s; -o-transition: opacity 1.25s; transition: opacity 1.25s;}
-.carousel .active.left {left:0;opacity:0;z-index:2;}
+.carousel .prev {left:0;opacity:0;z-index:2;}
 .carousel .next {left:0;opacity:1;z-index:1;}
 
 #home-marketing-text, .chevron-thin,#landing-marketing

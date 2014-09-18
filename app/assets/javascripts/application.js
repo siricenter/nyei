@@ -18,26 +18,90 @@
 //= require bootstrap
 
 $(window).load(function x(){
-    
     startVideoClock();
-  });
+});
+
+function startVideo(){
+	 $('.active').children(".video")[0].play();
+}
+
+var number = 0;
+function changeSlide(){
+	var item = $(".active");
+	var nextItem = item.next();
+	var parent = item.parent();
+	var firstItem = parent.children().first();
+	var lastItem = parent.children().last();
+	var prevItem = item.prev();
+		
+	item.removeClass("active");
+	lastItem.removeClass('prev');
+	item.addClass("prev");
+	
+
+	switch(number){
+		case 0:
+
+			nextItem.addClass('active');
+			break;
+		case 1:
+
+			prevItem.removeClass('prev');
+			nextItem.addClass('active');
+			break;
+		case 2:
+			prevItem.removeClass('prev');
+			nextItem.addClass('active');
+			break;
+		case 3:
+			prevItem.removeClass('prev');
+			nextItem.addClass('active');
+			break;
+		case 4:
+			prevItem.removeClass('prev');
+			firstItem.addClass('active');
+
+			break;
+	}
+	number++;
+	if(number > 4){
+		number = 0;
+	}
+}
+
+function stopVideo(){
+	var item = $('.carousel-inner').children('.active').children('.video') 
+ 		item[0].currentTime = 0;
+ 		item[0].pause();
+}
+
 
 function startVideoClock(){
 	$('.carousel').carousel('pause');
+	startVideo();
 	setTimeout(function(){
-		$('.carousel').carousel('next');
+		stopVideo();
+		changeSlide();
+		startVideo();
 	},16000);
 	setTimeout(function(){
-		$('.carousel').carousel('next');
+		stopVideo();
+		changeSlide();
+		startVideo();
 	},33000)
 	setTimeout(function(){
-		$('.carousel').carousel('next');	
+		stopVideo();
+		changeSlide();
+		startVideo();	
 	},56000)
 	setTimeout(function(){
-		$('.carousel').carousel('next');		
+		stopVideo();
+		changeSlide();
+		startVideo();		
 	},72000)
 	setTimeout(function(){
-		$('.carousel').carousel('next');
+		stopVideo();
+		changeSlide();
 		startVideoClock();
 	},84000)
 }
