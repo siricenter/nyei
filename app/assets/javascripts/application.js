@@ -18,7 +18,15 @@
 //= require bootstrap
 
 $(window).load(function x(){
-    startVideoClock();
+
+
+	var timer = setInterval(function(){
+		if ($(".video")[0].readyState === 4 ) {
+			clearInterval(timer);
+    		startVideoClock();
+		}
+			$(".video").load();
+	},1000)
 });
 
 function startVideo(){
