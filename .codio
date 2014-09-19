@@ -7,9 +7,11 @@
 	  "Run RSpec": "rake spec",
 	  "Run Cucumber": "rake cucumber",
 	  "Compile Assets" : "rake assets:clean; bundle exec rake assets:precompile",
-	  "Clean Assets" : "rake assets:clean"
+	  "Clean Assets" : "rake assets:clean",
+      "Start server" : "rails server"
   },
-
+    
+    
 // Preview button configuration
   "preview": {
         "Box URL": "http://{{domain}}:3000/",
