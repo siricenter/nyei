@@ -18,18 +18,11 @@
 //= require bootstrap
 
 $(window).load(function x(){
-
-
-	var timer = setInterval(function(){
-		if ($(".video")[0].readyState === 4 ) {
-			clearInterval(timer);
-    		startVideoClock();
-		}
-			$(".video").load();
-	},1000)
+    startVideoClock();
 });
 
 function startVideo(){
+	alert("ran")
 	 $('.active').children(".video")[0].play();
 }
 
