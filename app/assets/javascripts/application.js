@@ -22,7 +22,6 @@ $(window).load(function x(){
 });
 
 function startVideo(){
-	alert("ran")
 	 $('.active').children(".video")[0].play();
 }
 

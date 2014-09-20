@@ -46,6 +46,7 @@ $theme-blue: #4183D7;
 
 video
 {
+
 	object-fit: fill;
 }
 
@@ -422,6 +423,7 @@ body
 {
 	@extend .row;
 	overflow: hidden !important;
+	height: 100vh;
 	video
 	{
 
