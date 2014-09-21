@@ -1,5 +1,5 @@
 %nav.header.navbar.navbar-default{:role => :navigation}
-  .navbar-header#nav-header
+  .navbar-header
     %button.navbar-toggle{type: :button, 'data-toggle' => :collapse, 'data-target' => '#navbar-collapse'}
       %span.sr-only
         Toggle navigation
@@ -7,7 +7,7 @@
       %span.icon-bar
       %span.icon-bar
     =link_to (image_tag "logotypeWhite-10.svg"),root_path, :class => [:"navbar-brand", :"landing-logo"]
-  .collapse.navbar-collapse#navbar-collapse
+  .collapse.navbar-collapse
     %ul.nav.nav-pills.nav-justified
       %li.nav-item#link
         = link_to "Methodology", :methodology_page_eng
