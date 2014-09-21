@@ -8,7 +8,7 @@
     .col-md-12
       = link_to "Cursos", :courses_offered
     .col-md-12
-      = link_to "Ajuda (Perguntas Frequentes)", :faq_page
+      = link_to "Ajuda", :faq_page
   .row
     %form.contactForm{:novalidate => "novalidate", :role => "form"}
       .form-group
@@ -18,6 +18,20 @@
             %span.input-group-addon
               %i.glyphicon.glyphicon-user
             %input.form-control{:name => "name", :placeholder => "Nome", :type => "text"}/
+      .form-group
+        %label.control-label Empresa
+        .controls
+          .input-group
+            %span.input-group-addon
+              %i.glyphicon.glyphicon-home
+            %input.form-control{:name => "company", :placeholder => "Empresa", :type => "text"}/
+      .form-group
+        %label.control-label Organização
+        .controls
+          .input-group
+            %span.input-group-addon
+              %i.glyphicon.glyphicon-home
+            %input.form-control{:name => "organization", :placeholder => "Organização", :type => "text"}/
       .form-group
         %label.control-label Email
         .controls
