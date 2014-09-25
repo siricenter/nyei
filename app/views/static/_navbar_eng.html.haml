@@ -9,8 +9,6 @@
     =link_to "NYEI",root_path, :class => [:"navbar-brand"]
   .collapse.navbar-collapse#navbar-collapse
     %ul.nav.nav-pills.nav-justified
-      %li.nav-item
-        = link_to "Home", :landing_eng
       %li.nav-item#link
         = link_to "Methodology", :methodology_page_eng
       %li.nav-item
@@ -25,5 +23,3 @@
         = link_to "Contact", :contact_us_eng
       %li.nav-item
         = link_to "Register", :register_page_eng
-      %li.nav-item.lang-btn
-        = link_to "Português #{image_tag('flag-icon-brazil.gif')}".html_safe, root_path

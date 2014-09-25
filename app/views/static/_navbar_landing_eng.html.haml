@@ -6,7 +6,6 @@
       %span.icon-bar
       %span.icon-bar
       %span.icon-bar
-    =link_to (image_tag "NYEIlogoFinal-02.png",:class => [:"navbar-brand", :"landing-logo"]),root_path, :class => [:"navbar-brand", :"landing-logo"]
   .collapse.navbar-collapse
     %ul.nav.nav-pills.nav-justified
       %li.nav-item#link
@@ -18,6 +17,8 @@
       %li.nav-item
         = link_to "Teachers", :teachers_page_eng
       %li.nav-item
+        =link_to (image_tag "NYEIlogoFinal-02.png", :class => [:"landing-logo"]),root_path, :class => [:"landing-logo"]
+      %li.nav-item
         = link_to "About", :about_us_eng
       %li.nav-item
         = link_to "Contact", :contact_us_eng
@@ -25,3 +26,4 @@
         = link_to "Register", :register_page_eng
       %li.nav-item.lang-btn
         = link_to "Português #{image_tag('flag-icon-brazil.gif')}".html_safe, root_path
+      %li

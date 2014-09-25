@@ -6,8 +6,7 @@
       %span.icon-bar
       %span.icon-bar
       %span.icon-bar
-    =link_to (image_tag "NYEIlogoFinal-02.png", :class => [:"navbar-brand", :"landing-logo"]),root_path, :class => [:"navbar-brand", :"landing-logo"]
-  .collapse.navbar-collapse#navbar-collapse
+  .collapse.navbar-collapse
     %ul.nav.nav-pills.nav-justified
       %li.nav-item#link
         = link_to "Metodologia", :methodology_page
@@ -16,7 +15,9 @@
       %li.nav-item
         = link_to "Viagens", :travel_opportunities
       %li.nav-item
-        = link_to "Professores", :teachers_page
+        = link_to "Professores", :teachers_page 
+      %li.nav-item
+        =link_to (image_tag "NYEIlogoFinal-02.png", :class => [:"landing-logo"]),root_path, :class => [:"landing-logo"]
       %li.nav-item
         = link_to "Sobre Nós", :about_us
       %li.nav-item
@@ -25,3 +26,4 @@
         = link_to "Matrículas", :register_page
       %li.nav-item.lang-btn
         = link_to "English #{image_tag('flag-icon-us.gif')}".html_safe, :landing_eng
+      %li
