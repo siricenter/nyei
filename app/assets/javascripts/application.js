@@ -83,27 +83,27 @@ function startVideoClock(){
 		stopVideo();
 		changeSlide();
 		startVideo();
-	},16000);
+	},15000);
 	setTimeout(function(){
 		stopVideo();
 		changeSlide();
 		startVideo();
-	},33000)
+	},32000)
 	setTimeout(function(){
 		stopVideo();
 		changeSlide();
 		startVideo();	
-	},56000)
+	},55000)
 	setTimeout(function(){
 		stopVideo();
 		changeSlide();
 		startVideo();		
-	},72000)
+	},71000)
 	setTimeout(function(){
 		stopVideo();
 		changeSlide();
 		startVideoClock();
-	},84000)
+	},83000)
 }
 
 function mute(){

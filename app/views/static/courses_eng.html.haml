@@ -1,7 +1,7 @@
 =render 'navbar_eng'
 .navbar.navbar-inverse
-%h1.text-center Courses Offered
 .container
+  %h1.text-center Courses Offered
   .course-container
     = image_tag "english_fluency.jpg", class: [:"course-img"], alt: "English Full Course"
     %h2 Fluent English
@@ -92,6 +92,8 @@
         %li Level test is required for this course
       %p 
         = link_to "Register Now", :register_page_eng
+  %hr
+  %h1.text-center Workshops
   .course-container  
     = image_tag "job_interview.jpg", class: [:"course-img"], alt: "Job Interview/Resume"
     %h2 Job Interview Prep and Resume Building
