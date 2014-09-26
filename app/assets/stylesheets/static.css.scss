@@ -99,8 +99,10 @@ a:hover, a:focus{
   	}
 }
 #nav-land-logo{
- width: 20em;
+  width: 16em;
   vertical-align: top;
+  height: auto;
+  padding-top: 0;
 }
 /*******************************************************************************
  * FOOTER
@@ -116,8 +118,13 @@ a:hover, a:focus{
 	#footer-logo
 	{
 		max-height: 110px;
-        margin-top: 50px;
+    margin-top: 50px;
 	}
+  #footer-logo img
+  {
+    max-width: auto;
+    max-height: auto;
+  }
     
 	ul
 	{
@@ -129,17 +136,24 @@ a:hover, a:focus{
 	}
 }
 #footer-img-col{
-    margin-top: 50px;
+  margin-top: 50px;
+  a
+  {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 }
 /*******************************************************************************
 // LANDING //
  ******************************************************************************/
-#home-marketing-btn{
+#home-marketing-btn
+{
 	@extend .col-xs-5;
 	@extend .col-md-2;
 	position: relative;
 	bottom: -12px;
-	button {
+	button 
+  {
 		background: rgba(255, 255, 255, .65);
 		border: 0;
 		font-size: 23px;
@@ -148,19 +162,23 @@ a:hover, a:focus{
 		font-weight: bold;
 	}
 }
-#home-marketing-text, .chevron-thin, #landing-marketing {
+#home-marketing-text, .chevron-thin, #landing-marketing 
+{
 	z-index: 100;
 }
-#landing-travel-title {
+#landing-travel-title 
+{
   margin-top: 0em;
 }
-#landing-marketing  {
+#landing-marketing  
+{
+	background-color: rgba(0,0,0,.5);
 	position: relative;
 	margin-top: -155px;
 	width: 100%;
 }
-#landing-marketing-box {
-	background-color: rgba(0,0,0,.25);
+#landing-marketing-box 
+{
 	@extend .row;
 	h2 {
 		@extend .col-lg-12;
