@@ -1,7 +1,8 @@
 .footer
   .row
-    .footer-col  
-      =link_to (image_tag "logotypeWhite-10.svg"),root_path
+    .footer-col 
+      #footer-logo
+        =link_to (image_tag "logotypeWhite-10.svg"),root_path
     .footer-col
       %ul
         %li
@@ -21,13 +22,11 @@
         %li
           = link_to "Contato", :contact_us
         %li
-          = link_to "Trabalhe Conosco", :work_with_us
+          = link_to "Career", :work_with_us
         %li
           = link_to "Ajuda", :faq_page
-    .footer-col
-      %ul
-        %li
-          .fb-share-button{"data-href" => "https://www.facebook.com/nyei.brazil"}
-        %li
-          %a.twitter-share-button{"data-count" => "none", "data-lang" => "pt", :href => "https://twitter.com/share"} Tweetar
-          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+    .footer-col#footer-img-col
+      = link_to (image_tag "fb_icon.png", :height => 50), "https://www.facebook.com/nyei.brazil"
+      = link_to (image_tag "tw_icon.png", :height => 50), "https://twitter.com/nyei_brazil"
+      = link_to (image_tag "in_icon.png", :height => 50), "http://instagram.com/nyei_brazil"
+          

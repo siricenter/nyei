@@ -5,33 +5,19 @@
     .col-md-12
       %h1.text-center Contact NYEI
   .row#contact-content
-    .col-md-12
+    .contact-link
       = link_to "Courses", :courses_offered_eng
-    .col-md-12
+    .contact-link
       = link_to "FAQ", :faq_page_eng
   .row
     %form.contactForm{:novalidate => "novalidate", :role => "form"}
       .form-group
-        %label.control-label Name
+        %label.control-label Name/Company/Organization...
         .controls
           .input-group
             %span.input-group-addon
               %i.glyphicon.glyphicon-user
-            %input.form-control{:name => "name", :placeholder => "Name", :type => "text"}/
-      .form-group
-        %label.control-label Company
-        .controls
-          .input-group
-            %span.input-group-addon
-              %i.glyphicon.glyphicon-home
-            %input.form-control{:name => "company", :placeholder => "Company", :type => "text"}/
-      .form-group
-        %label.control-label Organization
-        .controls
-          .input-group
-            %span.input-group-addon
-              %i.glyphicon.glyphicon-home
-            %input.form-control{:name => "organization", :placeholder => "Organization", :type => "text"}/
+            %input.form-control{:name => "name", :placeholder => "Name/Company/Organization...", :type => "text"}/
       .form-group
         %label.control-label Email
         .controls

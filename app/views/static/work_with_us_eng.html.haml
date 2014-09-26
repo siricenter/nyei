@@ -1,91 +1,43 @@
 =render 'navbar_eng'
 .navbar.navbar-inverse
-
-%h1.text-center Work With Us
 .container
   .row
     .col-xs-12
-      %p 
-        Our Locations: 
-        %ul
-          %li Online School
-          %li New York City
-          %li Sao Paulo Zona Norte 
-          %li Sao Paulo Zona Sul 
-          %li Sao Paulo Zona Interlagos 
-          %li Sao Paulo Zona Oeste 
-          %li Sao Paulo Santos 
-          %li Rio De Janeiro 
-          %li Manaus 
-          %li Florianopolis 
-          %li Recife 
-          %li Fortaleza 
-          %li Belo Horizonte 
-          %li Salvador 
-          %li Espírito Santo 
-          %li Cuiaba 
-          %li Curitiba 
-          %li Porto Alegre 
-          %li Campinas 
-          %li Maceió 
-          %li Natal 
-          %li Campo Grande 
-      %p 
-        Job Openings:
-        %ul
-          %li Customer Service Representative (Candidates must have an advanced level of English)
-          %li Front Desk Secretary (Candidates must have an advanced level of English)
-          %li Tutor (Candidates must be bilingual)
-          %li Financial Clerk
-          %li Marketing Associate (local)
-          %li HR Secretary  
-          %li Education Coordinator
-          %li Teacher (refer to our teaching abroad website, here is the link…) 
-      %p Name
-      %p DOB
-      %p Address
-      %p Location of Interest
-      %p Position applying for
-      %p English Experience
-      %p Referrals 1, 2 and 3 (no relatives)
-      %p Attach Cover letter
-      %p Attach Resume
-%h1.text-center Brazil
-.container
-  %form.contactForm{:novalidate => "novalidate", :role => "form"}
-    .form-group
-      %label.control-label Nome
-      .controls
-        .input-group
-          %span.input-group-addon
-            %i.glyphicon.glyphicon-user
-          %input.form-control{:name => "nome", :placeholder => "Nome", :type => "text"}/
-    .form-group
-      %label.control-label Email
-      .controls
-        .input-group
-          %span.input-group-addon
-            %i.glyphicon.glyphicon-envelope
-          %input#email.form-control{:name => "email", :placeholder => "Email", :type => "text"}/
-    .controls{:style => "margin-left: 40%;"}
-      %button.btn{:type => "submit"} Enviar
-%h1.text-center USA
-.container
-  %form.contactForm{:novalidate => "novalidate", :role => "form"}
-    .form-group
-      %label.control-label Name
-      .controls
-        .input-group
-          %span.input-group-addon
-            %i.glyphicon.glyphicon-user
-          %input.form-control{:name => "name", :placeholder => "Name", :type => "text"}/
-    .form-group
-      %label.control-label Email
-      .controls
-        .input-group
-          %span.input-group-addon
-            %i.glyphicon.glyphicon-envelope
-          %input#email.form-control{:name => "email", :placeholder => "Email", :type => "text"}/
-    .controls{:style => "margin-left: 40%;"}
-      %button.btn{:type => "submit"} Submit
+      %h1.text-center Brazil
+      %form.contactForm{:novalidate => "novalidate", :role => "form"}
+        .form-group
+          %label.control-label Nome
+          .controls
+            .input-group
+              %span.input-group-addon
+                %i.glyphicon.glyphicon-user
+              %input.form-control{:name => "nome", :placeholder => "Nome", :type => "text"}/
+        .form-group
+          %label.control-label Email
+          .controls
+            .input-group
+              %span.input-group-addon
+                %i.glyphicon.glyphicon-envelope
+              %input#email.form-control{:name => "email", :placeholder => "Email", :type => "text"}/
+        .controls{:style => "margin-left: 40%;"}
+          %button.btn{:type => "submit"} Enviar
+    .col-xs-12
+      %h1.text-center USA
+      %form.contactForm{:novalidate => "novalidate", :role => "form"}
+        .form-group
+          %label.control-label Name
+          .controls
+            .input-group
+              %span.input-group-addon
+                %i.glyphicon.glyphicon-user
+              %input.form-control{:name => "name", :placeholder => "Name", :type => "text"}/
+        .form-group
+          %label.control-label Email
+          .controls
+            .input-group
+              %span.input-group-addon
+                %i.glyphicon.glyphicon-envelope
+              %input#email.form-control{:name => "email", :placeholder => "Email", :type => "text"}/
+        .controls{:style => "margin-left: 40%;"}
+          %button.btn{:type => "submit"} Submit
 = render 'footer_eng'
