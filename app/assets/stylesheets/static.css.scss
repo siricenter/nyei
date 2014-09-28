@@ -291,7 +291,7 @@ a:hover, a:focus{
 .landing-titles{
 	font-family: helvetica neue, Sans-serif;
 	margin-bottom: 25px;
-	margin-top: 95px;
+	margin-top: 50px;
 }
 .video-header{
 	@extend .row;
@@ -485,6 +485,12 @@ a:hover, a:focus{
 /*******************************************************************************
 // REGISTER
 *******************************************************************************/
+.register-container
+{
+  @extend .container-fluid;
+  margin-left: 50px;
+  margin-right: 50px;
+}
 .table{
   margin-bottom: 40px;
 }
