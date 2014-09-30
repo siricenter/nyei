@@ -99,7 +99,7 @@ a:hover, a:focus{
   	}
 }
 #nav-land-logo{
-  width: 16em;
+  width: 10em;
   vertical-align: top;
   height: auto;
   padding-top: 0;
@@ -353,6 +353,60 @@ a:hover, a:focus{
 }
 .carousel .prev {left:0; opacity:0; z-index:2;}
 .carousel .next {left:0; opacity:1; z-index:1;}
+  /*******************************************************************************
+  // Hover //
+   ******************************************************************************/
+/* Effect 4: bottom border enlarge */
+nav a {
+	position: relative;
+	display: inline-block;
+	outline: none;
+	color: #fff;
+	text-decoration: none;
+	//text-transform: uppercase;
+	letter-spacing: .25px;
+	font-weight: 400;
+	font-size: 1.00em;
+}
+
+nav a:hover,
+nav a:focus {
+	outline: none;
+}
+.cl-effect-4 a {
+	padding: 0 0 10px;
+}
+
+.cl-effect-4 a::after {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	height: 1px;
+	background: #fff;
+	content: '';
+	opacity: 0;
+	-webkit-transition: height 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+	-moz-transition: height 0.3s, opacity 0.3s, -moz-transform 0.3s;
+	transition: height 0.3s, opacity 0.3s, transform 0.3s;
+	-webkit-transform: translateY(-10px);
+	-moz-transform: translateY(-10px);
+	transform: translateY(-10px);
+}
+
+.cl-effect-4 a:hover::after,
+.cl-effect-4 a:focus::after {
+	height: 1px;
+	opacity: 1;
+	-webkit-transform: translateY(0px);
+	-moz-transform: translateY(0px);
+	transform: translateY(0px);
+}
+.container > section {
+	margin: 0 auto;
+	padding: 10em 3em;
+	text-align: center;
+}
   //******************************************************************************
 /*******************************************************************************
 // METHODOLOGY //
@@ -437,11 +491,6 @@ a:hover, a:focus{
 }
 .travel-img {
 	@extend .img-responsive;
-	@extend .col-lg-4;
-	@extend .col-md-4;
-	@extend .col-sm-12;
-	@extend .col-xs-12;
-	max-height: 300px;
 	margin-bottom: 1em;
 }
 .travel-img-strip-1{

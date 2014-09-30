@@ -2,16 +2,13 @@
 .navbar.navbar-inverse
 .container
   .row
-    .col-xs-12.col-
+    .col-xs-12
       %h1.text-center Travel Opportunities
       %p The New York English Institute provides students with the opportunity to experience the culture of the United States first hand. We offer several options of programs for students to travel abroad and apply what they have been learning at our institute. 
-  .travel-loc-header
-    /.travel-img
-    /= image_tag "western.jpg", class: [:"img-responsive"], alt: "Western United States"
-    .travel-loc-text
+  .row
+    .col-xs-12
       %h2 Western States Trip: California, Utah, Arizona, and Nevada
       %p Students who are interested in being part of the Western States Trip need to make sure to start the application process and secure their spot. In this trip we visit famous touristic places such as:
-  .row
     .travel-loc-col
       %ul
         %li 
@@ -26,60 +23,66 @@
           Nevada (Las Vegas):
           %ul
             %li High Roller (500ft high ferris wheel)
-            %li Stratosphere 
-            /%li Celine Dion Concert
+            %li Stratosphere
             %li Cirque Du Soleil Show
+            %li Circus Circus
+            %li Wax Museum 
+            %li Gondola Ride at the Venetian Hotel Casino
     .travel-loc-col
       %ul
         %li
           %ul
-            %li Circus Circus
-            %li Wax Museum 
-            %li Gondola Ride at the Venetian Hotel Casino
             %li Dancing Water Show at the Bellagio Hotel Casino
             %li Siegfried & Roy's Secret Garden & Dolphin Habitat
             %li The Las Vegas Welcome sign
             %li Helicopter Ride over the Strip
             %li Hoover Dam
-    .travel-loc-col
-      %ul
         %li 
           Arizona:
           %ul
             %li Grand Canyon National Park (Skywalk)
         %li 
-          Califórnia:
+          California:
           %ul
             %li Hollywood Walk of Fame
             %li Santa Barbara Pier
             %li Disneyland 
             %li Walt Disney Concert Hall
             %li San Diego Zoo
+    .travel-loc-col
+      .row
+        .col-xs-6
+          = image_tag "western-01.jpg", class: [:"travel-img"], alt: "Western United States 01"
+        .col-xs-6
+          = image_tag "western-02.jpg", class: [:"travel-img"], alt: "Western United States 02"
+        .col-xs-6
+          = image_tag "western-03.jpg", class: [:"travel-img"], alt: "Western United States 03"
+        .col-xs-6
+          = image_tag "western-04.jpg", class: [:"travel-img"], alt: "Western United States 04" 
+    .col-xs-6
+      .row
+        .col-xs-4
+          = image_tag "western-05.jpg", class: [:"travel-img"], alt: "Western United States 05"
+        .col-xs-4
+          = image_tag "western-06.jpg", class: [:"travel-img"], alt: "Western United States 06"
+        .col-xs-4
+          = image_tag "western-07.jpg", class: [:"travel-img"], alt: "Western United States 07"
+        .col-xs-4
+          = image_tag "western-08.jpg", class: [:"travel-img"], alt: "Western United States 08"
+        .col-xs-4
+          = image_tag "western-09.jpg", class: [:"travel-img"], alt: "Western United States 09"
+        .col-xs-4
+          = image_tag "western-10.jpg", class: [:"travel-img"], alt: "Western United States 10"
+    .col-xs-6
+      %p 
+        %font{:color => "red"} IMPORTANT: 
+        Only students enrolled in our courses will have access to this trip and each student must have completed at least one semester of our main English Course to qualify for this trip. 
+      %p Students under the age of 21 must have written permission from parents or guardians in order to travel. The school will assist students in filling out the required forms to request an American Visa. For those who would like to travel with our institute getting a B1/B2 visa is the first step.  We advise the students that have dual citizenship to review the USA Visa Waiver Program policy. NYEI does not guarantee that students will be granted a visa, as it is the decision of the American Consulate. 
+      %p In order to assure our students an affordable price a minimum of eight students must sign up for the trip. Also to ensure safety we will only travel with a maximum of 15 students.
   .row
-    %p  
-      %font{:color => "red"} IMPORTANT: 
-      Only students enrolled in our courses will have access to this trip and each student must have completed at least one semester of our main English Course to qualify for this trip. 
-    %p Students under the age of 21 must have written permission from parents or guardians in order to travel. The school will assist students in filling out the required forms to request an American Visa. For those who would like to travel with our institute getting a B1/B2 visa is the first step.  We advise the students that have dual citizenship to review the USA Visa Waiver Program policy. NYEI does not guarantee that students will be granted a visa, as it is the decision of the American Consulate. 
-    %p In order to assure our students an affordable price a minimum of eight students must sign up for the trip. Also to ensure safety we will only travel with a maximum of 15 students.
-  .row
-    .col-xs-offset-1
-      = image_tag "western-01.jpg", class: [:"travel-img-strip-1"], alt: "Western United States 01"
-    = image_tag "western-02.jpg", class: [:"travel-img-strip-1"], alt: "Western United States 02"
-    = image_tag "western-03.jpg", class: [:"travel-img-strip-1"], alt: "Western United States 03"
-    = image_tag "western-04.jpg", class: [:"travel-img-strip-1"], alt: "Western United States 04"
-    = image_tag "western-05.jpg", class: [:"travel-img-strip-1"], alt: "Western United States 05"
-    = image_tag "western-06.jpg", class: [:"travel-img-strip-1"], alt: "Western United States 06"
-    = image_tag "western-07.jpg", class: [:"travel-img-strip-1"], alt: "Western United States 07"
-    = image_tag "western-08.jpg", class: [:"travel-img-strip-1"], alt: "Western United States 08"
-    = image_tag "western-09.jpg", class: [:"travel-img-strip-1"], alt: "Western United States 09"
-    = image_tag "western-10.jpg", class: [:"travel-img-strip-1"], alt: "Western United States 10"
-  .travel-loc-header
-    /.travel-img
-    /= image_tag "eastern.jpg", class: [:"img-responsive"], alt: "Eastern United States"
     .travel-loc-text
       %h2 Eastern States Trip: New York, Pennsylvania, Washington DC and Virginia
       %p Students who are interested in being part of the Eastern Trip need to make sure to start the application process and secure their spot. In this trip we visit famous touristic places such as:
-  .row
     .travel-loc-col
       %ul
         %li 
@@ -95,16 +98,16 @@
             %li China Town
             %li Guggenheim Museum
             %li One World Observatory
-    .travel-loc-col
-      %ul
-        %li 
-          %ul
             %li Wall Street (Bull)
             %li Central Station
         %li 
           Pennsylvania (Philadelphia) 
           %ul
             %li Hershey’s Park
+    .travel-loc-col
+      %ul
+        %li
+          %ul
             %li Hop on Hop off City Tour
             %li Liberty Bell
             %li Historic Tour
@@ -113,8 +116,6 @@
           %ul
             %li Historical tour
             %li Theme Parks
-    .travel-loc-col
-      %ul
         %li 
           Washington DC:
           %ul
@@ -126,31 +127,40 @@
             %li Changing of the Guard
             %li Fourth of July Fire Works
             %li Fords Theater
+    .travel-loc-col
+      .row
+        .col-xs-6
+          = image_tag "eastern-01.jpg", class: [:"travel-img"], alt: "Eastern United States 01"
+        .col-xs-6
+          = image_tag "eastern-02.jpg", class: [:"travel-img"], alt: "Eastern United States 02"
+        .col-xs-6
+          = image_tag "eastern-03.jpg", class: [:"travel-img"], alt: "Eastern United States 03"
+        .col-xs-6
+          = image_tag "eastern-04.jpg", class: [:"travel-img"], alt: "Eastern United States 04" 
+    .col-xs-6
+      .row
+        .col-xs-4
+          = image_tag "eastern-05.jpg", class: [:"travel-img"], alt: "Eastern United States 05"
+        .col-xs-4
+          = image_tag "eastern-06.jpg", class: [:"travel-img"], alt: "Eastern United States 06"
+        .col-xs-4
+          = image_tag "eastern-07.jpg", class: [:"travel-img"], alt: "Eastern United States 07"
+        .col-xs-4
+          = image_tag "eastern-08.jpg", class: [:"travel-img"], alt: "Eastern United States 08"
+        .col-xs-4
+          = image_tag "eastern-09.jpg", class: [:"travel-img"], alt: "Eastern United States 09"
+        .col-xs-4
+          = image_tag "eastern-10.jpg", class: [:"travel-img"], alt: "Eastern United States 10"
+    .col-xs-6
+      %p
+        %font{:color => "red"} IMPORTANT: 
+        Only students enrolled in our courses will have access to this trip and each student must have completed at least one semester of our main English Course to qualify for this trip. 
+      %p Students under the age of 21 must have written permission from parents or guardians in order to travel. The school will assist students in filling out the required forms to request an American Visa. For those who would like to travel with our institute getting a B1/B2 visa is the first step.  We advise the students that have dual citizenship to review the USA Visa Waiver Program policy. NYEI does not guarantee that students will be granted a visa, as it is the decision of the American Consulate. 
+      %p In order to assure our students an affordable price a minimum of eight students must sign up for the trip. Also to ensure safety we will only travel with a maximum of 15 students.
   .row
-    %p  
-      %font{:color => "red"} IMPORTANT: 
-      Only students enrolled in our courses will have access to this trip and each student must have completed at least one semester of our main English Course to qualify for this trip. 
-    %p Students under the age of 21 must have written permission from parents or guardians in order to travel. The school will assist students in filling out the required forms to request an American Visa. For those who would like to travel with our institute getting a B1/B2 visa is the first step.  We advise the students that have dual citizenship to review the USA Visa Waiver Program policy. NYEI does not guarantee that students will be granted a visa, as it is the decision of the American Consulate. 
-    %p In order to assure our students an affordable price a minimum of eight students must sign up for the trip. Also to ensure safety we will only travel with a maximum of 15 students.
-  .row
-    .col-xs-offset-1
-      = image_tag "eastern-1.jpg", class: [:"travel-img-strip-1"], alt: "Eastern United States 1"
-    = image_tag "eastern-2.jpg", class: [:"travel-img-strip-1"], alt: "Eastern United States 2"
-    = image_tag "eastern-3.jpg", class: [:"travel-img-strip-1"], alt: "Eastern United States 3"
-    = image_tag "eastern-4.jpg", class: [:"travel-img-strip-1"], alt: "Eastern United States 4"
-    = image_tag "eastern-5.jpg", class: [:"travel-img-strip-1"], alt: "Eastern United States 5"
-    = image_tag "eastern-6.jpg", class: [:"travel-img-strip-1"], alt: "Eastern United States 6"
-    = image_tag "eastern-7.jpg", class: [:"travel-img-strip-1"], alt: "Eastern United States 7"
-    = image_tag "eastern-8.jpg", class: [:"travel-img-strip-1"], alt: "Eastern United States 8"
-    = image_tag "eastern-9.jpg", class: [:"travel-img-strip-1"], alt: "Eastern United States 9"
-    = image_tag "eastern-10.jpg", class: [:"travel-img-strip-1"], alt: "Eastern United States 10"
-  .travel-loc-header
-    /.travel-img
-    /= image_tag "chicago_florida.jpg", class: [:"img-responsive"], alt: "Chicago and Florida"
-    .travel-loc-text
+    .col-xs-12
       %h2 Chicago, Orlando and Miami Trip
       %p Students who are interested in being part of the Chicago, Orlando and Miami Trip need to make sure to start the application process and secure their spot. In this trip we visit famous touristic places such as:
-  .row
     .travel-loc-col
       %ul
         %li
@@ -162,21 +172,18 @@
             %li Navy Pier
             %li Hancock Observatory
             %li Sears Towers
+            %li Adler Planetarium
+            %li Windy Chicago
     .travel-loc-col
       %ul
         %li
           %ul
-            %li Adler Planetarium
-            %li Windy Chicago
             %li Brookfield Zoo
             %li Chicago Theatre
             %li Architecture River Cruise
             %li South Side Tour
-    .travel-loc-col
-      %ul
         %li
           Orlando: 
-          //Flórida:
           %ul
             %li Walt Disney world
         %li
@@ -184,56 +191,86 @@
           %ul
             %li Two Night Cruise Ship in the Atlantic Ocean
             %li Beach (voted by the students)
-    .col-md-12
-      %p  
+    .travel-loc-col
+      .row
+        .col-xs-6
+          = image_tag "chicago_florida-01.jpg", class: [:"travel-img"], alt: "Chicago and Florida 01"
+        .col-xs-6
+          = image_tag "chicago_florida-02.jpg", class: [:"travel-img"], alt: "Chicago and Florida 02"
+        .col-xs-6
+          = image_tag "chicago_florida-03.jpg", class: [:"travel-img"], alt: "Chicago and Florida 03"
+        .col-xs-6
+          = image_tag "chicago_florida-04.jpg", class: [:"travel-img"], alt: "Chicago and Florida 04" 
+    .col-xs-6
+      .row
+        .col-xs-4
+          = image_tag "chicago_florida-05.jpg", class: [:"travel-img"], alt: "Chicago and Florida 05"
+        .col-xs-4
+          = image_tag "chicago_florida-06.jpg", class: [:"travel-img"], alt: "Chicago and Florida 06"
+        .col-xs-4
+          = image_tag "chicago_florida-07.jpg", class: [:"travel-img"], alt: "Chicago and Florida 07"
+        .col-xs-4
+          = image_tag "chicago_florida-08.jpg", class: [:"travel-img"], alt: "Chicago and Florida 08"
+        .col-xs-4
+          = image_tag "chicago_florida-09.jpg", class: [:"travel-img"], alt: "Chicago and Florida 09"
+        .col-xs-4
+          = image_tag "chicago_florida-10.jpg", class: [:"travel-img"], alt: "Chicago and Florida 10"
+    .col-xs-6
+      %p
         %font{:color => "red"} IMPORTANT: 
         Only students enrolled in our courses will have access to this trip and each student must have completed at least one semester of our main English Course to qualify for this trip. 
       %p Students under the age of 21 must have written permission from parents or guardians in order to travel. The school will assist students in filling out the required forms to request an American Visa. For those who would like to travel with our institute getting a B1/B2 visa is the first step.  We advise the students that have dual citizenship to review the USA Visa Waiver Program policy. NYEI does not guarantee that students will be granted a visa, as it is the decision of the American Consulate. 
       %p In order to assure our students an affordable price a minimum of eight students must sign up for the trip. Also to ensure safety we will only travel with a maximum of 15 students.
   .row
-    .col-xs-offset-1
-      = image_tag "chicago_florida-01.jpg", class: [:"travel-img-strip-1"], alt: "Chicago and Florida 01"
-    = image_tag "chicago_florida-02.jpg", class: [:"travel-img-strip-1"], alt: "Chicago and Florida 02"
-    = image_tag "chicago_florida-03.jpg", class: [:"travel-img-strip-1"], alt: "Chicago and Florida 03"
-    = image_tag "chicago_florida-04.jpg", class: [:"travel-img-strip-1"], alt: "Chicago and Florida 04"
-    = image_tag "chicago_florida-05.jpg", class: [:"travel-img-strip-1"], alt: "Chicago and Florida 05"
-    = image_tag "chicago_florida-06.jpg", class: [:"travel-img-strip-1"], alt: "Chicago and Florida 06"
-    = image_tag "chicago_florida-07.jpg", class: [:"travel-img-strip-1"], alt: "Chicago and Florida 07"
-    = image_tag "chicago_florida-08.jpg", class: [:"travel-img-strip-1"], alt: "Chicago and Florida 08"
-    = image_tag "chicago_florida-09.jpg", class: [:"travel-img-strip-1"], alt: "Chicago and Florida 09"
-    = image_tag "chicago_florida-10.jpg", class: [:"travel-img-strip-1"], alt: "Chicago and Florida 10"
-  .travel-loc-header    
-    /.travel-img
-    /= image_tag "immersion.jpg", class: [:"course-img"], alt: "Cultural Immersion Program"
-    /.travel-loc-text
     .col-xs-12
       %h2 Cultural Immersion Program
-      %p Students between the ages of 15 and 17 have the opportunity to spend one to three months living with an American host family in the United States. Our Institute has partnered up with host families throughout the country. Students can choose where they would like to go from a list of several states.
-      %p They have a chance to further improve their English, make friends and be immersed in the United States culture. 
-      %p  
-        %font{:color => "red"} IMPORTANT: 
-        Only students enrolled in our courses will have access to this trip and each student must have completed at least one semester of our main English Course to qualify for this trip. 
-      %p Students under the age of 21 must have written permission from parents or guardians in order to travel. The school will assist students in filling out the required forms to request an American Visa. For those who would like to travel with our institute getting a B1/B2 visa is the first step.  We advise the students that have dual citizenship to review the USA Visa Waiver Program policy. NYEI does not guarantee that students will be granted a visa, as it is the decision of the American Consulate. 
+    .col-xs-12
+      .row
+        .travel-loc-col
+          %p Students between the ages of 15 and 17 have the opportunity to spend one to three months living with an American host family in the United States. Our Institute has partnered up with host families throughout the country. Students can choose where they would like to go from a list of several states.
+          %p They have a chance to further improve their English, make friends and be immersed in the United States culture. 
+        .col-xs-12.col-md-8
+          .row
+            .col-xs-6
+              = image_tag "cultural-immersion-01.jpg", class: [:"travel-img"], alt: "Cultural Immersion Program 01"
+            .col-xs-6
+              = image_tag "cultural-immersion-02.jpg", class: [:"travel-img"], alt: "Cultural Immersion Program 02"
+      .row
+        .col-xs-6
+          .row
+            .col-xs-4
+              = image_tag "cultural-immersion-03.jpg", class: [:"travel-img"], alt: "Cultural Immersion Program 03"
+            .col-xs-4
+              = image_tag "cultural-immersion-04.jpg", class: [:"travel-img"], alt: "Cultural Immersion Program 04"
+            .col-xs-4
+              = image_tag "cultural-immersion-05.jpg", class: [:"travel-img"], alt: "Cultural Immersion Program 05"
+        .col-xs-6
+          %p  
+            %font{:color => "red"} IMPORTANT: 
+            Only students enrolled in our courses will have access to this trip and each student must have completed at least one semester of our main English Course to qualify for this trip. 
+          %p Students under the age of 21 must have written permission from parents or guardians in order to travel. The school will assist students in filling out the required forms to request an American Visa. For those who would like to travel with our institute getting a B1/B2 visa is the first step.  We advise the students that have dual citizenship to review the USA Visa Waiver Program policy. NYEI does not guarantee that students will be granted a visa, as it is the decision of the American Consulate. 
   .row
-    .col-xs-offset-1
-      = image_tag "cultural-immersion-01.jpg", class: [:"travel-img-strip-2"], alt: "Cultural Immersion Program 01"
-    = image_tag "cultural-immersion-02.jpg", class: [:"travel-img-strip-2"], alt: "Cultural Immersion Program 02"
-    = image_tag "cultural-immersion-03.jpg", class: [:"travel-img-strip-2"], alt: "Cultural Immersion Program 03"
-    = image_tag "cultural-immersion-04.jpg", class: [:"travel-img-strip-2"], alt: "Cultural Immersion Program 04"
-    = image_tag "cultural-immersion-05.jpg", class: [:"travel-img-strip-2"], alt: "Cultural Immersion Program 05"
-  .travel-loc-header  
-    /.travel-img
-    /= image_tag "abroad.jpg", class: [:"course-img"], alt: "Study Abroad Program"
-    /.travel-loc-text
     .col-xs-12
       %h2 Study Abroad Program
-      %p This program allows students the opportunity to study English at our English Institute in New York City. 
-      %p We offer a discounted price on tuition so that students can more easily afford the costs of living in New York City. If you are interested in this option you can request more information and one of our admission employees will contact you and assist you in completing and submitting your application. 
-  .row
-    .col-xs-offset-1
-      = image_tag "study-abroad-program-01.jpg", class: [:"travel-img-strip-2"], alt: "Study Abroad Program 01"
-    = image_tag "study-abroad-program-02.jpg", class: [:"travel-img-strip-2"], alt: "Study Abroad Program 02"
-    = image_tag "study-abroad-program-03.jpg", class: [:"travel-img-strip-2"], alt: "Study Abroad Program 03"
-    = image_tag "study-abroad-program-04.jpg", class: [:"travel-img-strip-2"], alt: "Study Abroad Program 04"
-    = image_tag "study-abroad-program-05.jpg", class: [:"travel-img-strip-2"], alt: "Study Abroad Program 05"
+    .col-xs-12
+      .row
+        .travel-loc-col
+          %p This program allows students the opportunity to study English at our English Institute in New York City.
+        .col-xs-12.col-md-8
+          .row
+            .col-xs-6
+              = image_tag "study-abroad-program-01.jpg", class: [:"travel-img"], alt: "Study Abroad Program 01"
+            .col-xs-6
+              = image_tag "study-abroad-program-02.jpg", class: [:"img-responsive"], alt: "Study Abroad Program 02"
+      .row
+        .col-xs-6
+          .row
+            .col-xs-4
+              = image_tag "study-abroad-program-03.jpg", class: [:"travel-img"], alt: "Study Abroad Program 03"
+            .col-xs-4
+              = image_tag "study-abroad-program-04.jpg", class: [:"travel-img"], alt: "Study Abroad Program 04"
+            .col-xs-4
+              = image_tag "study-abroad-program-05.jpg", class: [:"travel-img"], alt: "Study Abroad Program 05"
+        .col-xs-6
+          %p We offer a discounted price on tuition so that students can more easily afford the costs of living in New York City. If you are interested in this option you can request more information and one of our admission employees will contact you and assist you in completing and submitting your application. 
 = render 'footer_eng'
