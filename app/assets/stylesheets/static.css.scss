@@ -114,17 +114,6 @@ a:hover, a:focus{
 	margin-bottom: 0px;
 	margin-top: 5em;
 	height: 223px;
-
-	#footer-logo
-	{
-		max-height: 110px;
-    margin-top: 50px;
-	}
-  #footer-logo img
-  {
-    max-width: auto;
-    max-height: auto;
-  }
     
 	ul
 	{
@@ -135,12 +124,36 @@ a:hover, a:focus{
 		}
 	}
 }
+#footer-logo
+{
+    @extend img-responsive;
+    width: 250px;
+}
+#footer-image{
+    height: 150p
+}
+#footer-logo-col{
+  margin-top: 25px;
+}
 #footer-img-col{
   margin-top: 50px;
   a
   {
     margin-left: 10px;
     margin-right: 10px;
+  }
+}
+.footer-col{
+	@extend .col-lg-offset-0;
+	@extend .col-md-offset-0;
+	@extend .col-sm-offset-0;
+
+	@extend .col-md-3;
+	@extend .col-xs-3;
+  
+  li 
+  {
+    list-style: none;
   }
 }
 /*******************************************************************************
@@ -516,28 +529,6 @@ a:hover, a:focus{
 	}
 }
 //******************************************************************************
-.footer-col{
-	@extend .col-lg-offset-0;
-	@extend .col-md-offset-0;
-	@extend .col-sm-offset-0;
-
-	@extend .col-md-3;
-	@extend .col-xs-3;
-  
-  li 
-  {
-    list-style: none;
-  }
-}
-
-.fb-share-button
-{
-  background: $theme-off-white;
-  padding: 0px 8px 3px;
-  border-radius: 3px;
-  margin-bottom: 15px;
-}
-
 @media screen and (max-width: 640px){
 	#title
 	{
