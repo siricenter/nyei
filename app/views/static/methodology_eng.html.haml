@@ -1,14 +1,16 @@
 =render 'navbar_eng'
 .navbar.navbar-inverse
-%h1.text-center Methodology
 .container
+  .row
+    .col-xs-12
+      %h1.text-center Methodology
   .row
     =image_tag "methodology_1.jpg",:class => :"method-img"
     .method-text
       %h3 Personal Instruction
       %p At the New York English Institute our goal is to help our students speak English fluently at a faster pace and without an accent. In order to accomplish this all of our teachers are native speakers. 
       %p Teachers and students meet once a week for two hours. The other days of the week the students complete online interactive activities that give them the opportunity to practice English every day. This way students have contact with English on a daily basis.
-    .row
+  .row
     =image_tag "methodology_2.jpg",:class => :"method-img-inverse"
     .method-text
       %h3 Technology

@@ -398,12 +398,18 @@ nav a:focus {
  ******************************************************************************/
 .method-img{
 	@extend .col-lg-4;
+	@extend .col-md-6;
+	@extend .col-sm-8;
+	@extend .col-xs-12;
 	@extend .img-responsive;
 	margin-top: 2em;
 	float: left;
 }
 .method-img-inverse{
 	@extend .col-lg-4;
+	@extend .col-md-6;
+	@extend .col-sm-8;
+	@extend .col-xs-12;
 	@extend .img-responsive;
 	margin-top: 2em;
 	float: right;
