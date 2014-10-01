@@ -1,11 +1,13 @@
 =render 'navbar_eng'
 .navbar.navbar-inverse
 .container
-  %h1.text-center Courses Offered
+  .row
+    .col-xs-12
+      %h1.text-center Courses Offered
   .course-row
     = image_tag "english_fluency.jpg", class: [:"course-img"], alt: "English Full Course"
-    %h2 Fluent English
     .course-text
+      %h2 Fluent English
       %p Our Fluent English Course is designed for students starting at age 14 and above. We start with the basics of the English language and help our students individually achieve fluency throughout the course. 
       %p We have a wide range of vocabulary and our methodology is designed in a way that students are not required to spend time memorizing words. Students at our institute learn by repetition, which is one of the most efficient ways to learn a second language. In this course the students meet with the teacher once a week for a two-hour lesson and also complete homework assignments throughout the week.
       %p By the end of the course students will be able to understand movies and TV programs, read books, do research, hold conversations in a variety of situations, and use English in their professional and academic lives. 
@@ -24,8 +26,8 @@
         = link_to "Register Now", :register_page_eng
   .course-row    
     = image_tag "academic_english.jpg", class: [:"course-img"], alt: "Acedemic English"
-    %h2 Acedemic English
     .course-text
+      %h2 Acedemic English
       %p This course is a simulation of the college level classes in the United States. It is intended for those who are interested in studying abroad. Students are prepared for the structure of learning that is used at a university in the United States.
       %p 
         The topics we offer are:
@@ -48,8 +50,8 @@
         = link_to "Register Now", :register_page_eng
   .course-row    
     = image_tag "prep_course_undergrad.jpg", class: [:"course-img"], alt: "Undergrad"
-    %h2 Prep Course - Undergraduate Programs
     .course-text
+      %h2 Prep Course - Undergraduate Programs
       %p When students come to the United States to attend an undergraduate program as an international student, most colleges or universities require an English proficiency test. 
       %p This course is designed to prepare our students to pass these proficiency tests. We also provide our students with the knowledge they need to take the SAT and ACT exam. These are entrance exams required by some colleges or Universities in the United States.
       %p We work with American teachers who are attending or have attended Universities so that our students can be fully prepared for the American style of studying and preparing for academic tests.  
@@ -61,8 +63,8 @@
         = link_to "Register Now", :register_page_eng
   .course-row    
     = image_tag "prep_course_grad.jpg", class: [:"course-img"], alt: "Graduate"
-    %h2 Prep Course - Graduate Programs
     .course-text
+      %h2 Prep Course - Graduate Programs
       %p Before being accepted into most graduate programs students are required to pass an acceptance exam that is related to their area of study. Also when students come to the United States to study as an international student, they are required to take an English proficiency test. 
       %p This course is designed to prepare those interested in attending a Masters Program in the United States. Our objective is that our students pass both the academic exam and the proficiency test required by the university of their choice. 
       %p We work with American teachers who are attending or have attended Universities so that our students can be fully prepared for the American style of studying and preparing for academic tests.  
@@ -74,8 +76,8 @@
         = link_to "Register Now", :register_page_eng
   .course-row   
     = image_tag "english_travelers.jpg", class: [:"course-img"], alt: "English for Travel"
-    %h2 English for Travelers
     .course-text
+      %h2 English for Travelers
       %p Traveling can be an amazing adventure that changes a person’s life. Even though traveling abroad can be a wonderful experience, dealing with the language barrier can be stressful for the traveler. We have created an interactive course that will teach travelers how to ask for information, directions, order food, check into a hotel, rent a car, currency exchange, as well as many other important tasks for traveling. We also practice introductions and basic conversations in order to communicate and get to know the natives. 
       %p Length: 2 semesters
       %ul.course-list
@@ -84,8 +86,8 @@
         = link_to "Register Now", :register_page_eng
   .course-row  
     = image_tag "conversation.jpg", class: [:"course-img"], alt: "Conversation"
-    %h2 Conversation Course
     .course-text
+      %h2 Conversation Course
       %p This course is intended for those that already know some English and are looking for an opportunity to practice and improve their English abilities. Students will be able to choose a subject they would like to learn more about from a list of conversation topics. The lessons will be based on the subjects that the students choose from the list. Our teachers will work with the students to help expand their vocabularies and strengthen their use of grammar. There will also be many opportunities for the students to speak with American families through video calls. This will help students feel more comfortable speaking English in front of a large group.
       %p Length: minimum 1 semester
       %ul.course-list
@@ -96,8 +98,8 @@
   %h1.text-center Workshops
   .course-row  
     = image_tag "job_interview.jpg", class: [:"course-img"], alt: "Job Interview/Resume"
-    %h2 Job Interview Prep and Resume Building
     .course-text
+      %h2 Job Interview Prep and Resume Building
       %p This course is offered to help our students be prepared for interviews at competitive jobs that require the candidates to speak English. Teachers go over typical interview questions with students and review vocabulary words and phrases. 
       %p Mock interviews are conducted to further help our students be prepared for future interviews. Students are also taught how to write professional resumes in English that are aimed towards their desired profession. 
       %p For those that already have job interviews scheduled we offer this workshop to give the candidate an opportunity to practice for the upcoming interview. We also have partnered with multinational companies to whom we will forward our students resumes. Although we cannot guarantee a job we will send our students resumes to the companies whenever they have job openings. 
@@ -106,9 +108,4 @@
         %li Level test is required for this course
       %p 
         = link_to "Register Now", :register_page_eng
-  .course-row    
-    //= image_tag "workshop.jpg", class: [:"course-img"], alt: "Work Shops"
-    //%h2 Work Shops
-    .course-text
-      //%p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 = render 'footer_eng'
