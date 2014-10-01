@@ -474,7 +474,7 @@ nav a:focus {
 .travel-loc-col {
   @extend .col-lg-4;
   @extend .col-md-4;
-  @extend .col-sm-12;
+  @extend .col-sm-8;
   @extend .col-xs-12;
   ul
   {
@@ -488,6 +488,18 @@ nav a:focus {
       }
     }
   }
+}
+.travel-loc-col-2 {
+  @extend .col-md-6;
+  @extend .col-sm-8;
+  @extend .col-xs-12;
+}
+.travel-loc-img-lg {
+    @extend .col-xs-6;
+}
+.travel-loc-img-sm {
+    @extend .col-md-4;
+    @extend .col-xs-6;
 }
 /*******************************************************************************
 // TEACHERS //
