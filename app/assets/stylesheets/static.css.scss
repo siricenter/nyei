@@ -504,31 +504,12 @@ nav a:focus {
 /*******************************************************************************
 // TEACHERS //
  ******************************************************************************/
-.teacher-profile{ 
-	@extend .col-md-6;
-	img 
-	{
-		@extend .img-responsive;
-		@extend .col-md-3;
-		@extend .col-sm-4;
-		@extend .col-xs-12;
-		padding-top: 25px;
-		max-height: 200px;
-		float: left;
-	}
-	h2, p 
-	{
-		@extend .col-md-9;
-		@extend .col-sm-8;
-		@extend .col-xs-12;
-	}
-}
 .teachers-intro-img{
-  @extend .col-md-4;
+    @extend .col-md-4;
 }
 .teachers-intro-text{
-  @extend .col-md-8;
-	@extend .col-xs-8;
+    @extend .col-md-8;
+	@extend .col-xs-12;
 }
 /*******************************************************************************
  * CONTACT US / WORK WITH US
