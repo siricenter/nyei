@@ -1,11 +1,13 @@
 =render 'navbar'
 .navbar.navbar-inverse
-%h1.text-center Cursos Oferecidos
 .container
-  .course-container
+  .row
+    .col-xs-12
+      %h1.text-center Cursos Oferecidos
+  .course-row
     = image_tag "english_fluency.jpg", class: [:"course-img"], alt: "English Full Course"
-    %h2 Inglês Fluente
     .course-text
+      %h2 Inglês Fluente
       %p Nosso Curso de Inglês foi desenvolvido para estudantes a partir de 12 anos de idade. Começamos com o básico do idioma e auxiliamos nossos alunos a alcançarem individualmente fluência ao longo do curso. 
       %p Trabalhamos com uma grande variedade de vocabulário e nossa metodologia foi desenvolvida para que os alunos não necessitem perder tempo memorizando palavras. Nosso método preconiza a repetição, que é uma das maneiras mais eficientes de aprender uma segunda língua.
       %p Ao final do curso os alunos terão desenvolvido habilidades de escrita, leitura, compreensão e fala do idioma,  tendo ampla capacidade de assistir a filmes e programas de TV, ler livros, fazer pesquisas, conversar sobre inúmero de assuntos e consequentemente usar o Inglês na vida profissional.
@@ -22,7 +24,7 @@
         %li Teste de nível  disponível para os alunos que possuem noções de Inglês.
       %p  
         = link_to "Matricule-se Aqui", :register_page
-  .course-container    
+  .course-row    
     = image_tag "academic_english.jpg", class: [:"course-img"], alt: "Acedemic English"
     %h2 Inglês Acadêmico
     .course-text
@@ -46,7 +48,7 @@
           %li É necessário teste de nível para este curso
       %p 
         = link_to "Matricule-se Aqui", :register_page
-  .course-container    
+  .course-row    
     = image_tag "prep_course_undergrad.jpg", class: [:"course-img"], alt: "Undergrad"
     %h2 Curso Preparatório – Ensino Superior
     .course-text
@@ -60,7 +62,7 @@
         %li É necessário teste de nível para este curso
       %p 
         = link_to "Matricule-se Aqui", :register_page
-  .course-container    
+  .course-row    
     = image_tag "prep_course_grad.jpg", class: [:"course-img"], alt: "Grad School Prep"
     %h2 Curso Preparatório – Mestrado
     .course-text
@@ -74,7 +76,7 @@
         %li É necessário teste de nível para este curso
       %p 
         = link_to "Matricule-se Aqui", :register_page
-  .course-container   
+  .course-row   
     = image_tag "english_travelers.jpg", class: [:"course-img"], alt: "English for Travel"
     %h2 Inglês para Viajantes
     .course-text
@@ -84,7 +86,7 @@
         %li Teste de nível não requerido
       %p 
         = link_to "Matricule-se Aqui", :register_page
-  .course-container  
+  .course-row  
     = image_tag "conversation.jpg", class: [:"course-img"], alt: "Conversation"
     %h2 Conversação
     .course-text
@@ -96,7 +98,7 @@
         = link_to "Matricule-se Aqui", :register_page
   %hr
   %h1.text-center Workshops
-  .course-container  
+  .course-row  
     = image_tag "job_interview.jpg", class: [:"course-img"], alt: "Job Interview/Resume"
     %h2 Entrevista de Trabalho e Curriculum Vitae
     .course-text
@@ -108,7 +110,7 @@
         %li É necessário teste de nível para este curso
       %p 
         = link_to "Matricule-se Aqui", :register_page
-  .course-container
+  .course-row
     //= image_tag "workshop.jpg", class: [:"course-img"], alt: "Work Shops"
     //%h2 Work Shops
     .course-text
