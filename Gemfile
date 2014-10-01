@@ -34,8 +34,6 @@ group :development, :test do
 	gem 'faker', '~> 1.4.2'
 end
 
-gem 'RubySunrise'
-
 group :development do
 	gem 'annotate', '~> 2.6.5'
 end

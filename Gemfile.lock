@@ -1,8 +1,6 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    RubySunrise (0.3)
-      tzinfo
     actionmailer (4.1.4)
       actionpack (= 4.1.4)
       actionview (= 4.1.4)
@@ -182,7 +180,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  RubySunrise
   annotate (~> 2.6.5)
   bootstrap-sass (~> 3.2.0.1)
   capybara-rails (~> 0.0.2)

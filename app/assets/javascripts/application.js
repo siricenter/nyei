@@ -21,6 +21,10 @@ $(window).load(function x(){
     startVideoClock();
 });
 
+$(window).bind('page:change', function() {
+  startVideoClock();
+});
+
 function startVideo(){
 	 $('.active').children(".video")[0].play();
 }

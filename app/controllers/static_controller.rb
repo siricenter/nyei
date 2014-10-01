@@ -1,6 +1,4 @@
 class StaticController < ApplicationController
-	require 'solareventcalculator'
-	require 'geokit'
 
 	def landing
 
