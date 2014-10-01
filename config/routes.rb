@@ -8,18 +8,18 @@ Rails.application.routes.draw do
 	get "/contact_us", to: "static#contact", as: :contact_us
 	get "/work_with_us", to: "static#work_with_us", as: :work_with_us
 	get "/faq", to: "static#faq", as: :faq_page
-  get "/register", to: "static#register", as: :register_page
+    get "/register", to: "static#register", as: :register_page
   
-  get "/landing_eng", to: "static#landing_eng", as: :landing_eng
-  get "/methodology_eng", to: "static#methodology_eng", as: :methodology_page_eng
-  get "/courses_offered_eng", to: "static#courses_eng", as: :courses_offered_eng
-  get "/travel_opportunities_eng", to: "static#travel_eng", as: :travel_opportunities_eng
-  get "/teachers_eng", to: "static#teachers_eng", as: :teachers_page_eng
-  get "/about_us_eng", to: "static#about_eng", as: :about_us_eng
-  get "/contact_us_eng", to: "static#contact_eng", as: :contact_us_eng
-  get "/work_with_us_eng", to: "static#work_with_us_eng", as: :work_with_us_eng
-  get "/faq_eng", to: "static#faq_eng", as: :faq_page_eng
-  get "/register_eng", to: "static#register_eng", as: :register_page_eng
+    get "/landing_eng", to: "static#landing_eng", as: :landing_eng
+    get "/methodology_eng", to: "static#methodology_eng", as: :methodology_page_eng
+    get "/courses_offered_eng", to: "static#courses_eng", as: :courses_offered_eng
+    get "/travel_opportunities_eng", to: "static#travel_eng", as: :travel_opportunities_eng
+    get "/teachers_eng", to: "static#teachers_eng", as: :teachers_page_eng
+    get "/about_us_eng", to: "static#about_eng", as: :about_us_eng
+    get "/contact_us_eng", to: "static#contact_eng", as: :contact_us_eng
+    get "/work_with_us_eng", to: "static#work_with_us_eng", as: :work_with_us_eng
+    get "/faq_eng", to: "static#faq_eng", as: :faq_page_eng
+    get "/register_eng", to: "static#register_eng", as: :register_page_eng
 	
 
 	# The priority is based upon order of creation: first created -> highest priority.
