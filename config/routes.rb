@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
 	root 'static#landing'
 	get "/methodology", to: "static#methodology", as: :methodology_page
-	get "/courses_offered", to: "static#Courses", as: :courses_offered
+	get "/courses_offered", to: "static#courses", as: :courses_offered
 	get "/travel_opportunities", to: "static#travel", as: :travel_opportunities
 	get "/teachers", to: "static#teachers", as: :teachers_page
 	get "/about_us", to: "static#about", as: :about_us

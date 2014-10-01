@@ -1,7 +1,9 @@
 .footer
   .row
     #footer-logo-col.footer-col
-      =link_to (image_tag "NYEIlogoFinal-02.png", id: [:"footer-logo"], alt: "New York Footer Logo"), root_path
+      .row
+        = link_to root_path do
+          = image_tag "NyeiMarkwhite250px-03.png", :class => [:"footer-brand"]
     .footer-col
       %ul
         %li

@@ -56,9 +56,6 @@ a:hover, a:focus{
 .navbar {
 	min-height: 36px;
 }
-.navbar-brand {
-	padding-top: 10px;
-}
 .navbar-default {
 	height: 20px;
 }
@@ -98,23 +95,22 @@ a:hover, a:focus{
     	}
   	}
 }
-#nav-land-logo{
-  width: 10em;
-  vertical-align: top;
-  height: auto;
-  padding-top: 0;
+.navbar-brand
+{
+    padding: 0px;
+    padding-left: 15px;
 }
 /*******************************************************************************
  * FOOTER
  ******************************************************************************/
 .footer{
 	@extend .container-fluid; 
-	background-color: $theme-black;
 	border: $theme-black;
 	margin-bottom: 0px;
 	margin-top: 5em;
-	height: 223px;
-    
+    .row {
+        background-color: $theme-black;
+    }
 	ul
 	{
 		margin-top: 50px;
@@ -124,37 +120,26 @@ a:hover, a:focus{
 		}
 	}
 }
-#footer-logo
-{
-    @extend img-responsive;
-    width: 250px;
-}
-#footer-image{
-    height: 150p
-}
 #footer-logo-col{
-  margin-top: 25px;
+    @extend .col-xs-2;
+    margin-top: 25px;
 }
 #footer-img-col{
   margin-top: 50px;
-  a
-  {
+  a {
     margin-left: 10px;
     margin-right: 10px;
   }
 }
 .footer-col{
-	@extend .col-lg-offset-0;
-	@extend .col-md-offset-0;
-	@extend .col-sm-offset-0;
-
-	@extend .col-md-3;
-	@extend .col-xs-3;
-  
-  li 
-  {
-    list-style: none;
-  }
+    @extend .col-xs-3;
+    li {
+        list-style: none;
+    }
+}
+.footer-brand {
+    @extend .col-xs-12;
+    @extend img-responsive;
 }
 /*******************************************************************************
 // LANDING //
