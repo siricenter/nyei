@@ -2,7 +2,7 @@
 .navbar.navbar-inverse
 .container
   %h1.text-center Courses Offered
-  .course-container
+  .course-container#fluent-english
     = image_tag "english_fluency.jpg", class: [:"course-img"], alt: "English Full Course"
     %h2 Fluent English
     .course-text
@@ -22,7 +22,7 @@
         %li Placement tests are offered for students who already speak some English.
       %p 
         = link_to "Register Now", :register_page_eng
-  .course-container    
+  .course-container#academic-english
     = image_tag "academic_english.jpg", class: [:"course-img"], alt: "Acedemic English"
     %h2 Acedemic English
     .course-text
@@ -46,7 +46,7 @@
           %li Level test is required for this course
       %p 
         = link_to "Register Now", :register_page_eng
-  .course-container    
+  .course-container#undergraduate-programs
     = image_tag "prep_course_undergrad.jpg", class: [:"course-img"], alt: "Undergrad"
     %h2 Prep Course - Undergraduate Programs
     .course-text
@@ -59,7 +59,7 @@
         %li Level test is required for this course
       %p 
         = link_to "Register Now", :register_page_eng
-  .course-container    
+  .course-container#graduate-programs
     = image_tag "prep_course_grad.jpg", class: [:"course-img"], alt: "Graduate"
     %h2 Prep Course - Graduate Programs
     .course-text
@@ -72,7 +72,7 @@
         %li Level test is required for this course
       %p 
         = link_to "Register Now", :register_page_eng
-  .course-container   
+  .course-container#english-travelers
     = image_tag "english_travelers.jpg", class: [:"course-img"], alt: "English for Travel"
     %h2 English for Travelers
     .course-text
@@ -82,7 +82,7 @@
         %li No level test required
       %p 
         = link_to "Register Now", :register_page_eng
-  .course-container  
+  .course-container#conversation-course  
     = image_tag "conversation.jpg", class: [:"course-img"], alt: "Conversation"
     %h2 Conversation Course
     .course-text
@@ -94,7 +94,7 @@
         = link_to "Register Now", :register_page_eng
   %hr
   %h1.text-center Workshops
-  .course-container  
+  .course-container#interview-workshop
     = image_tag "job_interview.jpg", class: [:"course-img"], alt: "Job Interview/Resume"
     %h2 Job Interview Prep and Resume Building
     .course-text

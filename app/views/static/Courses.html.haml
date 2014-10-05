@@ -2,7 +2,7 @@
 .navbar.navbar-inverse
 %h1.text-center Cursos Oferecidos
 .container
-  .course-container
+  .course-container#fluent-english
     = image_tag "english_fluency.jpg", class: [:"course-img"], alt: "English Full Course"
     %h2 Inglês Fluente
     .course-text
@@ -22,7 +22,7 @@
         %li Teste de nível  disponível para os alunos que possuem noções de Inglês.
       %p  
         = link_to "Matricule-se Aqui", :register_page
-  .course-container    
+  .course-container#academic-english    
     = image_tag "academic_english.jpg", class: [:"course-img"], alt: "Acedemic English"
     %h2 Inglês Acadêmico
     .course-text
@@ -46,7 +46,7 @@
           %li É necessário teste de nível para este curso
       %p 
         = link_to "Matricule-se Aqui", :register_page
-  .course-container    
+  .course-container#undergraduate-programs    
     = image_tag "prep_course_undergrad.jpg", class: [:"course-img"], alt: "Undergrad"
     %h2 Curso Preparatório – Ensino Superior
     .course-text
@@ -60,7 +60,7 @@
         %li É necessário teste de nível para este curso
       %p 
         = link_to "Matricule-se Aqui", :register_page
-  .course-container    
+  .course-container#graduate-programs    
     = image_tag "prep_course_grad.jpg", class: [:"course-img"], alt: "Grad School Prep"
     %h2 Curso Preparatório – Mestrado
     .course-text
@@ -74,7 +74,7 @@
         %li É necessário teste de nível para este curso
       %p 
         = link_to "Matricule-se Aqui", :register_page
-  .course-container   
+  .course-container#english-travelers   
     = image_tag "english_travelers.jpg", class: [:"course-img"], alt: "English for Travel"
     %h2 Inglês para Viajantes
     .course-text
@@ -84,7 +84,7 @@
         %li Teste de nível não requerido
       %p 
         = link_to "Matricule-se Aqui", :register_page
-  .course-container  
+  .course-container#conversation-course  
     = image_tag "conversation.jpg", class: [:"course-img"], alt: "Conversation"
     %h2 Conversação
     .course-text
@@ -96,7 +96,7 @@
         = link_to "Matricule-se Aqui", :register_page
   %hr
   %h1.text-center Workshops
-  .course-container  
+  .course-container#interview-workshop  
     = image_tag "job_interview.jpg", class: [:"course-img"], alt: "Job Interview/Resume"
     %h2 Entrevista de Trabalho e Curriculum Vitae
     .course-text
