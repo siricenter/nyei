@@ -101,6 +101,7 @@ a:hover, a:focus{
 {
     padding: 0px;
     padding-left: 15px;
+    padding-top: 15px;
 }
 /*******************************************************************************
  * FOOTER
@@ -124,7 +125,8 @@ a:hover, a:focus{
 	}
 }
 #footer-logo-col{
-    @extend .col-xs-2;
+    @extend .col-md-2;
+    @extend .col-xs-12;
     margin-top: 25px;
 }
 #footer-img-col{
@@ -645,24 +647,6 @@ nav a:focus {
 		}
 	}
 	font-size: 20px;  /* QUESTION: there was 2 extra curly braces above this line that were throwing an error, I removed them - EC */
-	#home-marketing-btn button
-	{
-		font-size: 10px;
-	}
-}
-@media screen and (min-width: 829px){
-	#button-grid
-	{
-		#travel
-		{
-			img
-			{
-				max-height: 40%;
-				width: 100%;
-			}
-		}
-	}
-}
 	#home-marketing-btn button
 	{
 		font-size: 10px;
