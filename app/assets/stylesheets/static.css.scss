@@ -58,9 +58,6 @@ a:hover, a:focus{
 .navbar {
 	min-height: 50px;
 }
-.navbar-brand {
-	padding-top: 10px;
-}
 .navbar-default {
 	height: 20px;
 }
@@ -100,23 +97,23 @@ a:hover, a:focus{
     	}
   	}
 }
-#nav-land-logo{
-  width: 10em;
-  vertical-align: top;
-  height: auto;
-  padding-top: 0;
+.navbar-brand
+{
+    padding: 0px;
+    padding-left: 15px;
 }
 /*******************************************************************************
  * FOOTER
  ******************************************************************************/
 .footer{
 	@extend .container-fluid; 
-	background-color: $theme-black;
 	border: $theme-black;
 	margin-bottom: 0px;
 	margin-top: 5em;
 /* 	height: 223px; */
-    
+    .row {
+        background-color: $theme-black;
+    }
 	ul
 	{
 		margin-top: 50px;
@@ -126,37 +123,27 @@ a:hover, a:focus{
 		}
 	}
 }
-#footer-logo
-{
-    @extend img-responsive;
-    width: 250px;
-}
-#footer-image{
-    height: 150p
-}
 #footer-logo-col{
-  margin-top: 25px;
+    @extend .col-xs-2;
+    margin-top: 25px;
 }
 #footer-img-col{
   margin-top: 50px;
-  a
-  {
+  a {
     margin-left: 10px;
     margin-right: 10px;
   }
 }
 .footer-col{
-	@extend .col-lg-offset-0;
-	@extend .col-md-offset-0;
-	@extend .col-sm-offset-0;
-
 	@extend .col-md-3;
-	@extend .col-xs-12;
-  
-  li 
-  {
-    list-style: none;
+  @extend .col-xs-12;
+  li {
+      list-style: none;
   }
+}
+.footer-brand {
+    @extend .col-xs-12;
+    @extend img-responsive;
 }
 /*******************************************************************************
 // LANDING //
@@ -415,12 +402,18 @@ nav a:focus {
  ******************************************************************************/
 .method-img{
 	@extend .col-lg-4;
+	@extend .col-md-6;
+	@extend .col-sm-8;
+	@extend .col-xs-12;
 	@extend .img-responsive;
 	margin-top: 2em;
 	float: left;
 }
 .method-img-inverse{
 	@extend .col-lg-4;
+	@extend .col-md-6;
+	@extend .col-sm-8;
+	@extend .col-xs-12;
 	@extend .img-responsive;
 	margin-top: 2em;
 	float: right;
@@ -434,50 +427,20 @@ nav a:focus {
 /*******************************************************************************
 // COURSES //
  ******************************************************************************/
-.course-container{
+.course-row{
   @extend .row;
   margin-top: 60px;
 }
 .course-text{
-	@extend .col-lg-6;
-  padding: 0em;
+    @extend .method-text;
 }
 .course-list{
-	@extend .col-lg-offset-1;
-	@extend .col-lg-12;
+	@extend .col-xs-offset-1;
+	@extend .col-xs-12;
 }
 .course-img{
 	float: left;
 	@extend .method-img;
-}
-/*******************************************************************************
-// TEACHERS //
- ******************************************************************************/
-.teacher-profile{ 
-	@extend .col-md-6;
-	img 
-	{
-		@extend .img-responsive;
-		@extend .col-md-3;
-		@extend .col-sm-4;
-		@extend .col-xs-12;
-		padding-top: 25px;
-		max-height: 200px;
-		float: left;
-	}
-	h2, p 
-	{
-		@extend .col-md-9;
-		@extend .col-sm-8;
-		@extend .col-xs-12;
-	}
-}
-.teachers-intro-img{
-  @extend .col-md-4;
-}
-.teachers-intro-text{
-  @extend .col-md-8;
-	@extend .col-xs-8;
 }
 /*******************************************************************************
 // TRAVEL //
@@ -515,7 +478,7 @@ nav a:focus {
 .travel-loc-col {
   @extend .col-lg-4;
   @extend .col-md-4;
-  @extend .col-sm-12;
+  @extend .col-sm-8;
   @extend .col-xs-12;
   ul
   {
@@ -529,6 +492,28 @@ nav a:focus {
       }
     }
   }
+}
+.travel-loc-col-2 {
+  @extend .col-md-6;
+  @extend .col-sm-8;
+  @extend .col-xs-12;
+}
+.travel-loc-img-lg {
+    @extend .col-xs-6;
+}
+.travel-loc-img-sm {
+    @extend .col-md-4;
+    @extend .col-xs-6;
+}
+/*******************************************************************************
+// TEACHERS //
+ ******************************************************************************/
+.teachers-intro-img{
+    @extend .col-md-4;
+}
+.teachers-intro-text{
+    @extend .col-md-8;
+	@extend .col-xs-12;
 }
 /*******************************************************************************
  * CONTACT US / WORK WITH US
@@ -660,6 +645,24 @@ nav a:focus {
 		}
 	}
 	font-size: 20px;  /* QUESTION: there was 2 extra curly braces above this line that were throwing an error, I removed them - EC */
+	#home-marketing-btn button
+	{
+		font-size: 10px;
+	}
+}
+@media screen and (min-width: 829px){
+	#button-grid
+	{
+		#travel
+		{
+			img
+			{
+				max-height: 40%;
+				width: 100%;
+			}
+		}
+	}
+}
 	#home-marketing-btn button
 	{
 		font-size: 10px;

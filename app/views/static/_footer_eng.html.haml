@@ -1,7 +1,9 @@
 .footer
   .row
     #footer-logo-col.footer-col
-      =link_to (image_tag "logotypeWhite-10.svg", id: [:"footer-logo"], alt: "New York Footer Logo"), root_path
+      .row
+        = link_to root_path do
+          = image_tag "NyeiMarkwhite250px-03.png", :class => [:"footer-brand"] 
     .footer-col
       %ul
         %li
@@ -24,7 +26,7 @@
           = link_to "Career", :work_with_us_eng
         %li
           = link_to "FAQ", :faq_page_eng
-    .footer-col#footer-img-col
+    #footer-img-col.footer-col
       = link_to (image_tag "fb_icon.png", :height => 50), "https://www.facebook.com/nyei.brazil"
       = link_to (image_tag "tw_icon.png", :height => 50), "https://twitter.com/nyei_brazil"
       = link_to (image_tag "in_icon.png", :height => 50), "http://instagram.com/nyei_brazil"
