@@ -103,6 +103,13 @@ a:hover, a:focus{
     padding-left: 15px;
     padding-top: 15px;
 }
+.navbar-brand-sec
+{
+	width: 100px;
+	margin-left: 25px;
+	padding: 5px 2px 12px 12px;
+	background: #222222;
+}
 /*******************************************************************************
  * FOOTER
  ******************************************************************************/
@@ -144,8 +151,11 @@ a:hover, a:focus{
   }
 }
 .footer-brand {
-    @extend .col-xs-12;
-    @extend img-responsive;
+  @extend .col-xs-12;
+  @extend img-responsive;
+  width: 65%;
+	margin-left: 20px;
+	margin-bottom: 20px;
 }
 /*******************************************************************************
 // LANDING //
@@ -608,6 +618,10 @@ nav a:focus {
 	.footer-col
 	{
 		@extend .hidden-xs;
+	}
+	.navbar-brand-sec
+	{
+		width: 65px;
 	}
 }
 @media screen and (max-width: 1024px){
